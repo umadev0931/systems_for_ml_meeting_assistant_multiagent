@@ -1,0 +1,43 @@
+[project]
+name = "meeting-assistant"
+version = "0.1.0"
+description = "Automated Meeting Assistant multi-agent system with system/scale benchmarking on vLLM + Cloud TPU (Llama-3.1-8B)."
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+    "httpx>=0.27,<1.0",
+    "psutil>=5.9,<7.0",
+    "pandas>=2.0,<3.0",
+    "matplotlib>=3.7,<4.0",
+    "numpy>=1.24,<3.0",
+]
+
+[project.optional-dependencies]
+# Required for the `langgraph` pipeline mode.
+langgraph = ["langgraph>=0.2,<0.4"]
+# Required only for the offline mock vLLM server (scripts/mock_vllm_server.py).
+mock = ["fastapi>=0.110,<1.0", "uvicorn>=0.29,<1.0"]
+# Lightweight quality metric (ROUGE-L)
+quality = ["rouge-score>=0.1.2"]
+# Dev / test
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.4",
+]
+
+[tool.setuptools]
+packages = ["agents", "pipeline", "bench"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

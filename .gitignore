@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# generated artifacts — keep committed results, ignore transient re-runs
+data/synthetic/*.txt
+data/normalized/*.txt
+data/ground_truth/*.json
+results/runs/*.json
+results/figures/*.png
+results/figures/summary.csv
+
+# keep the dir scaffolding
+!**/.gitkeep
