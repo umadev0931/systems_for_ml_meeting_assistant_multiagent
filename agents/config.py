@@ -1,0 +1,79 @@
+"""Central configuration for the Automated Meeting Assistant.
+
+Single-model setup: every agent (coordinator, workers, reviewer) targets the
+same Llama-3.1-8B vLLM OpenAI-compatible server. The experiment sweeps
+transcript *size* (small / medium / large) across three pipeline topologies
+(sequential, parallel, langgraph) and records system + scale metrics.
+"""
+from __future__ import annotations
+
+import os
+from dataclasses import dataclass
+
+
+# --------------------------------------------------------------------------- #
+# Server / model
+# --------------------------------------------------------------------------- #
+# The 8B server. Override with env vars when pointing at a real vLLM host.
+VLLM_BASE_URL: str = os.environ.get("VLLM_BASE_URL", "http://localhost:8001")
+VLLM_METRICS_URL: str = os.environ.get("VLLM_METRICS_URL", f"{VLLM_BASE_URL}/metrics")
+MODEL_NAME: str = os.environ.get("MODEL_NAME", "meta-llama/Llama-3.1-8B-Instruct")
+API_KEY: str = os.environ.get("VLLM_API_KEY", "EMPTY")  # vLLM ignores the value
+
+# Networking
+REQUEST_TIMEOUT_S: float = float(os.environ.get("REQUEST_TIMEOUT_S", "600"))
+MAX_RETRIES: int = int(os.environ.get("MAX_RETRIES", "3"))
+
+# Reflection / self-correction
+MAX_REVISIONS: int = int(os.environ.get("MAX_REVISIONS", "2"))
+
+
+@dataclass(frozen=True)
+class AgentSpec:
+    """Per-agent generation settings. All agents share MODEL_NAME (8B)."""
+    name: str
+    prompt_file: str
+    temperature: float = 0.2
+    max_tokens: int = 1024
+
+
+AGENT_SPECS: dict[str, AgentSpec] = {
+    "coordinator": AgentSpec("coordinator", "coordinator.md", temperature=0.1, max_tokens=512),
+    "summarizer":  AgentSpec("summarizer",  "summarizer.md",  temperature=0.3, max_tokens=1536),
+    "extractor":   AgentSpec("extractor",   "extractor.md",   temperature=0.0, max_tokens=1024),
+    "drafter":     AgentSpec("drafter",     "drafter.md",     temperature=0.4, max_tokens=1024),
+    "reviewer":    AgentSpec("reviewer",    "reviewer.md",    temperature=0.0, max_tokens=768),
+}
+
+
+@dataclass(frozen=True)
+class TranscriptSize:
+    """A transcript bucket. `target_tokens` is approximate prompt length."""
+    label: str
+    target_tokens: int
+    n_speakers: int
+    n_topics: int
+
+
+# Approximate prompt token budgets. Large overlaps the proposal's 30-60 min
+# meeting range (~8k-15k tokens) which is where KV-cache pressure shows up.
+TRANSCRIPT_SIZES: dict[str, TranscriptSize] = {
+    "small":  TranscriptSize("small",  target_tokens=1200,  n_speakers=3, n_topics=2),
+    "medium": TranscriptSize("medium", target_tokens=5000,  n_speakers=5, n_topics=4),
+    "large":  TranscriptSize("large",  target_tokens=13000, n_speakers=8, n_topics=7),
+}
+
+PIPELINE_MODES: tuple[str, ...] = ("sequential", "parallel", "langgraph")
+
+
+# --------------------------------------------------------------------------- #
+# Paths
+# --------------------------------------------------------------------------- #
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PROMPTS_DIR = os.path.join(ROOT, "prompts")
+DATA_DIR = os.path.join(ROOT, "data")
+SYNTHETIC_DIR = os.path.join(DATA_DIR, "synthetic")
+NORMALIZED_DIR = os.path.join(DATA_DIR, "normalized")
+RESULTS_DIR = os.path.join(ROOT, "results")
+RUNS_DIR = os.path.join(RESULTS_DIR, "runs")
+FIGURES_DIR = os.path.join(RESULTS_DIR, "figures")
