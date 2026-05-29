@@ -1,0 +1,291 @@
+Eng Lead: Thank you all for joining. On today's agenda we have yesterday's production incident, the sprint burndown, the database migration rollout, the flaky test suite.
+Eng Lead: Let's work through the items in order and keep to time.
+Eng Lead: Moving on to yesterday's production incident. Who'd like to open?
+QA: I'd like to hear the dissenting view before we lock this in. Can we revisit the assumptions behind that estimate?
+Backend: The incident was a cache stampede after the config push at nine.
+Frontend: I can have the backfill script ready behind a flag by tomorrow.
+Backend: We're carrying two points of tech debt into the next sprint. Let's make the decision reversible so we can adjust if it goes sideways.
+QA: I can have the backfill script ready behind a flag by tomorrow. I'd like to hear the dissenting view before we lock this in.
+Backend: I'd like to hear the dissenting view before we lock this in. Let's timebox this discussion to five minutes and then decide.
+SRE: I'll take the first pass and share a draft by the end of the week. That's out of scope for today, let's park it and circle back.
+Eng Lead: For the record, I want my reservations on this noted.
+SRE: I want to flag a risk the rest of the group may not have visibility into. I want to flag a risk the rest of the group may not have visibility into.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to the sprint burndown. Who'd like to open?
+Frontend: Honestly, I'm not convinced the timeline is realistic given the scope.
+Eng Lead: I think the data supports the more conservative of the two options.
+Eng Lead: Can we revisit the assumptions behind that estimate? Let's timebox this discussion to five minutes and then decide.
+QA: I'd rather we held off until the numbers are in front of us. The incident was a cache stampede after the config push at nine.
+QA: I'd like to hear the dissenting view before we lock this in.
+Frontend: Let's not deploy on a Friday afternoon again. Quick point of order before we move on to the next item.
+Eng Lead: Moving on to the database migration rollout. Who'd like to open?
+Frontend: p99 latency doubled for about eleven minutes before we rolled back.
+Eng Lead: I think the data supports the more conservative of the two options.
+Eng Lead: We're carrying two points of tech debt into the next sprint.
+SRE: Honestly, I'm not convinced the timeline is realistic given the scope.
+Frontend: p99 latency doubled for about eleven minutes before we rolled back.
+QA: Can we revisit the assumptions behind that estimate?
+Eng Lead: I'd like to hear the dissenting view before we lock this in. The alert threshold was set too high to catch this early.
+QA: I'd rather we held off until the numbers are in front of us. Noted. I'll fold that feedback into the revised proposal.
+SRE: The alert threshold was set too high to catch this early.
+Backend: I'd like to hear the dissenting view before we lock this in.
+QA: Let's capture that as an action item with a named owner. Honestly, I'm not convinced the timeline is realistic given the scope.
+Frontend: Honestly, I'm not convinced the timeline is realistic given the scope.
+Eng Lead: Moving on to the flaky test suite. Who'd like to open?
+Frontend: There's a hard dependency here we need to resolve before we ship.
+Frontend: Noted. I'll fold that feedback into the revised proposal. Quick point of order before we move on to the next item.
+Frontend: p99 latency doubled for about eleven minutes before we rolled back. For the record, I want my reservations on this noted.
+Frontend: I think the data supports the more conservative of the two options. p99 latency doubled for about eleven minutes before we rolled back.
+QA: We agreed on this direction last time, so let's not relitigate it now.
+Frontend: Quick point of order before we move on to the next item.
+SRE: Let me make sure I understand the dependency before we commit to a date. We're carrying two points of tech debt into the next sprint.
+Eng Lead: I'd rather we held off until the numbers are in front of us.
+Eng Lead: I want to flag a risk the rest of the group may not have visibility into.
+Frontend: We're carrying two points of tech debt into the next sprint. For the record, I want my reservations on this noted.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to yesterday's production incident. Who'd like to open?
+Frontend: I'd like to hear the dissenting view before we lock this in.
+Backend: Can we revisit the assumptions behind that estimate?
+Backend: That's out of scope for today, let's park it and circle back.
+Eng Lead: Noted. I'll fold that feedback into the revised proposal. We agreed on this direction last time, so let's not relitigate it now.
+Frontend: Let me make sure I understand the dependency before we commit to a date. I'd rather we held off until the numbers are in front of us.
+Frontend: If there are no objections, I'd like to move that we proceed. If there are no objections, I'd like to move that we proceed.
+Eng Lead: I'd rather we held off until the numbers are in front of us.
+SRE: Let's make the decision reversible so we can adjust if it goes sideways.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to the sprint burndown. Who'd like to open?
+QA: That's out of scope for today, let's park it and circle back.
+Eng Lead: Let's capture that as an action item with a named owner.
+Frontend: We agreed on this direction last time, so let's not relitigate it now.
+Backend: If there are no objections, I'd like to move that we proceed.
+QA: The alert threshold was set too high to catch this early.
+Eng Lead: p99 latency doubled for about eleven minutes before we rolled back. Could we get a second opinion from the team that owns that surface?
+SRE: I want to flag a risk the rest of the group may not have visibility into.
+Eng Lead: Moving on to the database migration rollout. Who'd like to open?
+Backend: CI is red again on the same async test; it's a real race condition.
+Backend: I can have the backfill script ready behind a flag by tomorrow. Noted. I'll fold that feedback into the revised proposal.
+Backend: Let's capture that as an action item with a named owner. The incident was a cache stampede after the config push at nine.
+QA: I want to flag a risk the rest of the group may not have visibility into.
+Frontend: p99 latency doubled for about eleven minutes before we rolled back. We agreed on this direction last time, so let's not relitigate it now.
+QA: CI is red again on the same async test; it's a real race condition. Can someone own that and report back at the next session?
+Frontend: We agreed on this direction last time, so let's not relitigate it now.
+SRE: I want to flag a risk the rest of the group may not have visibility into.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to the flaky test suite. Who'd like to open?
+SRE: That's out of scope for today, let's park it and circle back.
+Eng Lead: CI is red again on the same async test; it's a real race condition. Let me make sure I understand the dependency before we commit to a date.
+Backend: Let's make the decision reversible so we can adjust if it goes sideways.
+Backend: Quick point of order before we move on to the next item.
+Backend: Noted. I'll fold that feedback into the revised proposal. I want to flag a risk the rest of the group may not have visibility into.
+SRE: I'll take the first pass and share a draft by the end of the week. I can have the backfill script ready behind a flag by tomorrow.
+SRE: The incident was a cache stampede after the config push at nine.
+QA: The alert threshold was set too high to catch this early.
+Backend: Let's not deploy on a Friday afternoon again.
+QA: I'll take the first pass and share a draft by the end of the week.
+Eng Lead: There's a hard dependency here we need to resolve before we ship.
+Eng Lead: Moving on to yesterday's production incident. Who'd like to open?
+SRE: I'd like to hear the dissenting view before we lock this in.
+Eng Lead: The incident was a cache stampede after the config push at nine.
+Eng Lead: Let's capture that as an action item with a named owner.
+Eng Lead: Let me make sure I understand the dependency before we commit to a date.
+Frontend: Let's capture that as an action item with a named owner.
+SRE: Let's not deploy on a Friday afternoon again.
+Frontend: If there are no objections, I'd like to move that we proceed.
+Eng Lead: If there are no objections, I'd like to move that we proceed.
+Backend: That's out of scope for today, let's park it and circle back. Noted. I'll fold that feedback into the revised proposal.
+SRE: We're carrying two points of tech debt into the next sprint.
+QA: I'd rather we held off until the numbers are in front of us.
+QA: I want to flag a risk the rest of the group may not have visibility into. I'll take the first pass and share a draft by the end of the week.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to the sprint burndown. Who'd like to open?
+QA: We're carrying two points of tech debt into the next sprint.
+QA: The migration is backwards-compatible if we keep the old column.
+SRE: CI is red again on the same async test; it's a real race condition.
+QA: For the record, I want my reservations on this noted.
+Eng Lead: CI is red again on the same async test; it's a real race condition. I think the data supports the more conservative of the two options.
+Frontend: We're carrying two points of tech debt into the next sprint.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to the database migration rollout. Who'd like to open?
+SRE: Let me make sure I understand the dependency before we commit to a date. p99 latency doubled for about eleven minutes before we rolled back.
+Frontend: The alert threshold was set too high to catch this early. I'd rather we held off until the numbers are in front of us.
+Backend: Let's timebox this discussion to five minutes and then decide.
+Backend: Let's timebox this discussion to five minutes and then decide.
+Frontend: I'd like to hear the dissenting view before we lock this in.
+Backend: I'd like to hear the dissenting view before we lock this in.
+Eng Lead: Moving on to the flaky test suite. Who'd like to open?
+QA: We're carrying two points of tech debt into the next sprint.
+QA: Let's make the decision reversible so we can adjust if it goes sideways.
+Backend: I'd rather we held off until the numbers are in front of us.
+Frontend: If there are no objections, I'd like to move that we proceed.
+Eng Lead: CI is red again on the same async test; it's a real race condition.
+Backend: If there are no objections, I'd like to move that we proceed. I want to flag a risk the rest of the group may not have visibility into.
+SRE: I'd rather we held off until the numbers are in front of us. I think the data supports the more conservative of the two options.
+SRE: Noted. I'll fold that feedback into the revised proposal.
+SRE: Let's not deploy on a Friday afternoon again.
+SRE: Could we get a second opinion from the team that owns that surface?
+SRE: If there are no objections, I'd like to move that we proceed.
+Frontend: We're carrying two points of tech debt into the next sprint.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to yesterday's production incident. Who'd like to open?
+SRE: Could we get a second opinion from the team that owns that surface?
+QA: Can someone own that and report back at the next session?
+Frontend: Can we revisit the assumptions behind that estimate? I'd like to hear the dissenting view before we lock this in.
+Backend: Can someone own that and report back at the next session? I want to flag a risk the rest of the group may not have visibility into.
+QA: We agreed on this direction last time, so let's not relitigate it now. Let's capture that as an action item with a named owner.
+Eng Lead: That's out of scope for today, let's park it and circle back. Let me make sure I understand the dependency before we commit to a date.
+Backend: Could we get a second opinion from the team that owns that surface?
+Eng Lead: I'll take the first pass and share a draft by the end of the week. I think the data supports the more conservative of the two options.
+Backend: I can have the backfill script ready behind a flag by tomorrow.
+Eng Lead: That's out of scope for today, let's park it and circle back.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to the sprint burndown. Who'd like to open?
+SRE: We're carrying two points of tech debt into the next sprint.
+Frontend: Noted. I'll fold that feedback into the revised proposal.
+QA: The migration is backwards-compatible if we keep the old column. I'd like to hear the dissenting view before we lock this in.
+Frontend: Could we get a second opinion from the team that owns that surface? I can have the backfill script ready behind a flag by tomorrow.
+SRE: That's out of scope for today, let's park it and circle back.
+QA: p99 latency doubled for about eleven minutes before we rolled back.
+Eng Lead: I can have the backfill script ready behind a flag by tomorrow.
+Backend: The alert threshold was set too high to catch this early. Let's timebox this discussion to five minutes and then decide.
+Frontend: For the record, I want my reservations on this noted. For the record, I want my reservations on this noted.
+Frontend: If there are no objections, I'd like to move that we proceed.
+SRE: Noted. I'll fold that feedback into the revised proposal.
+Backend: We agreed on this direction last time, so let's not relitigate it now. If there are no objections, I'd like to move that we proceed.
+Eng Lead: Moving on to the database migration rollout. Who'd like to open?
+Frontend: Honestly, I'm not convinced the timeline is realistic given the scope.
+Frontend: Let's capture that as an action item with a named owner.
+Backend: There's a hard dependency here we need to resolve before we ship.
+Eng Lead: I'd rather we held off until the numbers are in front of us. We agreed on this direction last time, so let's not relitigate it now.
+QA: That's out of scope for today, let's park it and circle back.
+Backend: I'll take the first pass and share a draft by the end of the week.
+Eng Lead: Moving on to the flaky test suite. Who'd like to open?
+Frontend: Quick point of order before we move on to the next item. I can have the backfill script ready behind a flag by tomorrow.
+QA: There's a hard dependency here we need to resolve before we ship.
+Backend: I'd like to hear the dissenting view before we lock this in. I'd rather we held off until the numbers are in front of us.
+QA: If there are no objections, I'd like to move that we proceed.
+Backend: Could we get a second opinion from the team that owns that surface?
+SRE: Quick point of order before we move on to the next item.
+SRE: We agreed on this direction last time, so let's not relitigate it now. For the record, I want my reservations on this noted.
+Backend: Quick point of order before we move on to the next item.
+Eng Lead: Moving on to yesterday's production incident. Who'd like to open?
+Backend: The alert threshold was set too high to catch this early.
+Frontend: We're carrying two points of tech debt into the next sprint.
+Frontend: Noted. I'll fold that feedback into the revised proposal.
+Backend: If there are no objections, I'd like to move that we proceed.
+Frontend: Let's make the decision reversible so we can adjust if it goes sideways. The migration is backwards-compatible if we keep the old column.
+Backend: For the record, I want my reservations on this noted. Could we get a second opinion from the team that owns that surface?
+Backend: Noted. I'll fold that feedback into the revised proposal. Let's not deploy on a Friday afternoon again.
+Eng Lead: Let me make sure I understand the dependency before we commit to a date.
+Eng Lead: Moving on to the sprint burndown. Who'd like to open?
+SRE: I'd like to hear the dissenting view before we lock this in.
+Backend: Let's not deploy on a Friday afternoon again.
+Eng Lead: I think the data supports the more conservative of the two options.
+Frontend: If there are no objections, I'd like to move that we proceed.
+SRE: Let's timebox this discussion to five minutes and then decide. Let's timebox this discussion to five minutes and then decide.
+Frontend: Let's not deploy on a Friday afternoon again.
+SRE: Let's timebox this discussion to five minutes and then decide.
+QA: Could we get a second opinion from the team that owns that surface?
+Backend: Can someone own that and report back at the next session?
+Eng Lead: Noted. I'll fold that feedback into the revised proposal.
+Eng Lead: Moving on to the database migration rollout. Who'd like to open?
+Backend: Could we get a second opinion from the team that owns that surface? Let's not deploy on a Friday afternoon again.
+Frontend: There's a hard dependency here we need to resolve before we ship.
+SRE: Could we get a second opinion from the team that owns that surface? Let's timebox this discussion to five minutes and then decide.
+Eng Lead: I'd like to hear the dissenting view before we lock this in. For the record, I want my reservations on this noted.
+Frontend: Let's not deploy on a Friday afternoon again. I think the data supports the more conservative of the two options.
+QA: p99 latency doubled for about eleven minutes before we rolled back.
+Frontend: Let's timebox this discussion to five minutes and then decide.
+Backend: I'd like to hear the dissenting view before we lock this in. I think the data supports the more conservative of the two options.
+Backend: I'll take the first pass and share a draft by the end of the week.
+Eng Lead: Moving on to the flaky test suite. Who'd like to open?
+SRE: Can we revisit the assumptions behind that estimate?
+Eng Lead: p99 latency doubled for about eleven minutes before we rolled back.
+Backend: Let's timebox this discussion to five minutes and then decide.
+Backend: Let's not deploy on a Friday afternoon again.
+Eng Lead: Let me make sure I understand the dependency before we commit to a date.
+SRE: The alert threshold was set too high to catch this early.
+Eng Lead: That's out of scope for today, let's park it and circle back. Honestly, I'm not convinced the timeline is realistic given the scope.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to yesterday's production incident. Who'd like to open?
+QA: Let's capture that as an action item with a named owner.
+SRE: I'd like to hear the dissenting view before we lock this in. Can someone own that and report back at the next session?
+Backend: I want to flag a risk the rest of the group may not have visibility into. Can we revisit the assumptions behind that estimate?
+SRE: I'll take the first pass and share a draft by the end of the week. CI is red again on the same async test; it's a real race condition.
+SRE: The migration is backwards-compatible if we keep the old column. Let's not deploy on a Friday afternoon again.
+QA: Let me make sure I understand the dependency before we commit to a date. For the record, I want my reservations on this noted.
+Eng Lead: Honestly, I'm not convinced the timeline is realistic given the scope.
+Eng Lead: CI is red again on the same async test; it's a real race condition. Quick point of order before we move on to the next item.
+Backend: The migration is backwards-compatible if we keep the old column. Noted. I'll fold that feedback into the revised proposal.
+SRE: The migration is backwards-compatible if we keep the old column. Let's capture that as an action item with a named owner.
+QA: There's a hard dependency here we need to resolve before we ship. I'll take the first pass and share a draft by the end of the week.
+Backend: For the record, I want my reservations on this noted. The migration is backwards-compatible if we keep the old column.
+Eng Lead: Moving on to the sprint burndown. Who'd like to open?
+QA: Let's not deploy on a Friday afternoon again. I'd rather we held off until the numbers are in front of us.
+Frontend: Let's capture that as an action item with a named owner.
+Frontend: The alert threshold was set too high to catch this early.
+Eng Lead: The migration is backwards-compatible if we keep the old column. CI is red again on the same async test; it's a real race condition.
+SRE: The alert threshold was set too high to catch this early.
+Frontend: Let's timebox this discussion to five minutes and then decide.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to the database migration rollout. Who'd like to open?
+SRE: CI is red again on the same async test; it's a real race condition.
+Frontend: Noted. I'll fold that feedback into the revised proposal. The migration is backwards-compatible if we keep the old column.
+Backend: We're carrying two points of tech debt into the next sprint.
+SRE: Let's capture that as an action item with a named owner.
+Eng Lead: Let's make the decision reversible so we can adjust if it goes sideways.
+QA: Could we get a second opinion from the team that owns that surface?
+Eng Lead: Let's timebox this discussion to five minutes and then decide.
+Eng Lead: Moving on to the flaky test suite. Who'd like to open?
+Eng Lead: The migration is backwards-compatible if we keep the old column.
+Backend: I'll take the first pass and share a draft by the end of the week. Can we revisit the assumptions behind that estimate?
+Eng Lead: There's a hard dependency here we need to resolve before we ship.
+Eng Lead: For the record, I want my reservations on this noted.
+Backend: Let's timebox this discussion to five minutes and then decide. Quick point of order before we move on to the next item.
+Eng Lead: We're carrying two points of tech debt into the next sprint.
+Eng Lead: p99 latency doubled for about eleven minutes before we rolled back. The alert threshold was set too high to catch this early.
+QA: I'd like to hear the dissenting view before we lock this in.
+Frontend: I think the data supports the more conservative of the two options.
+Frontend: Noted. I'll fold that feedback into the revised proposal.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to yesterday's production incident. Who'd like to open?
+QA: Can someone own that and report back at the next session? The alert threshold was set too high to catch this early.
+Frontend: p99 latency doubled for about eleven minutes before we rolled back. Let me make sure I understand the dependency before we commit to a date.
+Backend: We're carrying two points of tech debt into the next sprint.
+SRE: Honestly, I'm not convinced the timeline is realistic given the scope.
+Frontend: If there are no objections, I'd like to move that we proceed.
+Backend: Let's capture that as an action item with a named owner.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to the sprint burndown. Who'd like to open?
+Frontend: Honestly, I'm not convinced the timeline is realistic given the scope.
+Eng Lead: Quick point of order before we move on to the next item. That's out of scope for today, let's park it and circle back.
+Backend: The incident was a cache stampede after the config push at nine.
+SRE: I think the data supports the more conservative of the two options.
+Backend: CI is red again on the same async test; it's a real race condition. There's a hard dependency here we need to resolve before we ship.
+SRE: For the record, I want my reservations on this noted. Quick point of order before we move on to the next item.
+SRE: Can we revisit the assumptions behind that estimate?
+Backend: Let's capture that as an action item with a named owner.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to the database migration rollout. Who'd like to open?
+SRE: I want to flag a risk the rest of the group may not have visibility into. For the record, I want my reservations on this noted.
+Frontend: I think the data supports the more conservative of the two options. I'd rather we held off until the numbers are in front of us.
+Eng Lead: Can we revisit the assumptions behind that estimate?
+Backend: Let me make sure I understand the dependency before we commit to a date. I'll take the first pass and share a draft by the end of the week.
+SRE: Let's capture that as an action item with a named owner. Let me make sure I understand the dependency before we commit to a date.
+QA: That's out of scope for today, let's park it and circle back. Let me make sure I understand the dependency before we commit to a date.
+Eng Lead: Let's note that and move on.
+Eng Lead: Moving on to the flaky test suite. Who'd like to open?
+Eng Lead: I'd rather we held off until the numbers are in front of us. We're carrying two points of tech debt into the next sprint.
+Backend: I think the data supports the more conservative of the two options. Let's not deploy on a Friday afternoon again.
+SRE: CI is red again on the same async test; it's a real race condition.
+QA: Honestly, I'm not convinced the timeline is realistic given the scope.
+SRE: I want to flag a risk the rest of the group may not have visibility into. Let me make sure I understand the dependency before we commit to a date.
+Frontend: I can have the backfill script ready behind a flag by tomorrow. We're carrying two points of tech debt into the next sprint.
+Eng Lead: Let's note that and move on.
+Eng Lead: Before we close, let me summarise what we decided.
+Eng Lead: We agreed to roll the migration forward behind a feature flag.
+Eng Lead: We agreed to freeze non-critical deploys until the incident is closed.
+Eng Lead: We agreed to split the monolith test job into three parallel shards.
+Eng Lead: Action item — Backend will write the postmortem and share it by Thursday.
+Eng Lead: Action item — Frontend will add a dashboard alert for queue depth.
+Eng Lead: Action item — SRE will quarantine the three flaky integration tests.
+Eng Lead: Thanks everyone. Meeting adjourned.

@@ -1,0 +1,258 @@
+Project Manager: Thank you all for joining. On today's agenda we have the project scope and budget, the target user persona, the casing material and ergonomics, the button layout and on-screen menu.
+Project Manager: Let's work through the items in order and keep to time.
+Project Manager: Moving on to the project scope and budget. Who'd like to open?
+Industrial Designer: I'd like to hear the dissenting view before we lock this in.
+Marketing: The menu should never be more than two levels deep.
+Project Manager: Let's capture that as an action item with a named owner.
+Project Manager: An LED ring is cheaper than an LCD and still feels premium.
+Industrial Designer: If we keep the curved casing we add tooling cost on the mould. Could we get a second opinion from the team that owns that surface?
+User Interface: I'll take the first pass and share a draft by the end of the week.
+User Interface: Let's make the decision reversible so we can adjust if it goes sideways.
+Marketing: Could we get a second opinion from the team that owns that surface?
+User Interface: Let me make sure I understand the dependency before we commit to a date.
+User Interface: I'd rather we held off until the numbers are in front of us. There's a hard dependency here we need to resolve before we ship.
+User Interface: Can we revisit the assumptions behind that estimate?
+Industrial Designer: Could we get a second opinion from the team that owns that surface?
+Project Manager: Moving on to the target user persona. Who'd like to open?
+Marketing: Marketing wants the brand colour on the bezel, not the buttons. Noted. I'll fold that feedback into the revised proposal.
+Industrial Designer: Can someone own that and report back at the next session? The trend research says younger users expect a companion app.
+User Interface: Can someone own that and report back at the next session?
+Marketing: Let's capture that as an action item with a named owner.
+Marketing: For the record, I want my reservations on this noted.
+User Interface: Can we revisit the assumptions behind that estimate?
+Project Manager: Moving on to the casing material and ergonomics. Who'd like to open?
+User Interface: If we keep the curved casing we add tooling cost on the mould.
+Industrial Designer: I think the data supports the more conservative of the two options.
+Marketing: I'd like to hear the dissenting view before we lock this in.
+User Interface: Honestly, I'm not convinced the timeline is realistic given the scope.
+Project Manager: I'll take the first pass and share a draft by the end of the week.
+Project Manager: Can someone own that and report back at the next session? Let me make sure I understand the dependency before we commit to a date.
+Project Manager: Let's note that and move on.
+Project Manager: Moving on to the button layout and on-screen menu. Who'd like to open?
+User Interface: If there are no objections, I'd like to move that we proceed.
+Marketing: Can we revisit the assumptions behind that estimate? For the record, I want my reservations on this noted.
+Marketing: Can someone own that and report back at the next session?
+User Interface: Let me make sure I understand the dependency before we commit to a date.
+User Interface: Can we revisit the assumptions behind that estimate?
+Marketing: Let's make the decision reversible so we can adjust if it goes sideways. Honestly, I'm not convinced the timeline is realistic given the scope.
+Industrial Designer: Can we revisit the assumptions behind that estimate?
+Industrial Designer: The menu should never be more than two levels deep. The menu should never be more than two levels deep.
+Project Manager: Could we get a second opinion from the team that owns that surface?
+Marketing: We agreed on this direction last time, so let's not relitigate it now.
+Project Manager: Let's note that and move on.
+Project Manager: Moving on to the project scope and budget. Who'd like to open?
+User Interface: I want to flag a risk the rest of the group may not have visibility into.
+User Interface: Can we revisit the assumptions behind that estimate? Honestly, I'm not convinced the timeline is realistic given the scope.
+Marketing: I want to flag a risk the rest of the group may not have visibility into.
+User Interface: Marketing wants the brand colour on the bezel, not the buttons. We agreed on this direction last time, so let's not relitigate it now.
+Industrial Designer: Marketing wants the brand colour on the bezel, not the buttons.
+Project Manager: Can someone own that and report back at the next session? The menu should never be more than two levels deep.
+Industrial Designer: Can we revisit the assumptions behind that estimate?
+Industrial Designer: If we keep the curved casing we add tooling cost on the mould.
+Industrial Designer: I'd like to hear the dissenting view before we lock this in. We can reuse the chipset from the previous generation to save cost.
+Marketing: If we keep the curved casing we add tooling cost on the mould.
+Project Manager: Let's note that and move on.
+Project Manager: Moving on to the target user persona. Who'd like to open?
+Industrial Designer: A single multifunction button tests badly in our usability data. If there are no objections, I'd like to move that we proceed.
+Marketing: I'd rather we held off until the numbers are in front of us. We agreed on this direction last time, so let's not relitigate it now.
+Project Manager: There's a hard dependency here we need to resolve before we ship.
+Project Manager: Let me make sure I understand the dependency before we commit to a date.
+Marketing: For the record, I want my reservations on this noted.
+Marketing: I'd rather we held off until the numbers are in front of us.
+Project Manager: If there are no objections, I'd like to move that we proceed.
+Project Manager: Moving on to the casing material and ergonomics. Who'd like to open?
+Industrial Designer: Let's make the decision reversible so we can adjust if it goes sideways. Battery life is the feature users rank first in the survey.
+Industrial Designer: We can reuse the chipset from the previous generation to save cost.
+Marketing: Can someone own that and report back at the next session? I want to flag a risk the rest of the group may not have visibility into.
+Marketing: I'd rather we held off until the numbers are in front of us.
+Project Manager: Let me make sure I understand the dependency before we commit to a date. I'll take the first pass and share a draft by the end of the week.
+Marketing: That's out of scope for today, let's park it and circle back. Let's make the decision reversible so we can adjust if it goes sideways.
+User Interface: If there are no objections, I'd like to move that we proceed.
+Project Manager: Can someone own that and report back at the next session?
+User Interface: There's a hard dependency here we need to resolve before we ship.
+Marketing: For the record, I want my reservations on this noted. Noted. I'll fold that feedback into the revised proposal.
+User Interface: Marketing wants the brand colour on the bezel, not the buttons.
+Project Manager: Let's note that and move on.
+Project Manager: Moving on to the button layout and on-screen menu. Who'd like to open?
+Industrial Designer: I want to flag a risk the rest of the group may not have visibility into.
+Industrial Designer: Let's capture that as an action item with a named owner.
+User Interface: Let's make the decision reversible so we can adjust if it goes sideways.
+User Interface: Noted. I'll fold that feedback into the revised proposal. Could we get a second opinion from the team that owns that surface?
+Marketing: If we keep the curved casing we add tooling cost on the mould. I think the data supports the more conservative of the two options.
+Industrial Designer: Honestly, I'm not convinced the timeline is realistic given the scope. Quick point of order before we move on to the next item.
+Marketing: Could we get a second opinion from the team that owns that surface?
+Project Manager: Honestly, I'm not convinced the timeline is realistic given the scope. Could we get a second opinion from the team that owns that surface?
+User Interface: Let me make sure I understand the dependency before we commit to a date.
+User Interface: The trend research says younger users expect a companion app.
+Industrial Designer: For the record, I want my reservations on this noted. Battery life is the feature users rank first in the survey.
+Project Manager: Let's note that and move on.
+Project Manager: Moving on to the project scope and budget. Who'd like to open?
+Industrial Designer: Marketing wants the brand colour on the bezel, not the buttons.
+Marketing: An LED ring is cheaper than an LCD and still feels premium. A single multifunction button tests badly in our usability data.
+Industrial Designer: If we keep the curved casing we add tooling cost on the mould.
+Industrial Designer: I'll take the first pass and share a draft by the end of the week.
+Marketing: For the record, I want my reservations on this noted.
+Marketing: Can someone own that and report back at the next session? Could we get a second opinion from the team that owns that surface?
+Marketing: Honestly, I'm not convinced the timeline is realistic given the scope.
+Industrial Designer: A single multifunction button tests badly in our usability data.
+Project Manager: Let's note that and move on.
+Project Manager: Moving on to the target user persona. Who'd like to open?
+Industrial Designer: Can someone own that and report back at the next session?
+Project Manager: If there are no objections, I'd like to move that we proceed.
+Project Manager: If we keep the curved casing we add tooling cost on the mould.
+Industrial Designer: A single multifunction button tests badly in our usability data.
+Industrial Designer: Honestly, I'm not convinced the timeline is realistic given the scope.
+Industrial Designer: For the record, I want my reservations on this noted.
+Industrial Designer: Noted. I'll fold that feedback into the revised proposal.
+Project Manager: I'd rather we held off until the numbers are in front of us.
+Project Manager: A single multifunction button tests badly in our usability data. That's out of scope for today, let's park it and circle back.
+Project Manager: Let's note that and move on.
+Project Manager: Moving on to the casing material and ergonomics. Who'd like to open?
+Marketing: The trend research says younger users expect a companion app.
+Industrial Designer: I want to flag a risk the rest of the group may not have visibility into.
+User Interface: I'd like to hear the dissenting view before we lock this in.
+Marketing: I want to flag a risk the rest of the group may not have visibility into.
+Project Manager: I want to flag a risk the rest of the group may not have visibility into.
+Project Manager: Noted. I'll fold that feedback into the revised proposal.
+Industrial Designer: I'd like to hear the dissenting view before we lock this in.
+User Interface: A single multifunction button tests badly in our usability data.
+User Interface: I want to flag a risk the rest of the group may not have visibility into.
+Project Manager: Moving on to the button layout and on-screen menu. Who'd like to open?
+Project Manager: Marketing wants the brand colour on the bezel, not the buttons. Let's capture that as an action item with a named owner.
+Marketing: There's a hard dependency here we need to resolve before we ship.
+Marketing: Honestly, I'm not convinced the timeline is realistic given the scope.
+User Interface: I want to flag a risk the rest of the group may not have visibility into.
+Project Manager: Let's timebox this discussion to five minutes and then decide. I think the data supports the more conservative of the two options.
+Marketing: I'd like to hear the dissenting view before we lock this in.
+Project Manager: Moving on to the project scope and budget. Who'd like to open?
+Project Manager: Noted. I'll fold that feedback into the revised proposal. Marketing wants the brand colour on the bezel, not the buttons.
+Marketing: I'd rather we held off until the numbers are in front of us.
+Marketing: An LED ring is cheaper than an LCD and still feels premium.
+Project Manager: For the record, I want my reservations on this noted. The menu should never be more than two levels deep.
+Project Manager: We agreed on this direction last time, so let's not relitigate it now.
+Industrial Designer: I think the data supports the more conservative of the two options.
+Industrial Designer: A single multifunction button tests badly in our usability data. I'll take the first pass and share a draft by the end of the week.
+Industrial Designer: Can we revisit the assumptions behind that estimate?
+Project Manager: Moving on to the target user persona. Who'd like to open?
+User Interface: I'll take the first pass and share a draft by the end of the week.
+User Interface: Let's timebox this discussion to five minutes and then decide.
+User Interface: Let's timebox this discussion to five minutes and then decide.
+Marketing: Could we get a second opinion from the team that owns that surface?
+Marketing: An LED ring is cheaper than an LCD and still feels premium.
+Project Manager: Can we revisit the assumptions behind that estimate?
+Project Manager: Let's note that and move on.
+Project Manager: Moving on to the casing material and ergonomics. Who'd like to open?
+User Interface: Can we revisit the assumptions behind that estimate?
+Project Manager: For the record, I want my reservations on this noted.
+Project Manager: An LED ring is cheaper than an LCD and still feels premium.
+User Interface: We agreed on this direction last time, so let's not relitigate it now.
+Project Manager: The menu should never be more than two levels deep.
+Project Manager: Let's make the decision reversible so we can adjust if it goes sideways.
+Project Manager: Moving on to the button layout and on-screen menu. Who'd like to open?
+User Interface: Let's make the decision reversible so we can adjust if it goes sideways.
+Project Manager: I want to flag a risk the rest of the group may not have visibility into.
+Industrial Designer: We can reuse the chipset from the previous generation to save cost. Could we get a second opinion from the team that owns that surface?
+Project Manager: There's a hard dependency here we need to resolve before we ship. I'll take the first pass and share a draft by the end of the week.
+Industrial Designer: I'd like to hear the dissenting view before we lock this in.
+Industrial Designer: Let's make the decision reversible so we can adjust if it goes sideways. An LED ring is cheaper than an LCD and still feels premium.
+Industrial Designer: An LED ring is cheaper than an LCD and still feels premium.
+User Interface: We can reuse the chipset from the previous generation to save cost. I want to flag a risk the rest of the group may not have visibility into.
+Project Manager: Moving on to the project scope and budget. Who'd like to open?
+Industrial Designer: If we keep the curved casing we add tooling cost on the mould.
+Project Manager: That's out of scope for today, let's park it and circle back. If we keep the curved casing we add tooling cost on the mould.
+Industrial Designer: That's out of scope for today, let's park it and circle back.
+Marketing: The menu should never be more than two levels deep.
+Marketing: That's out of scope for today, let's park it and circle back.
+User Interface: If there are no objections, I'd like to move that we proceed.
+Industrial Designer: That's out of scope for today, let's park it and circle back.
+Project Manager: Let's note that and move on.
+Project Manager: Moving on to the target user persona. Who'd like to open?
+Industrial Designer: That's out of scope for today, let's park it and circle back.
+Marketing: Can we revisit the assumptions behind that estimate? Let's make the decision reversible so we can adjust if it goes sideways.
+Project Manager: Quick point of order before we move on to the next item.
+User Interface: I think the data supports the more conservative of the two options.
+User Interface: Can we revisit the assumptions behind that estimate?
+Industrial Designer: Battery life is the feature users rank first in the survey. We can reuse the chipset from the previous generation to save cost.
+Marketing: Quick point of order before we move on to the next item. An LED ring is cheaper than an LCD and still feels premium.
+User Interface: I think the data supports the more conservative of the two options. That's out of scope for today, let's park it and circle back.
+Project Manager: An LED ring is cheaper than an LCD and still feels premium.
+Project Manager: A single multifunction button tests badly in our usability data.
+Project Manager: Moving on to the casing material and ergonomics. Who'd like to open?
+User Interface: If we keep the curved casing we add tooling cost on the mould.
+Project Manager: I'd rather we held off until the numbers are in front of us. The trend research says younger users expect a companion app.
+Marketing: Honestly, I'm not convinced the timeline is realistic given the scope.
+Project Manager: Battery life is the feature users rank first in the survey. Honestly, I'm not convinced the timeline is realistic given the scope.
+User Interface: An LED ring is cheaper than an LCD and still feels premium.
+Project Manager: Let's capture that as an action item with a named owner.
+Project Manager: Let's note that and move on.
+Project Manager: Moving on to the button layout and on-screen menu. Who'd like to open?
+Project Manager: Let's capture that as an action item with a named owner.
+User Interface: Marketing wants the brand colour on the bezel, not the buttons. Let's capture that as an action item with a named owner.
+Project Manager: I want to flag a risk the rest of the group may not have visibility into.
+Marketing: There's a hard dependency here we need to resolve before we ship.
+Industrial Designer: The menu should never be more than two levels deep. A single multifunction button tests badly in our usability data.
+Marketing: I want to flag a risk the rest of the group may not have visibility into. Marketing wants the brand colour on the bezel, not the buttons.
+Project Manager: Honestly, I'm not convinced the timeline is realistic given the scope.
+Industrial Designer: I think the data supports the more conservative of the two options. Could we get a second opinion from the team that owns that surface?
+Marketing: Noted. I'll fold that feedback into the revised proposal.
+Project Manager: A single multifunction button tests badly in our usability data. Quick point of order before we move on to the next item.
+Marketing: Could we get a second opinion from the team that owns that surface?
+Project Manager: Let's note that and move on.
+Project Manager: Moving on to the project scope and budget. Who'd like to open?
+User Interface: I want to flag a risk the rest of the group may not have visibility into.
+Marketing: Could we get a second opinion from the team that owns that surface?
+User Interface: If we keep the curved casing we add tooling cost on the mould. Can someone own that and report back at the next session?
+Project Manager: Noted. I'll fold that feedback into the revised proposal.
+User Interface: We can reuse the chipset from the previous generation to save cost.
+Project Manager: Let me make sure I understand the dependency before we commit to a date.
+Project Manager: Moving on to the target user persona. Who'd like to open?
+Project Manager: Can someone own that and report back at the next session?
+Marketing: Could we get a second opinion from the team that owns that surface?
+Project Manager: A single multifunction button tests badly in our usability data.
+Industrial Designer: That's out of scope for today, let's park it and circle back.
+Project Manager: Honestly, I'm not convinced the timeline is realistic given the scope. I want to flag a risk the rest of the group may not have visibility into.
+User Interface: We can reuse the chipset from the previous generation to save cost.
+User Interface: Noted. I'll fold that feedback into the revised proposal. Can we revisit the assumptions behind that estimate?
+Marketing: The trend research says younger users expect a companion app. That's out of scope for today, let's park it and circle back.
+Project Manager: Let's note that and move on.
+Project Manager: Moving on to the casing material and ergonomics. Who'd like to open?
+Marketing: For the record, I want my reservations on this noted. For the record, I want my reservations on this noted.
+Project Manager: We can reuse the chipset from the previous generation to save cost. Let's timebox this discussion to five minutes and then decide.
+Marketing: Let's timebox this discussion to five minutes and then decide.
+User Interface: Let's make the decision reversible so we can adjust if it goes sideways.
+Project Manager: There's a hard dependency here we need to resolve before we ship.
+User Interface: We agreed on this direction last time, so let's not relitigate it now. Noted. I'll fold that feedback into the revised proposal.
+User Interface: Honestly, I'm not convinced the timeline is realistic given the scope.
+Project Manager: If there are no objections, I'd like to move that we proceed.
+Project Manager: Moving on to the button layout and on-screen menu. Who'd like to open?
+Project Manager: An LED ring is cheaper than an LCD and still feels premium.
+Industrial Designer: Marketing wants the brand colour on the bezel, not the buttons. I want to flag a risk the rest of the group may not have visibility into.
+Project Manager: I'll take the first pass and share a draft by the end of the week. Let's capture that as an action item with a named owner.
+Project Manager: I'll take the first pass and share a draft by the end of the week.
+Industrial Designer: I'd rather we held off until the numbers are in front of us. A single multifunction button tests badly in our usability data.
+Project Manager: Let's capture that as an action item with a named owner. We can reuse the chipset from the previous generation to save cost.
+Industrial Designer: Let's capture that as an action item with a named owner. I'd like to hear the dissenting view before we lock this in.
+User Interface: Can we revisit the assumptions behind that estimate?
+Industrial Designer: The trend research says younger users expect a companion app. Could we get a second opinion from the team that owns that surface?
+Project Manager: Moving on to the project scope and budget. Who'd like to open?
+Marketing: Honestly, I'm not convinced the timeline is realistic given the scope. I think the data supports the more conservative of the two options.
+User Interface: Honestly, I'm not convinced the timeline is realistic given the scope. If there are no objections, I'd like to move that we proceed.
+Industrial Designer: A single multifunction button tests badly in our usability data.
+User Interface: Marketing wants the brand colour on the bezel, not the buttons.
+Marketing: We can reuse the chipset from the previous generation to save cost. The trend research says younger users expect a companion app.
+Industrial Designer: Honestly, I'm not convinced the timeline is realistic given the scope.
+Project Manager: I'll take the first pass and share a draft by the end of the week. I'd rather we held off until the numbers are in front of us.
+Industrial Designer: Let's timebox this discussion to five minutes and then decide.
+Industrial Designer: We agreed on this direction last time, so let's not relitigate it now.
+User Interface: If we keep the curved casing we add tooling cost on the mould. If we keep the curved casing we add tooling cost on the mould.
+Project Manager: I'd like to hear the dissenting view before we lock this in.
+Project Manager: Honestly, I'm not convinced the timeline is realistic given the scope. Marketing wants the brand colour on the bezel, not the buttons.
+Project Manager: Let's note that and move on.
+Project Manager: Before we close, let me summarise what we decided.
+Project Manager: We agreed to ship a limited beta of the voice-control variant first.
+Project Manager: We agreed to cap the unit cost at twelve euros fifty.
+Project Manager: We agreed to drop the LCD in favour of a simpler LED indicator.
+Project Manager: Action item — Industrial Designer will update the requirements doc and recirculate it.
+Project Manager: Action item — User Interface will mock up two casing options for the next review.
+Project Manager: Action item — Marketing will run a quick usability pass on the menu flow.
+Project Manager: Thanks everyone. Meeting adjourned.
