@@ -1,0 +1,570 @@
+{
+  "mode": "langgraph",
+  "transcript_size": "small_ami",
+  "repeat": 1,
+  "revisions": 3,
+  "verdict_status": "revise",
+  "errored": false,
+  "n_agent_calls": 13,
+  "e2e_wall_s": 27.770511385002465,
+  "ttft_mean_s": 0.1568916973841484,
+  "ttft_max_s": 0.6261318319993734,
+  "decode_tps_mean": 130.02818939029166,
+  "prompt_tokens": 81693,
+  "completion_tokens": 6016,
+  "total_tokens": 87709,
+  "cached_tokens": 0,
+  "prefix_cache_hit_ratio": 0.0,
+  "throughput_tok_per_s": 3158.350193268946,
+  "server_metrics_available": true,
+  "host_cpu_percent_mean": 1.4100917431192659,
+  "host_cpu_percent_max": 2.0,
+  "orchestrator_rss_mb_mean": 131.62834201834866,
+  "orchestrator_rss_mb_max": 132.419584,
+  "host_mem_used_mb_mean": 18522.051161247717,
+  "host_mem_used_mb_max": 18539.958272,
+  "host_mem_percent_mean": 9.102752293577998,
+  "host_mem_percent_max": 9.2,
+  "vllm_gpu_cache_usage_perc_mean": 0.031458712158971,
+  "vllm_gpu_cache_usage_perc_max": 0.055826152116897676,
+  "vllm_num_requests_running_mean": 1.688073394495413,
+  "vllm_num_requests_running_max": 3.0,
+  "vllm_num_requests_waiting_mean": 0.009174311926605505,
+  "vllm_num_requests_waiting_max": 1.0,
+  "delta_prompt_tokens_total": 81693.0,
+  "delta_generation_tokens_total": 6016.0,
+  "delta_prefix_cache_queries_total": 81693.0,
+  "delta_prefix_cache_hits_total": 58112.0,
+  "delta_num_requests_total": 13.0,
+  "delta_server_prefix_cache_hit_rate": 0.7113461373679507,
+  "artifacts": {
+    "summary": "## Overview\nThe meeting aimed to introduce the project team and discuss the design project for a new remote control for a television, focusing on its originality, user-friendliness, and trendiness. The team will work individually initially and then come together for meetings to work on the project.\n\n## Key Discussion Points\n### Project Overview\n* The project aims to create a new remote control for a television that is original, user-friendly, and trendy.\n* The team will work individually initially and then come together for meetings to work on the project.\n\n### Design Process\n* The design process will have three components: functional design, conceptual design, and detailed design.\n* Functional design will focus on the technical aspects of the remote control, such as its functions and features.\n* Conceptual design will focus on the user experience and how people will interact with the remote control.\n* Detailed design will focus on the final design of the remote control, including its components and how they integrate with each other.\n\n### Team Roles\n* The Industrial Designer will be responsible for designing the technical functions of the remote control and identifying its components.\n* The User Interface Designer will be responsible for designing the user interface of the remote control and creating the user requirements specification.\n* The Marketing Expert will be responsible for creating the user requirements specification, trend watching, and product evaluation.\n* The Project Manager will be responsible for keeping the team on track and ensuring that the project is completed on time.\n\n### Design Requirements\n* The remote control should have a high battery life, but not at the expense of being too far from the usual design.\n* The remote control should be original, user-friendly, and trendy.\n* The team should balance originality with user-friendliness to avoid a steep learning curve for new users.\n\n## Decisions Made\n* The team will work individually initially and then come together for meetings to work on the project.\n* The remote control should have a high battery life, but not at the expense of being too far from the usual design.\n\n## Open Questions\n* What special features should the remote control have to make it stand out from existing ones?\n* How can the team balance originality with user-friendliness to avoid a steep learning curve for new users?",
+    "action_items": "[\n  {\n    \"task\": \"Identify unique features for the remote control to make it stand out from existing ones\",\n    \"owner\": \"unassigned\",\n    \"deadline\": \"none\",\n    \"evidence\": \"The team will identify unique features for the remote control to make it stand out from existing ones.\"\n  },\n  {\n    \"task\": \"Design the technical functions of the remote control\",\n    \"owner\": \"User Interface Designer (Maarika)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for designing the technical functions of the um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design the conceptual design of the remote control\",\n    \"owner\": \"User Interface Designer (Maarika)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for designing the technical functions of the um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design the user interface of the remote control\",\n    \"owner\": \"User Interface Designer (Maarika)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for designing the technical functions of the um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design the detailed design of the remote control\",\n    \"owner\": \"Industrial Designer (Gaurav)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: So yeah, I like cows. Um my my role in the project is um uh the industrial designer, so I'm supposed to design all the details of of the product um ho how it works and whatever it'll mm take during the functional role, what are the various functions that have to be performed by it uh during the um conceptual design, what are the various components of it and um finally, I'm not too sure what was the last part. Um the detailed design, I I guess it will again be the identification of the components and how they integrate with each other.\"\n  },\n  {\n    \"task\": \"Create a new remote control for a television\",\n    \"owner\": \"unassigned\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Project Manager: So this is our project. What we're aiming to do is to create a new remote control for a television. Um we want it to be something original, something trendy and also something user friendly, so it has to be quite intuitive that people are able to use this product.\"\n  },\n  {\n    \"task\": \"Develop a user requirements specification for the remote control\",\n    \"owner\": \"Marketing Expert (Cat)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: I am the um I need my notebook, mm ooh {vocalsound} top banana. Thank you. Okay, cool, I am the Marketing Expert um so like I'm gonna be doing the apparently according to the little guy in the computer that knows everything the user g requirements specification of the functional design,\"\n  },\n  {\n    \"task\": \"Develop a trend watching plan for the remote control\",\n    \"owner\": \"Marketing Expert (Cat)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: I am the um I need my notebook, mm ooh {vocalsound} top banana. Thank you. Okay, cool, I am the Marketing Expert um so like I'm gonna be doing the apparently according to the little guy in the computer that knows everything the user g requirements specification of the functional design,\"\n  },\n  {\n    \"task\": \"Develop a product evaluation plan for the remote control\",\n    \"owner\": \"Marketing Expert (Cat)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: I am the um I need my notebook, mm ooh {vocalsound} top banana. Thank you. Okay, cool, I am the Marketing Expert um so like I'm gonna be doing the apparently according to the little guy in the computer that knows everything the user g requirements specification of the functional design,\"\n  },\n  {\n    \"task\": \"Design a menu",
+    "followups": "## Email\nSubject: Recap of Design Project Meeting\n\nDear Team,\n\nThis email aims to recap the key decisions and action items from our meeting on the design project for a new remote control. The main objectives of the project are to create an original, user-friendly, and trendy remote control for a television.\n\nThe team will work individually initially and then come together for meetings to work on the project. We will identify unique features for the remote control to make it stand out from existing ones. The remote control should have a high battery life, but not at the expense of being too far from the usual design.\n\nTo ensure the project's success, we will balance originality with user-friendliness to avoid a steep learning curve for new users. The design should fit in with the stereotype of a remote control, avoiding unnecessary complexity.\n\nAction items:\n\n* Work individually on the project and come together for meetings to work on the project\n* Identify unique features for the remote control\n* Balance originality with user-friendliness\n* Ensure the design fits in with the stereotype of a remote control\n\nPlease refer to the meeting transcript for more details on the discussion.\n\nBest regards,\nJen\nProject Manager\n\n## Slack\nThe team discussed the design project for a new remote control, focusing on originality, user-friendliness, and trendiness. Key decisions include working individually initially and then coming together for meetings, identifying unique features, and balancing originality with user-friendliness. Action items include working on the project individually and coming together for meetings, identifying unique features, and ensuring the design fits in with the stereotype of a remote control.",
+    "brief": "COORDINATION BRIEF\n\nPARTICIPANTS:\n- Project Manager (Jen)\n- Marketing Expert (Cat)\n- Industrial Designer (Gaurav)\n- User Interface Designer (Maarika)\n\nSCOPE:\nThe meeting aimed to introduce the project team and discuss the design project for a new remote control for a television, focusing on its originality, user-friendliness, and trendiness.\n\nDECISION CUES:\n- The team will work individually initially and then come together for meetings to work on the project.\n- The team will identify unique features for the remote control to make it stand out from existing ones.\n- The remote control should have a high battery life, but not at the expense of being too far from the usual design.\n\nCAUTIONS:\n- The team should balance originality with user-friendliness to avoid a steep learning curve for new users.\n- The design should fit in with the stereotype of a remote control, avoiding unnecessary complexity."
+  },
+  "per_agent": [
+    {
+      "agent": "coordinator",
+      "revision": 0,
+      "prompt_tokens": 5735,
+      "completion_tokens": 195,
+      "cached_tokens": 0,
+      "ttft_s": 0.03321853600209579,
+      "e2e_s": 1.4462763500014262,
+      "decode_tps": 137.9985999639307,
+      "error": null,
+      "text": "COORDINATION BRIEF\n\nPARTICIPANTS:\n- Project Manager (Jen)\n- Marketing Expert (Cat)\n- Industrial Designer (Gaurav)\n- User Interface Designer (Maarika)\n\nSCOPE:\nThe meeting aimed to introduce the project team and discuss the design project for a new remote control for a television, focusing on its originality, user-friendliness, and trendiness.\n\nDECISION CUES:\n- The team will work individually initially and then come together for meetings to work on the project.\n- The team will identify unique features for the remote control to make it stand out from existing ones.\n- The remote control should have a high battery life, but not at the expense of being too far from the usual design.\n\nCAUTIONS:\n- The team should balance originality with user-friendliness to avoid a steep learning curve for new users.\n- The design should fit in with the stereotype of a remote control, avoiding unnecessary complexity."
+    },
+    {
+      "agent": "drafter",
+      "revision": 0,
+      "prompt_tokens": 5851,
+      "completion_tokens": 268,
+      "cached_tokens": 0,
+      "ttft_s": 0.4499776809971081,
+      "e2e_s": 2.7874237739997625,
+      "decode_tps": 114.655050570912,
+      "error": null,
+      "text": "## Email\nSubject: Recap of Design Project Meeting\n\nDear Team,\n\nThis email serves as a recap of our first meeting for the design project of a new remote control for a television. We discussed the project's objectives, which include creating an original, user-friendly, and trendy remote control.\n\nThe team will work individually initially and then come together for meetings to work on the project. We identified unique features for the remote control to make it stand out from existing ones, including a high battery life without compromising on design.\n\nKey action items:\n\n* Work individually initially and then come together for meetings\n* Identify unique features for the remote control\n* Balance originality with user-friendliness to avoid a steep learning curve\n* Design should fit in with the stereotype of a remote control, avoiding unnecessary complexity\n\nPlease refer to the meeting transcript for more details. We will have another meeting in thirty minutes to discuss the working design, technical functions design, and user requirements specification.\n\nBest regards,\nJen (Project Manager)\n\n## Slack\n\"Recap of our first design project meeting: we'll work individually initially, identify unique features, balance originality with user-friendliness, and design should fit in with the stereotype of a remote control. Next meeting in 30 minutes to discuss working design, technical functions design, and user requirements specification.\""
+    },
+    {
+      "agent": "extractor",
+      "revision": 0,
+      "prompt_tokens": 5902,
+      "completion_tokens": 1024,
+      "cached_tokens": 0,
+      "ttft_s": 0.2443449940001301,
+      "e2e_s": 8.281999749000533,
+      "decode_tps": 127.40034639618564,
+      "error": null,
+      "text": "[\n  {\n    \"task\": \"Identify unique features for the remote control\",\n    \"owner\": \"unassigned\",\n    \"deadline\": \"none\",\n    \"evidence\": \"The team will identify unique features for the remote control to make it stand out from existing ones.\"\n  },\n  {\n    \"task\": \"Design the technical functions of the remote control\",\n    \"owner\": \"User Interface Designer (Maarika)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for designing the technical functions of the um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design the conceptual design of the remote control\",\n    \"owner\": \"User Interface Designer (Maarika)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for designing the technical functions of the um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design the user interface of the remote control\",\n    \"owner\": \"User Interface Designer (Maarika)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for designing the technical functions of the um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design the detailed design of the remote control\",\n    \"owner\": \"Industrial Designer (Gaurav)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: So yeah, I like cows. Um my my role in the project is um uh the industrial designer, so I'm supposed to design all the details of of the product um ho how it works and whatever it'll mm take during the functional role, what are the various functions that have to be performed by it uh during the um conceptual design, what are the various components of it and um finally, I'm not too sure what was the last part. Um the detailed design, I I guess it will again be the identification of the components and how they integrate with each other.\"\n  },\n  {\n    \"task\": \"Create a user requirements specification for the remote control\",\n    \"owner\": \"Marketing Expert (Cat)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: I am the um I need my notebook, mm ooh apparently according to the little guy in the computer that knows everything the user g requirements specification of the functional design, um trend watching in the conceptual design and product evad-valuation in the detailed design\"\n  },\n  {\n    \"task\": \"Develop a trend watching plan for the remote control\",\n    \"owner\": \"Marketing Expert (Cat)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: I am the um I need my notebook, mm ooh apparently according to the little guy in the computer that knows everything the user g requirements specification of the functional design, um trend watching in the conceptual design and product evad-valuation in the detailed design\"\n  },\n  {\n    \"task\": \"Conduct product evaluation for the remote control\",\n    \"owner\": \"Marketing Expert (Cat)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: I am the um I need my notebook, mm ooh apparently according to the little guy in the computer that knows everything the user g requirements specification of the functional design, um trend watching in the conceptual design and product evad-valuation in the detailed design\"\n  },\n  {\n    \"task\": \"Design a menu-based interface for the remote control\",\n    \"owner\": \"unassigned\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: You know, so something heading towards that, so it's not overly I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know?\"\n  },\n  {\n    \"task\": \"Develop a high battery life design for the remote control\",\n    \"owner\": \"Industrial Designer (Gaurav)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: Mm . Uh we can aim for I mean we can think about all these little things, but we"
+    },
+    {
+      "agent": "summarizer",
+      "revision": 0,
+      "prompt_tokens": 5873,
+      "completion_tokens": 500,
+      "cached_tokens": 0,
+      "ttft_s": 0.6261318319993734,
+      "e2e_s": 4.605870893999963,
+      "decode_tps": 125.63637771483769,
+      "error": null,
+      "text": "## Overview\nThe meeting aimed to introduce the project team and discuss the design project for a new remote control for a television, focusing on its originality, user-friendliness, and trendiness. The team consisted of a Project Manager (Jen), a Marketing Expert (Cat), an Industrial Designer (Gaurav), and a User Interface Designer (Maarika). The team will work individually initially and then come together for meetings to work on the project.\n\n## Key Discussion Points\n### Project Overview\n* The project aims to create a new remote control for a television that is original, user-friendly, and trendy.\n* The team will work individually initially and then come together for meetings to work on the project.\n\n### Design Process\n* The design process will consist of three components: functional design, conceptual design, and detailed design.\n* The functional design will focus on the technical functions of the remote control.\n* The conceptual design will focus on the user interface and user experience.\n* The detailed design will focus on the final design of the remote control.\n\n### Design Requirements\n* The remote control should have a high battery life, but not at the expense of being too far from the usual design.\n* The remote control should be user-friendly and easy to use.\n* The remote control should be original and have unique features.\n\n### Team Roles\n* The Marketing Expert (Cat) will be responsible for the user requirements specification, trend watching, and product evaluation.\n* The Industrial Designer (Gaurav) will be responsible for the functional design and detailed design.\n* The User Interface Designer (Maarika) will be responsible for the conceptual design and user interface design.\n\n### Project Timeline\n* The team will have another meeting in thirty minutes to discuss the working design, technical functions design, and user requirements specification.\n\n## Decisions Made\n* The team will work individually initially and then come together for meetings to work on the project.\n* The remote control should have a high battery life, but not at the expense of being too far from the usual design.\n* The remote control should be user-friendly and easy to use.\n* The remote control should be original and have unique features.\n\n## Open Questions\n* What special features should the remote control have to make it stand out from existing ones?\n* How can the team balance originality with user-friendliness to avoid a steep learning curve for new users?\n* What is the budget for the project, and how will it be allocated?"
+    },
+    {
+      "agent": "reviewer",
+      "revision": 0,
+      "prompt_tokens": 7571,
+      "completion_tokens": 112,
+      "cached_tokens": 0,
+      "ttft_s": 0.10217679899869836,
+      "e2e_s": 0.8909798819986463,
+      "decode_tps": 141.98727466181492,
+      "error": null,
+      "text": "{\n  \"status\": \"revise\",\n  \"issues\": {\n    \"summarizer\": \"The summary does not accurately capture the discussion about the design process, including the three components of functional design, conceptual design, and detailed design.\",\n    \"extractor\": \"The action items are not accurately extracted from the transcript, and some tasks are missing or have incorrect owners.\",\n    \"drafter\": \"The follow-up email and Slack message do not accurately capture the discussion and action items from the meeting, and some information is missing.\"\n  }\n}"
+    },
+    {
+      "agent": "drafter",
+      "revision": 1,
+      "prompt_tokens": 5894,
+      "completion_tokens": 378,
+      "cached_tokens": 0,
+      "ttft_s": 0.07196892199863214,
+      "e2e_s": 3.1568294429998787,
+      "decode_tps": 122.53390304898238,
+      "error": null,
+      "text": "## Email\nSubject: Recap of First Design Project Meeting\n\nDear Team,\n\nThis email aims to recap the key decisions and action items from our first meeting on the design project for a new remote control. The main objectives of the project are to create a remote control that is original, user-friendly, and trendy.\n\nThe team will work individually initially and then come together for meetings to work on the project. We will identify unique features for the remote control to make it stand out from existing ones. The remote control should have a high battery life, but not at the expense of being too far from the usual design.\n\nKey action items:\n\n* Work individually initially and then come together for meetings\n* Identify unique features for the remote control\n* Balance originality with user-friendliness to avoid a steep learning curve\n* Ensure the design fits in with the stereotype of a remote control\n\nNext steps:\n\n* Review the working design, technical functions design, and user requirements specification\n* Come prepared to the next meeting with specific ideas for unique features\n\nIf you have any questions or concerns, please don't hesitate to reach out. I look forward to seeing your progress and working together to create a successful project.\n\nBest regards,\nJen (Project Manager)\n\n## Slack\nThe team discussed the design project for a new remote control, focusing on originality, user-friendliness, and trendiness. Key decisions include:\n\n* Working individually initially and then coming together for meetings\n* Identifying unique features to make the remote control stand out\n* Balancing originality with user-friendliness to avoid a steep learning curve\n* Ensuring the design fits in with the stereotype of a remote control\n\nAction items:\n\n* Review the working design, technical functions design, and user requirements specification\n* Come prepared to the next meeting with specific ideas for unique features\n\nNext meeting in 30 minutes."
+    },
+    {
+      "agent": "extractor",
+      "revision": 1,
+      "prompt_tokens": 5940,
+      "completion_tokens": 1024,
+      "cached_tokens": 0,
+      "ttft_s": 0.049235744001634885,
+      "e2e_s": 7.8220736289986235,
+      "decode_tps": 131.74081527887117,
+      "error": null,
+      "text": "[\n  {\n    \"task\": \"Identify unique features for the remote control to make it stand out from existing ones\",\n    \"owner\": \"unassigned\",\n    \"deadline\": \"none\",\n    \"evidence\": \"The team will identify unique features for the remote control to make it stand out from existing ones.\"\n  },\n  {\n    \"task\": \"Design the technical functions of the remote control\",\n    \"owner\": \"User Interface Designer (Maarika)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for designing the technical functions of the um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Come up with interface concept\",\n    \"owner\": \"User Interface Designer (Maarika)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for designing the technical functions of the um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design the user interface of the remote control\",\n    \"owner\": \"User Interface Designer (Maarika)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for designing the technical functions of the um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design all the details of the product\",\n    \"owner\": \"Industrial Designer (Gaurav)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: So yeah, I like cows. Um my my role in the project is um uh the industrial designer, so I'm supposed to design all the details of of the product um ho how it works and whatever it'll mm take during the functional role, what are the various functions that have to be performed by it uh during the um conceptual design, what are the various components of it and um finally, I'm not too sure what was the last part. Um the detailed design, I I guess it will again be the identification of the components and how they integrate with each other.\"\n  },\n  {\n    \"task\": \"Design the conceptual design of the remote control\",\n    \"owner\": \"Industrial Designer (Gaurav)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: So yeah, I like cows. Um my my role in the project is um uh the industrial designer, so I'm supposed to design all the details of of the product um ho how it works and whatever it'll mm take during the functional role, what are the various functions that have to be performed by it uh during the um conceptual design, what are the various components of it and um finally, I'm not too sure what was the last part. Um the detailed design, I I guess it will again be the identification of the components and how they integrate with each other.\"\n  },\n  {\n    \"task\": \"Design the detailed design of the remote control\",\n    \"owner\": \"Industrial Designer (Gaurav)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: So yeah, I like cows. Um my my role in the project is um uh the industrial designer, so I'm supposed to design all the details of of the product um ho how it works and whatever it'll mm take during the functional role, what are the various functions that have to be performed by it uh during the um conceptual design, what are the various components of it and um finally, I'm not too sure what was the last part. Um the detailed design, I I guess it will again be the identification of the components and how they integrate with each other.\"\n  },\n  {\n    \"task\": \"Identify the components of the remote control\",\n    \"owner\": \"Industrial Designer (Gaurav)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: So yeah, I like cows. Um my my role in the project is um uh the industrial designer, so I'm supposed to design all the details of of the product um ho how it works and whatever it'll mm take during the functional role, what are the various functions that have to be performed by it uh during the um conceptual design"
+    },
+    {
+      "agent": "summarizer",
+      "revision": 1,
+      "prompt_tokens": 5918,
+      "completion_tokens": 519,
+      "cached_tokens": 0,
+      "ttft_s": 0.0709042620001128,
+      "e2e_s": 4.2483993120004016,
+      "decode_tps": 124.23713105296537,
+      "error": null,
+      "text": "## Overview\nThe meeting aimed to introduce the project team and discuss the design project for a new remote control for a television, focusing on its originality, user-friendliness, and trendiness. The team will work individually initially and then come together for meetings to work on the project. The project manager, Jen, will keep things going and ensure the team works together productively.\n\n## Key Discussion Points\n### Project Overview\n* The team will work on a new remote control for a television, focusing on originality, user-friendliness, and trendiness.\n* The project will have three components: functional design, conceptual design, and detailed design.\n\n### Design Process\n* Functional design: The team will identify the necessary functions for the remote control and design its technical aspects.\n* Conceptual design: The team will design the user interface and user experience of the remote control, considering how people will use it.\n* Detailed design: The team will refine the design, ensuring that all components work together seamlessly.\n\n### Team Roles and Responsibilities\n* Project Manager (Jen): Keeps things going and ensures the team works together productively.\n* Marketing Expert (Cat): Responsible for user requirements specification, trend watching, and product evaluation.\n* Industrial Designer (Gaurav): Responsible for designing the product's technical aspects, including its functional design and conceptual design.\n* User Interface Designer (Maarika): Responsible for designing the user interface and user experience of the remote control.\n\n### Design Requirements\n* The remote control should be original, user-friendly, and trendy.\n* It should have a high battery life, but not at the expense of being too far from the usual design.\n* It should fit in with the stereotype of a remote control, avoiding unnecessary complexity.\n\n### Ideas for the Remote Control\n* The team discussed ideas for the remote control, including a menu-based system, a minimalist design, and a focus on simplicity.\n* They also discussed the importance of balancing originality with user-friendliness to avoid a steep learning curve for new users.\n\n## Decisions Made\n* The team will work individually initially and then come together for meetings to work on the project.\n* The project will have three components: functional design, conceptual design, and detailed design.\n* The team will focus on creating a remote control that is original, user-friendly, and trendy.\n\n## Open Questions\n* How can the team balance originality with user-friendliness to avoid a steep learning curve for new users?\n* What specific features should the remote control have to make it stand out from existing ones?"
+    },
+    {
+      "agent": "reviewer",
+      "revision": 1,
+      "prompt_tokens": 7700,
+      "completion_tokens": 86,
+      "cached_tokens": 0,
+      "ttft_s": 0.102254378998623,
+      "e2e_s": 0.7067464729989297,
+      "decode_tps": 142.26819648026094,
+      "error": null,
+      "text": "{\n  \"status\": \"revise\",\n  \"issues\": {\n    \"summarizer\": \"Summary does not accurately reflect the discussion on the design process and team roles.\",\n    \"extractor\": \"Action items are not properly extracted from the transcript, and some tasks are missing owners or deadlines.\",\n    \"drafter\": \"Follow-ups do not accurately reflect the discussion and action items from the meeting.\"\n  }\n}"
+    },
+    {
+      "agent": "drafter",
+      "revision": 2,
+      "prompt_tokens": 5883,
+      "completion_tokens": 329,
+      "cached_tokens": 0,
+      "ttft_s": 0.05225006399996346,
+      "e2e_s": 2.742236927999329,
+      "decode_tps": 122.3054299643887,
+      "error": null,
+      "text": "## Email\nSubject: Recap of Design Project Meeting\n\nDear Team,\n\nThis email aims to recap the key decisions and action items from our meeting on the design project for a new remote control. The main objectives of the project are to create an original, user-friendly, and trendy remote control for a television.\n\nThe team will work individually initially and then come together for meetings to work on the project. We will identify unique features for the remote control to make it stand out from existing ones. The remote control should have a high battery life, but not at the expense of being too far from the usual design.\n\nTo ensure the project's success, we will balance originality with user-friendliness to avoid a steep learning curve for new users. The design should fit in with the stereotype of a remote control, avoiding unnecessary complexity.\n\nAction items:\n\n* Work individually on the project and come together for meetings to work on the project\n* Identify unique features for the remote control\n* Balance originality with user-friendliness\n* Ensure the design fits in with the stereotype of a remote control\n\nPlease refer to the meeting transcript for more details on the discussion.\n\nBest regards,\nJen\nProject Manager\n\n## Slack\nThe team discussed the design project for a new remote control, focusing on originality, user-friendliness, and trendiness. Key decisions include working individually initially and then coming together for meetings, identifying unique features, and balancing originality with user-friendliness. Action items include working on the project individually and coming together for meetings, identifying unique features, and ensuring the design fits in with the stereotype of a remote control."
+    },
+    {
+      "agent": "extractor",
+      "revision": 2,
+      "prompt_tokens": 5938,
+      "completion_tokens": 1024,
+      "cached_tokens": 0,
+      "ttft_s": 0.06747512299989467,
+      "e2e_s": 7.759606376999727,
+      "decode_tps": 133.12305344081722,
+      "error": null,
+      "text": "[\n  {\n    \"task\": \"Identify unique features for the remote control to make it stand out from existing ones\",\n    \"owner\": \"unassigned\",\n    \"deadline\": \"none\",\n    \"evidence\": \"The team will identify unique features for the remote control to make it stand out from existing ones.\"\n  },\n  {\n    \"task\": \"Design the technical functions of the remote control\",\n    \"owner\": \"User Interface Designer (Maarika)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for designing the technical functions of the um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design the conceptual design of the remote control\",\n    \"owner\": \"User Interface Designer (Maarika)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for designing the technical functions of the um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design the user interface of the remote control\",\n    \"owner\": \"User Interface Designer (Maarika)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for designing the technical functions of the um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design the detailed design of the remote control\",\n    \"owner\": \"Industrial Designer (Gaurav)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: So yeah, I like cows. Um my my role in the project is um uh the industrial designer, so I'm supposed to design all the details of of the product um ho how it works and whatever it'll mm take during the functional role, what are the various functions that have to be performed by it uh during the um conceptual design, what are the various components of it and um finally, I'm not too sure what was the last part. Um the detailed design, I I guess it will again be the identification of the components and how they integrate with each other.\"\n  },\n  {\n    \"task\": \"Create a new remote control for a television\",\n    \"owner\": \"unassigned\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Project Manager: So this is our project. What we're aiming to do is to create a new remote control for a television. Um we want it to be something original, something trendy and also something user friendly, so it has to be quite intuitive that people are able to use this product.\"\n  },\n  {\n    \"task\": \"Develop a user requirements specification for the remote control\",\n    \"owner\": \"Marketing Expert (Cat)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: I am the um I need my notebook, mm ooh {vocalsound} top banana. Thank you. Okay, cool, I am the Marketing Expert um so like I'm gonna be doing the apparently according to the little guy in the computer that knows everything the user g requirements specification of the functional design,\"\n  },\n  {\n    \"task\": \"Develop a trend watching plan for the remote control\",\n    \"owner\": \"Marketing Expert (Cat)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: I am the um I need my notebook, mm ooh {vocalsound} top banana. Thank you. Okay, cool, I am the Marketing Expert um so like I'm gonna be doing the apparently according to the little guy in the computer that knows everything the user g requirements specification of the functional design,\"\n  },\n  {\n    \"task\": \"Develop a product evaluation plan for the remote control\",\n    \"owner\": \"Marketing Expert (Cat)\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: I am the um I need my notebook, mm ooh {vocalsound} top banana. Thank you. Okay, cool, I am the Marketing Expert um so like I'm gonna be doing the apparently according to the little guy in the computer that knows everything the user g requirements specification of the functional design,\"\n  },\n  {\n    \"task\": \"Design a menu"
+    },
+    {
+      "agent": "summarizer",
+      "revision": 2,
+      "prompt_tokens": 5905,
+      "completion_tokens": 451,
+      "cached_tokens": 0,
+      "ttft_s": 0.06673914199927822,
+      "e2e_s": 3.6958889630004705,
+      "decode_tps": 124.27152976439542,
+      "error": null,
+      "text": "## Overview\nThe meeting aimed to introduce the project team and discuss the design project for a new remote control for a television, focusing on its originality, user-friendliness, and trendiness. The team will work individually initially and then come together for meetings to work on the project.\n\n## Key Discussion Points\n### Project Overview\n* The project aims to create a new remote control for a television that is original, user-friendly, and trendy.\n* The team will work individually initially and then come together for meetings to work on the project.\n\n### Design Process\n* The design process will have three components: functional design, conceptual design, and detailed design.\n* Functional design will focus on the technical aspects of the remote control, such as its functions and features.\n* Conceptual design will focus on the user experience and how people will interact with the remote control.\n* Detailed design will focus on the final design of the remote control, including its components and how they integrate with each other.\n\n### Team Roles\n* The Industrial Designer will be responsible for designing the technical functions of the remote control and identifying its components.\n* The User Interface Designer will be responsible for designing the user interface of the remote control and creating the user requirements specification.\n* The Marketing Expert will be responsible for creating the user requirements specification, trend watching, and product evaluation.\n* The Project Manager will be responsible for keeping the team on track and ensuring that the project is completed on time.\n\n### Design Requirements\n* The remote control should have a high battery life, but not at the expense of being too far from the usual design.\n* The remote control should be original, user-friendly, and trendy.\n* The team should balance originality with user-friendliness to avoid a steep learning curve for new users.\n\n## Decisions Made\n* The team will work individually initially and then come together for meetings to work on the project.\n* The remote control should have a high battery life, but not at the expense of being too far from the usual design.\n\n## Open Questions\n* What special features should the remote control have to make it stand out from existing ones?\n* How can the team balance originality with user-friendliness to avoid a steep learning curve for new users?"
+    },
+    {
+      "agent": "reviewer",
+      "revision": 2,
+      "prompt_tokens": 7583,
+      "completion_tokens": 106,
+      "cached_tokens": 0,
+      "ttft_s": 0.10291458799838438,
+      "e2e_s": 0.848297675998765,
+      "decode_tps": 142.20875373542935,
+      "error": null,
+      "text": "{\n  \"status\": \"revise\",\n  \"issues\": {\n    \"summarizer\": \"The summary does not accurately capture the discussion on the design process, specifically the distinction between functional design, conceptual design, and detailed design.\",\n    \"extractor\": \"The action items are not accurately extracted from the transcript, and some tasks are assigned to the wrong team members.\",\n    \"drafter\": \"The follow-up email and Slack message do not accurately capture the discussion and action items from the meeting.\"\n  }\n}"
+    }
+  ],
+  "spans": [
+    {
+      "name": "coordinator",
+      "kind": "phase",
+      "start_ts": 1781054339.8337562,
+      "end_ts": 1781054341.2800558,
+      "duration_s": 1.446299610001006,
+      "attrs": {}
+    },
+    {
+      "name": "coordinator",
+      "kind": "agent",
+      "start_ts": 1781054339.8337634,
+      "end_ts": 1781054341.2800398,
+      "duration_s": 1.4462763500014262,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5735,
+        "completion_tokens": 195,
+        "total_tokens": 5930,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.03321853600209579,
+        "decode_s": 1.4130578139993304,
+        "decode_tokens_per_s": 137.9985999639307
+      }
+    },
+    {
+      "name": "drafter",
+      "kind": "phase",
+      "start_ts": 1781054341.2809405,
+      "end_ts": 1781054344.068412,
+      "duration_s": 2.7874714529971243,
+      "attrs": {}
+    },
+    {
+      "name": "drafter",
+      "kind": "agent",
+      "start_ts": 1781054341.2809618,
+      "end_ts": 1781054344.0683856,
+      "duration_s": 2.7874237739997625,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5851,
+        "completion_tokens": 268,
+        "total_tokens": 6119,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.4499776809971081,
+        "decode_s": 2.3374460930026544,
+        "decode_tokens_per_s": 114.655050570912
+      }
+    },
+    {
+      "name": "summarizer",
+      "kind": "phase",
+      "start_ts": 1781054341.2821383,
+      "end_ts": 1781054345.8880577,
+      "duration_s": 4.605919403998996,
+      "attrs": {}
+    },
+    {
+      "name": "summarizer",
+      "kind": "agent",
+      "start_ts": 1781054341.2821574,
+      "end_ts": 1781054345.8880284,
+      "duration_s": 4.605870893999963,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5873,
+        "completion_tokens": 500,
+        "total_tokens": 6373,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.6261318319993734,
+        "decode_s": 3.97973906200059,
+        "decode_tokens_per_s": 125.63637771483769
+      }
+    },
+    {
+      "name": "extractor",
+      "kind": "phase",
+      "start_ts": 1781054341.2815657,
+      "end_ts": 1781054349.563628,
+      "duration_s": 8.282062209000287,
+      "attrs": {}
+    },
+    {
+      "name": "extractor",
+      "kind": "agent",
+      "start_ts": 1781054341.2815855,
+      "end_ts": 1781054349.5635853,
+      "duration_s": 8.281999749000533,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5902,
+        "completion_tokens": 1024,
+        "total_tokens": 6926,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.2443449940001301,
+        "decode_s": 8.037654755000403,
+        "decode_tokens_per_s": 127.40034639618564
+      }
+    },
+    {
+      "name": "reviewer",
+      "kind": "phase",
+      "start_ts": 1781054349.5642574,
+      "end_ts": 1781054350.4552732,
+      "duration_s": 0.8910156620004273,
+      "attrs": {}
+    },
+    {
+      "name": "reviewer",
+      "kind": "agent",
+      "start_ts": 1781054349.5642676,
+      "end_ts": 1781054350.4552474,
+      "duration_s": 0.8909798819986463,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 7571,
+        "completion_tokens": 112,
+        "total_tokens": 7683,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.10217679899869836,
+        "decode_s": 0.788803082999948,
+        "decode_tokens_per_s": 141.98727466181492
+      }
+    },
+    {
+      "name": "drafter",
+      "kind": "phase",
+      "start_ts": 1781054350.4565768,
+      "end_ts": 1781054353.6134546,
+      "duration_s": 3.156877732999419,
+      "attrs": {}
+    },
+    {
+      "name": "drafter",
+      "kind": "agent",
+      "start_ts": 1781054350.456598,
+      "end_ts": 1781054353.6134274,
+      "duration_s": 3.1568294429998787,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5894,
+        "completion_tokens": 378,
+        "total_tokens": 6272,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.07196892199863214,
+        "decode_s": 3.0848605210012465,
+        "decode_tokens_per_s": 122.53390304898238
+      }
+    },
+    {
+      "name": "summarizer",
+      "kind": "phase",
+      "start_ts": 1781054350.4577684,
+      "end_ts": 1781054354.706213,
+      "duration_s": 4.248444642002141,
+      "attrs": {}
+    },
+    {
+      "name": "summarizer",
+      "kind": "agent",
+      "start_ts": 1781054350.4577863,
+      "end_ts": 1781054354.7061856,
+      "duration_s": 4.2483993120004016,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5918,
+        "completion_tokens": 519,
+        "total_tokens": 6437,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.0709042620001128,
+        "decode_s": 4.177495050000289,
+        "decode_tokens_per_s": 124.23713105296537
+      }
+    },
+    {
+      "name": "extractor",
+      "kind": "phase",
+      "start_ts": 1781054350.4571924,
+      "end_ts": 1781054358.2793279,
+      "duration_s": 7.822135489001084,
+      "attrs": {}
+    },
+    {
+      "name": "extractor",
+      "kind": "agent",
+      "start_ts": 1781054350.4572108,
+      "end_ts": 1781054358.2792845,
+      "duration_s": 7.8220736289986235,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5940,
+        "completion_tokens": 1024,
+        "total_tokens": 6964,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.049235744001634885,
+        "decode_s": 7.772837884996989,
+        "decode_tokens_per_s": 131.74081527887117
+      }
+    },
+    {
+      "name": "reviewer",
+      "kind": "phase",
+      "start_ts": 1781054358.2799416,
+      "end_ts": 1781054358.9867232,
+      "duration_s": 0.7067815120026353,
+      "attrs": {}
+    },
+    {
+      "name": "reviewer",
+      "kind": "agent",
+      "start_ts": 1781054358.279952,
+      "end_ts": 1781054358.9866986,
+      "duration_s": 0.7067464729989297,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 7700,
+        "completion_tokens": 86,
+        "total_tokens": 7786,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.102254378998623,
+        "decode_s": 0.6044920940003067,
+        "decode_tokens_per_s": 142.26819648026094
+      }
+    },
+    {
+      "name": "drafter",
+      "kind": "phase",
+      "start_ts": 1781054358.9880307,
+      "end_ts": 1781054361.7303088,
+      "duration_s": 2.7422782180001377,
+      "attrs": {}
+    },
+    {
+      "name": "drafter",
+      "kind": "agent",
+      "start_ts": 1781054358.9880517,
+      "end_ts": 1781054361.7302885,
+      "duration_s": 2.742236927999329,
+      "attrs": {
+        "revision": 2,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5883,
+        "completion_tokens": 329,
+        "total_tokens": 6212,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.05225006399996346,
+        "decode_s": 2.6899868639993656,
+        "decode_tokens_per_s": 122.3054299643887
+      }
+    },
+    {
+      "name": "summarizer",
+      "kind": "phase",
+      "start_ts": 1781054358.9892597,
+      "end_ts": 1781054362.685192,
+      "duration_s": 3.695932342998276,
+      "attrs": {}
+    },
+    {
+      "name": "summarizer",
+      "kind": "agent",
+      "start_ts": 1781054358.9892774,
+      "end_ts": 1781054362.6851664,
+      "duration_s": 3.6958889630004705,
+      "attrs": {
+        "revision": 2,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5905,
+        "completion_tokens": 451,
+        "total_tokens": 6356,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.06673914199927822,
+        "decode_s": 3.6291498210011923,
+        "decode_tokens_per_s": 124.27152976439542
+      }
+    },
+    {
+      "name": "extractor",
+      "kind": "phase",
+      "start_ts": 1781054358.988682,
+      "end_ts": 1781054366.7483585,
+      "duration_s": 7.759676376001153,
+      "attrs": {}
+    },
+    {
+      "name": "extractor",
+      "kind": "agent",
+      "start_ts": 1781054358.9886994,
+      "end_ts": 1781054366.7483058,
+      "duration_s": 7.759606376999727,
+      "attrs": {
+        "revision": 2,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5938,
+        "completion_tokens": 1024,
+        "total_tokens": 6962,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.06747512299989467,
+        "decode_s": 7.6921312539998326,
+        "decode_tokens_per_s": 133.12305344081722
+      }
+    },
+    {
+      "name": "reviewer",
+      "kind": "phase",
+      "start_ts": 1781054366.7490027,
+      "end_ts": 1781054367.5973363,
+      "duration_s": 0.8483334970005671,
+      "attrs": {}
+    },
+    {
+      "name": "reviewer",
+      "kind": "agent",
+      "start_ts": 1781054366.7490127,
+      "end_ts": 1781054367.5973103,
+      "duration_s": 0.848297675998765,
+      "attrs": {
+        "revision": 2,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 7583,
+        "completion_tokens": 106,
+        "total_tokens": 7689,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.10291458799838438,
+        "decode_s": 0.7453830880003807,
+        "decode_tokens_per_s": 142.20875373542935
+      }
+    }
+  ]
+}

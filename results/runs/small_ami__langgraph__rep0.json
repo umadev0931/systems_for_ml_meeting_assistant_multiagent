@@ -1,0 +1,570 @@
+{
+  "mode": "langgraph",
+  "transcript_size": "small_ami",
+  "repeat": 0,
+  "revisions": 2,
+  "verdict_status": "pass",
+  "errored": false,
+  "n_agent_calls": 13,
+  "e2e_wall_s": 22.486164175999875,
+  "ttft_mean_s": 0.15698846407674585,
+  "ttft_max_s": 0.629062989999511,
+  "decode_tps_mean": 129.23628213542457,
+  "prompt_tokens": 80868,
+  "completion_tokens": 4978,
+  "total_tokens": 85846,
+  "cached_tokens": 0,
+  "prefix_cache_hit_ratio": 0.0,
+  "throughput_tok_per_s": 3817.7253945173043,
+  "server_metrics_available": true,
+  "host_cpu_percent_mean": 1.3897727272727276,
+  "host_cpu_percent_max": 1.9,
+  "orchestrator_rss_mb_mean": 129.7400552727274,
+  "orchestrator_rss_mb_max": 131.50208,
+  "host_mem_used_mb_mean": 18519.057547636363,
+  "host_mem_used_mb_max": 18541.678592,
+  "host_mem_percent_mean": 9.111363636363652,
+  "host_mem_percent_max": 9.2,
+  "vllm_gpu_cache_usage_perc_mean": 0.03243043019176403,
+  "vllm_gpu_cache_usage_perc_max": 0.055451479955039296,
+  "vllm_num_requests_running_mean": 1.75,
+  "vllm_num_requests_running_max": 3.0,
+  "vllm_num_requests_waiting_mean": 0.011363636363636364,
+  "vllm_num_requests_waiting_max": 1.0,
+  "delta_prompt_tokens_total": 80868.0,
+  "delta_generation_tokens_total": 4978.0,
+  "delta_prefix_cache_queries_total": 80868.0,
+  "delta_prefix_cache_hits_total": 58624.0,
+  "delta_num_requests_total": 13.0,
+  "delta_server_prefix_cache_hit_rate": 0.7249344610970965,
+  "artifacts": {
+    "summary": "## Overview\nThe meeting aimed to introduce the project, discuss the project plan, and practice using project tools. The team consists of a Project Manager (Jen), a Marketing Expert (Cat), an Industrial Designer (Gaurav), and a User Interface Designer (Maarika). They are working on creating a new remote control for a television that is original, trendy, user-friendly, and intuitive.\n\n## Key Discussion Points\n### Project Plan and Roles\n* The team will work individually initially and then come together for meetings to work on the project.\n* The team will use a menu-based system or a single button for a menu to simplify the remote control.\n* The Project Manager will keep things going and ensure the team works together productively.\n* The Industrial Designer will design the details of the product, including its functionality and components.\n* The User Interface Designer will be responsible for designing the technical functions, interface concept, and user interface design at different stages of the project.\n* The Marketing Expert will focus on the user requirements specification, trend watching, and product evaluation.\n\n### Design Requirements\n* The remote control should be original, trendy, user-friendly, and intuitive.\n* It should have a high battery life, but not at the expense of usability.\n* The team should balance originality with usability to avoid a steep learning curve for new users.\n* The design should not be overly complicated, as this can lead to user confusion.\n\n### Production Costs and Profit Targets\n* The team aims to sell the remote controls for 25 Euros each on the international market.\n* The production costs should be a maximum of 12.5 Euros to reach a profit target of 50 million Euros.\n\n## Decisions Made\n* The team will use a menu-based system or a single button for a menu to simplify the remote control.\n* The team will aim for a high battery life, but not at the expense of usability.\n\n## Open Questions\n* What special features should the remote control have to make it unique and out of the ordinary?\n* How can the team balance originality with usability to avoid a steep learning curve for new users?\n* What are the production costs and profit targets for the remote control, and how can the team ensure they are met?",
+    "action_items": "[\n  {\n    \"task\": \"Design the technical functions of the remote control\",\n    \"owner\": \"User Interface Designer\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for yeah, designing the technical functions of the um um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design a menu-based system or a single button for a menu\",\n    \"owner\": \"Marketing Expert\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: You know, so something heading towards that, so it's not overly I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know?\"\n  },\n  {\n    \"task\": \"Design a remote control with a high battery life\",\n    \"owner\": \"Industrial Designer\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: Mm . Uh we can aim for I mean we can think about all these little things, but we can aim for something wi that gives a high battery life, although I don't think that um it's a huge problem for remote controls anyway, battery life,\"\n  },\n  {\n    \"task\": \"Design the user interface of the remote control\",\n    \"owner\": \"User Interface Designer\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um well, there are different kinds of dogs, but okay um. Industrial Designer: That's not bad at all. Project Manager: Ah it looks like a dog. Industrial Designer: Yep. User Interface: Okay. Marketing: I think it needs four legs if it's gonna walk though. User Interface: Yeah, maybe it has some colourful patches, yeah.\"\n  },\n  {\n    \"task\": \"Create a new remote control for a television\",\n    \"owner\": \"Team\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Project Manager: So, this is our project. What we're aiming to do is to create a new remote control for a television. Um we want it to be something original, something trendy and also something user friendly, so it has to be quite intuitive that people are able to use this product.\"\n  },\n  {\n    \"task\": \"Balance originality with usability\",\n    \"owner\": \"Team\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Project Manager: The team should balance originality with usability to avoid a steep learning curve for new users.\"\n  },\n  {\n    \"task\": \"Keep production costs and profit targets in mind\",\n    \"owner\": \"Team\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Project Manager: The team should keep in mind the production costs and profit targets when designing the remote control.\"\n  }\n]",
+    "followups": "## Email\nSubject: Recap of First Meeting and Next Steps\n\nDear Team,\n\nI wanted to follow up on our first meeting and recap the key decisions and action items. As discussed, our project aims to create a new remote control for a television that is original, trendy, user-friendly, and intuitive. We will be working individually initially and then coming together for meetings to work on the project.\n\nWe decided to use a menu-based system or a single button for a menu to simplify the remote control. We also discussed the importance of balancing originality with usability to avoid a steep learning curve for new users. Additionally, we agreed to aim for a high battery life without compromising usability.\n\nBefore our next meeting, please review the project plan and the technical functions design. For Maarika, please focus on the user requirements specification. We will discuss our findings and progress in our next meeting.\n\nPlease bring your laptops and any relevant materials to the next meeting. We will also need to unplug the whiteboard and other equipment.\n\nLooking forward to seeing you all in 30 minutes.\n\nBest regards,\nJen\nProject Manager\n\n## Slack\nReminder: Next meeting in 30 minutes. Please review the project plan and technical functions design. Aim for a high battery life without compromising usability. Bring laptops and relevant materials.",
+    "brief": "COORDINATION BRIEF\n\nPARTICIPANTS:\n- Project Manager (Jen)\n- Marketing Expert (Cat)\n- Industrial Designer (Gaurav)\n- User Interface Designer (Maarika)\n\nSCOPE:\nThe meeting aimed to introduce the project, discuss the project plan, and practice using project tools. The goal is to create a new remote control for a television that is original, trendy, user-friendly, and intuitive.\n\nDECISION CUES:\n- The team will work individually initially and then come together for meetings to work on the project.\n- The team will use a menu-based system or a single button for a menu to simplify the remote control.\n- The team will aim for a high battery life, but not at the expense of usability.\n\nCAUTIONS:\n- The team should balance originality with usability to avoid a steep learning curve for new users.\n- The team should not overcomplicate the design, as this can lead to user confusion.\n- The team should keep in mind the production costs and profit targets when designing the remote control."
+  },
+  "per_agent": [
+    {
+      "agent": "coordinator",
+      "revision": 0,
+      "prompt_tokens": 5735,
+      "completion_tokens": 214,
+      "cached_tokens": 0,
+      "ttft_s": 0.0312809360002575,
+      "e2e_s": 1.5825516059994698,
+      "decode_tps": 137.9514253306347,
+      "error": null,
+      "text": "COORDINATION BRIEF\n\nPARTICIPANTS:\n- Project Manager (Jen)\n- Marketing Expert (Cat)\n- Industrial Designer (Gaurav)\n- User Interface Designer (Maarika)\n\nSCOPE:\nThe meeting aimed to introduce the project, discuss the project plan, and practice using project tools. The goal is to create a new remote control for a television that is original, trendy, user-friendly, and intuitive.\n\nDECISION CUES:\n- The team will work individually initially and then come together for meetings to work on the project.\n- The team will use a menu-based system or a single button for a menu to simplify the remote control.\n- The team will aim for a high battery life, but not at the expense of usability.\n\nCAUTIONS:\n- The team should balance originality with usability to avoid a steep learning curve for new users.\n- The team should not overcomplicate the design, as this can lead to user confusion.\n- The team should keep in mind the production costs and profit targets when designing the remote control."
+    },
+    {
+      "agent": "drafter",
+      "revision": 0,
+      "prompt_tokens": 5870,
+      "completion_tokens": 285,
+      "cached_tokens": 0,
+      "ttft_s": 0.24494377299924963,
+      "e2e_s": 2.904165420000936,
+      "decode_tps": 107.17421780968951,
+      "error": null,
+      "text": "## Email\nSubject: Recap of First Design Project Meeting\n\nDear Team,\n\nThis email serves as a recap of our first design project meeting, which took place on [date]. We discussed the project plan, introduced ourselves, and practiced using project tools. The main decisions and action items from the meeting are as follows:\n\n* We will work individually initially and then come together for meetings to work on the project.\n* The team will use a menu-based system or a single button for a menu to simplify the remote control.\n* We aim for a high battery life, but not at the expense of usability.\n* We will consider unique features that are out of the ordinary, such as a menu-based system or a single button for a menu, to make the remote control original and user-friendly.\n\nPlease review the meeting notes and action items, and feel free to reach out to me if you have any questions or concerns.\n\nBest regards,\nJen (Project Manager)\n\n## Slack\nReminder: Project Meeting Recap\n\nWe discussed the project plan, introduced ourselves, and practiced using project tools. Key decisions include:\n\n* Working individually initially, then coming together for meetings\n* Menu-based system or single button for menu to simplify remote control\n* High battery life, but not at expense of usability\n* Considering unique features to make remote control original and user-friendly\n\nNext meeting in 30 minutes. Carry laptops back and unplug things."
+    },
+    {
+      "agent": "extractor",
+      "revision": 0,
+      "prompt_tokens": 5921,
+      "completion_tokens": 761,
+      "cached_tokens": 0,
+      "ttft_s": 0.629062989999511,
+      "e2e_s": 6.424490613000671,
+      "decode_tps": 131.31041391660352,
+      "error": null,
+      "text": "[\n  {\n    \"task\": \"Design the technical functions of the remote control\",\n    \"owner\": \"User Interface\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for designing the technical functions of the um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design the user interface of the remote control\",\n    \"owner\": \"User Interface\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um well, there are different kinds of dogs, but okay um. Industrial Designer: That's not bad at all. Project Manager: Ah it looks like a dog. Industrial Designer: Yep. Marketing: Is a bit more impressive than my rabbit. User Interface: Okay. Marketing: I think it needs four legs if it's gonna walk though.\"\n  },\n  {\n    \"task\": \"Design the conceptual design of the remote control\",\n    \"owner\": \"User Interface\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um well, there are different kinds of dogs, but okay um. Industrial Designer: That's not bad at all. Project Manager: Ah it looks like a dog. Industrial Designer: Yep. Marketing: Is a bit more impressive than my rabbit. User Interface: Okay. Marketing: I think it needs four legs if it's gonna walk though.\"\n  },\n  {\n    \"task\": \"Design the detailed design of the remote control\",\n    \"owner\": \"Industrial Designer\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: So yeah, I like cows. Um my my role in the project is um uh the industrial designer, so I'm supposed to design all the details of of the product um ho how it works and whatever it'll mm take during the functional role, what are the various functions that have to be performed by it uh during the um conceptual design, what are the various components of it and um finally, I'm not too sure what was the last part. Um the detailed design, I I guess it will again be the identification of the components and how they integrate with each other.\"\n  },\n  {\n    \"task\": \"Design the user interface of the remote control to be menu-based or single-button\",\n    \"owner\": \"Marketing\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: Yeah, I was looking at the website, and the other things that they've made and I like put down some like inspirational words like that I got from looking at the pictures. So the motto is um we put the fashion in electronics and um so it's something that is sleek and stylish but it's still functional, you know? Marketing: So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.\"\n  },\n  {\n    \"task\": \"Design the remote control to have a high battery life\",\n    \"owner\": \"Industrial Designer\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: Mm . {vocalsound} Uh we can aim for {disfmarker} I mean we can think about all these little things, but we can aim for something wi that gives a high battery life, although I don't think that um it's a huge problem for remote controls anyway, battery life,\"\n  }\n]"
+    },
+    {
+      "agent": "summarizer",
+      "revision": 0,
+      "prompt_tokens": 5892,
+      "completion_tokens": 445,
+      "cached_tokens": 0,
+      "ttft_s": 0.4502657699995325,
+      "e2e_s": 4.165313481000339,
+      "decode_tps": 119.78311844617474,
+      "error": null,
+      "text": "## Overview\nThe meeting aimed to introduce the project, discuss the project plan, and practice using project tools. The team created a new remote control for a television that is original, trendy, user-friendly, and intuitive. The team will work individually initially and then come together for meetings to work on the project.\n\n## Key Discussion Points\n### Project Overview\n* The team will create a new remote control for a television that is original, trendy, user-friendly, and intuitive.\n* The team will work individually initially and then come together for meetings to work on the project.\n\n### Project Plan\n* The project plan has three components: functional design, conceptual design, and detailed design.\n* The team will start with functional design, then conceptual design, and finally detailed design.\n\n### Design Considerations\n* The team should balance originality with usability to avoid a steep learning curve for new users.\n* The team should not overcomplicate the design, as this can lead to user confusion.\n* The team should keep in mind the production costs and profit targets when designing the remote control.\n\n### Design Ideas\n* The team discussed the idea of a menu-based system or a single button for a menu to simplify the remote control.\n* The team also discussed the idea of a high battery life, but not at the expense of usability.\n* The team should aim for a design that is sleek and stylish, but still functional.\n\n### User Interface\n* The team discussed the idea of a user-friendly interface that is easy to use.\n* The team should consider the user requirements specification, technical functions design, and user interface design.\n\n## Decisions Made\n* The team will work individually initially and then come together for meetings to work on the project.\n* The team will use a menu-based system or a single button for a menu to simplify the remote control.\n* The team will aim for a high battery life, but not at the expense of usability.\n\n## Open Questions\n* What special features should the remote control have to make it stand out from existing ones?\n* How can the team balance originality with usability to avoid a steep learning curve for new users?\n* What are the production costs and profit targets for the remote control?"
+    },
+    {
+      "agent": "reviewer",
+      "revision": 0,
+      "prompt_tokens": 7268,
+      "completion_tokens": 157,
+      "cached_tokens": 0,
+      "ttft_s": 0.09746746900054859,
+      "e2e_s": 1.2067039270004898,
+      "decode_tps": 141.53880254088108,
+      "error": null,
+      "text": "{\n  \"status\": \"revise\",\n  \"issues\": {\n    \"summarizer\": \"The summary does not accurately capture the discussion on the production costs and profit targets for the remote control.\",\n    \"extractor\": \"The action items are not accurately extracted from the transcript. For example, the task 'Design the user interface of the remote control' is assigned to User Interface, but the discussion on the user interface is not limited to User Interface.\",\n    \"drafter\": \"The follow-up email and Slack message do not accurately capture the discussion on the project plan and action items. For example, the email mentions that the team will use a menu-based system or a single button for a menu, but this is not explicitly stated in the transcript.\"\n  }\n}"
+    },
+    {
+      "agent": "drafter",
+      "revision": 1,
+      "prompt_tokens": 5941,
+      "completion_tokens": 258,
+      "cached_tokens": 0,
+      "ttft_s": 0.053628074001608184,
+      "e2e_s": 2.169880761000968,
+      "decode_tps": 121.91360775816374,
+      "error": null,
+      "text": "## Email\nSubject: Recap of First Meeting and Next Steps\n\nDear Team,\n\nThis email is a brief recap of our first meeting and the next steps for the project. We discussed the project plan, which includes working individually initially and then coming together for meetings to work on the project. We also touched on the importance of balancing originality with usability to avoid a steep learning curve for new users.\n\nSome key points to keep in mind:\n\n* We aim to create a new remote control for a television that is original, trendy, user-friendly, and intuitive.\n* We will work individually initially and then come together for meetings to work on the project.\n* We will aim for a high battery life, but not at the expense of usability.\n* We will discuss and finalize the project plan in our next meeting.\n\nPlease review the meeting notes and action items, and let me know if you have any questions or concerns. I look forward to our next meeting in thirty minutes.\n\nBest regards,\nJen\n\n## Slack\nWe discussed the project plan and decided to aim for a high battery life without compromising usability. We also touched on the importance of balancing originality with usability to avoid a steep learning curve for new users. Let's keep these points in mind as we move forward with the project."
+    },
+    {
+      "agent": "extractor",
+      "revision": 1,
+      "prompt_tokens": 5984,
+      "completion_tokens": 746,
+      "cached_tokens": 0,
+      "ttft_s": 0.0758611910023319,
+      "e2e_s": 5.793706703003409,
+      "decode_tps": 130.46872260438568,
+      "error": null,
+      "text": "[\n  {\n    \"task\": \"Design the functional design of the remote control\",\n    \"owner\": \"Industrial Designer\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Project Manager: 'The method that we're going to use to complete the project, that has three components as such. There's the functional design of the the remote control. We're going {disfmarker} the way we'll do that I think is to to work individually initially and then come together for meetings to to work on that.'\"\n  },\n  {\n    \"task\": \"Design the conceptual design of the remote control\",\n    \"owner\": \"Industrial Designer\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Project Manager: 'but the conceptual design is um perhaps bigger than that and includes the {disfmarker} how people are going to use it and and that kind of thing.'\"\n  },\n  {\n    \"task\": \"Design the detailed design of the remote control\",\n    \"owner\": \"Industrial Designer\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Project Manager: 'And then the detailed design will come after that. We'll pull it all together.'\"\n  },\n  {\n    \"task\": \"Design the user interface of the remote control\",\n    \"owner\": \"User Interface\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: 'um so um in the different um {vocalsound} stages of the design, so at first I will be responsible for um for {vocalsound} yeah, designing the technical functions of the um {vocalsound} um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.'\"\n  },\n  {\n    \"task\": \"Identify the components of the remote control\",\n    \"owner\": \"Industrial Designer\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: 'I'm a bit confused about uh what's the difference between the functional design and conceptual design ? Uh i is it just uh more detail , uh as I understand it ?'\"\n  },\n  {\n    \"task\": \"Create a menu-based system or a single button for a menu\",\n    \"owner\": \"Marketing\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: 'You know , so something heading towards that , so it's not overly {disfmarker} I mean I don't know what h most of the buttons do on my remote controls , so I figure how many do you need , you know ?'\"\n  },\n  {\n    \"task\": \"Design a remote control with a high battery life\",\n    \"owner\": \"Industrial Designer\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: 'Mm . {vocalsound} Uh we can aim for {disfmarker} I mean we can think about all these little things , but we can aim for something wi that gives a high battery life , although I don't think that um it's a huge problem for remote controls anyway , battery life ,'\"\n  },\n  {\n    \"task\": \"Balance originality with usability\",\n    \"owner\": \"User Interface\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: 'even though it has to be re original we shouldn't uh go like too far away from from the usual ones , because otherwise the new users will just have a lot of problems'\"\n  }\n]"
+    },
+    {
+      "agent": "summarizer",
+      "revision": 1,
+      "prompt_tokens": 5929,
+      "completion_tokens": 495,
+      "cached_tokens": 0,
+      "ttft_s": 0.0751273019996006,
+      "e2e_s": 4.0128739989995665,
+      "decode_tps": 125.70640980465389,
+      "error": null,
+      "text": "## Overview\nThe meeting aimed to introduce the project, discuss the project plan, and practice using project tools. The team consisted of a Project Manager (Jen), Marketing Expert (Cat), Industrial Designer (Gaurav), and User Interface Designer (Maarika). They discussed the project's goals, including creating a new remote control for a television that is original, trendy, user-friendly, and intuitive.\n\n## Key Discussion Points\n### Project Plan and Roles\n* The team will work individually initially and then come together for meetings to work on the project.\n* The team will use a menu-based system or a single button for a menu to simplify the remote control.\n* The team will aim for a high battery life, but not at the expense of usability.\n\n### Design Considerations\n* The team should balance originality with usability to avoid a steep learning curve for new users.\n* The team should not overcomplicate the design, as this can lead to user confusion.\n* The team should keep in mind the production costs and profit targets when designing the remote control.\n* The team discussed the importance of making the remote control user-friendly and intuitive, with a focus on simplicity and minimal buttons.\n\n### Design Ideas\n* The team discussed the idea of a menu-based system or a single button for a menu to simplify the remote control.\n* The team considered the idea of a high battery life, but not at the expense of usability.\n* The team discussed the importance of making the remote control original, trendy, and user-friendly.\n\n### Production Costs and Profit Targets\n* The team discussed the production costs and profit targets for the remote control, with a goal of selling the remote controls for 25 Euros each and aiming for a profit of 50 million Euros.\n* The team noted that the production costs should be kept low, with a maximum of 12.5 Euros per remote control, to reach the profit target.\n\n## Decisions Made\n* The team will work individually initially and then come together for meetings to work on the project.\n* The team will use a menu-based system or a single button for a menu to simplify the remote control.\n* The team will aim for a high battery life, but not at the expense of usability.\n\n## Open Questions\n* The team did not discuss or decide on specific features for the remote control, but rather brainstormed ideas and concepts.\n* The team did not finalize the design or production plan for the remote control."
+    },
+    {
+      "agent": "reviewer",
+      "revision": 1,
+      "prompt_tokens": 7276,
+      "completion_tokens": 227,
+      "cached_tokens": 0,
+      "ttft_s": 0.09709354900041944,
+      "e2e_s": 1.7039564830010931,
+      "decode_tps": 141.2690498963895,
+      "error": null,
+      "text": "{\n  \"status\": \"revise\",\n  \"issues\": {\n    \"summarizer\": \"The summary does not accurately reflect the discussion on the production costs and profit targets. It also does not mention the team's decision to use a menu-based system or a single button for a menu to simplify the remote control.\",\n    \"extractor\": \"The action items are not accurately extracted from the transcript. For example, the task 'Design the user interface of the remote control' is assigned to the Industrial Designer, but according to the transcript, it is assigned to the User Interface Designer. Additionally, some action items are missing, such as 'Create a menu-based system or a single button for a menu' and 'Design a remote control with a high battery life'.\",\n    \"drafter\": \"The follow-up email does not accurately reflect the discussion on the project plan and the next steps. It also does not mention the team's decision to aim for a high battery life without compromising usability. Additionally, the email does not provide any specific instructions or tasks for the team to complete before the next meeting.\"\n  }\n}"
+    },
+    {
+      "agent": "drafter",
+      "revision": 2,
+      "prompt_tokens": 5948,
+      "completion_tokens": 262,
+      "cached_tokens": 0,
+      "ttft_s": 0.06892865199915832,
+      "e2e_s": 2.203873807000491,
+      "decode_tps": 122.71978012467325,
+      "error": null,
+      "text": "## Email\nSubject: Recap of First Meeting and Next Steps\n\nDear Team,\n\nI wanted to follow up on our first meeting and recap the key decisions and action items. As discussed, our project aims to create a new remote control for a television that is original, trendy, user-friendly, and intuitive. We will be working individually initially and then coming together for meetings to work on the project.\n\nWe decided to use a menu-based system or a single button for a menu to simplify the remote control. We also discussed the importance of balancing originality with usability to avoid a steep learning curve for new users. Additionally, we agreed to aim for a high battery life without compromising usability.\n\nBefore our next meeting, please review the project plan and the technical functions design. For Maarika, please focus on the user requirements specification. We will discuss our findings and progress in our next meeting.\n\nPlease bring your laptops and any relevant materials to the next meeting. We will also need to unplug the whiteboard and other equipment.\n\nLooking forward to seeing you all in 30 minutes.\n\nBest regards,\nJen\nProject Manager\n\n## Slack\nReminder: Next meeting in 30 minutes. Please review the project plan and technical functions design. Aim for a high battery life without compromising usability. Bring laptops and relevant materials."
+    },
+    {
+      "agent": "extractor",
+      "revision": 2,
+      "prompt_tokens": 6022,
+      "completion_tokens": 637,
+      "cached_tokens": 0,
+      "ttft_s": 0.05273521499839262,
+      "e2e_s": 4.98276652200002,
+      "decode_tps": 129.20810443847142,
+      "error": null,
+      "text": "[\n  {\n    \"task\": \"Design the technical functions of the remote control\",\n    \"owner\": \"User Interface Designer\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um so um in the different um stages of the design, so at first I will be responsible for um for yeah, designing the technical functions of the um um of the remote control uh then in the in the conceptual design stage I need to um come up with uh interface concept and then in the last um stage I will be responsible for the int infa for the user interface design.\"\n  },\n  {\n    \"task\": \"Design a menu-based system or a single button for a menu\",\n    \"owner\": \"Marketing Expert\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Marketing: You know, so something heading towards that, so it's not overly I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know?\"\n  },\n  {\n    \"task\": \"Design a remote control with a high battery life\",\n    \"owner\": \"Industrial Designer\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Industrial Designer: Mm . Uh we can aim for I mean we can think about all these little things, but we can aim for something wi that gives a high battery life, although I don't think that um it's a huge problem for remote controls anyway, battery life,\"\n  },\n  {\n    \"task\": \"Design the user interface of the remote control\",\n    \"owner\": \"User Interface Designer\",\n    \"deadline\": \"none\",\n    \"evidence\": \"User Interface: um well, there are different kinds of dogs, but okay um. Industrial Designer: That's not bad at all. Project Manager: Ah it looks like a dog. Industrial Designer: Yep. User Interface: Okay. Marketing: I think it needs four legs if it's gonna walk though. User Interface: Yeah, maybe it has some colourful patches, yeah.\"\n  },\n  {\n    \"task\": \"Create a new remote control for a television\",\n    \"owner\": \"Team\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Project Manager: So, this is our project. What we're aiming to do is to create a new remote control for a television. Um we want it to be something original, something trendy and also something user friendly, so it has to be quite intuitive that people are able to use this product.\"\n  },\n  {\n    \"task\": \"Balance originality with usability\",\n    \"owner\": \"Team\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Project Manager: The team should balance originality with usability to avoid a steep learning curve for new users.\"\n  },\n  {\n    \"task\": \"Keep production costs and profit targets in mind\",\n    \"owner\": \"Team\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Project Manager: The team should keep in mind the production costs and profit targets when designing the remote control.\"\n  }\n]"
+    },
+    {
+      "agent": "summarizer",
+      "revision": 2,
+      "prompt_tokens": 5953,
+      "completion_tokens": 453,
+      "cached_tokens": 0,
+      "ttft_s": 0.06756781299918657,
+      "e2e_s": 3.682720814998902,
+      "decode_tps": 125.30589984695638,
+      "error": null,
+      "text": "## Overview\nThe meeting aimed to introduce the project, discuss the project plan, and practice using project tools. The team consists of a Project Manager (Jen), a Marketing Expert (Cat), an Industrial Designer (Gaurav), and a User Interface Designer (Maarika). They are working on creating a new remote control for a television that is original, trendy, user-friendly, and intuitive.\n\n## Key Discussion Points\n### Project Plan and Roles\n* The team will work individually initially and then come together for meetings to work on the project.\n* The team will use a menu-based system or a single button for a menu to simplify the remote control.\n* The Project Manager will keep things going and ensure the team works together productively.\n* The Industrial Designer will design the details of the product, including its functionality and components.\n* The User Interface Designer will be responsible for designing the technical functions, interface concept, and user interface design at different stages of the project.\n* The Marketing Expert will focus on the user requirements specification, trend watching, and product evaluation.\n\n### Design Requirements\n* The remote control should be original, trendy, user-friendly, and intuitive.\n* It should have a high battery life, but not at the expense of usability.\n* The team should balance originality with usability to avoid a steep learning curve for new users.\n* The design should not be overly complicated, as this can lead to user confusion.\n\n### Production Costs and Profit Targets\n* The team aims to sell the remote controls for 25 Euros each on the international market.\n* The production costs should be a maximum of 12.5 Euros to reach a profit target of 50 million Euros.\n\n## Decisions Made\n* The team will use a menu-based system or a single button for a menu to simplify the remote control.\n* The team will aim for a high battery life, but not at the expense of usability.\n\n## Open Questions\n* What special features should the remote control have to make it unique and out of the ordinary?\n* How can the team balance originality with usability to avoid a steep learning curve for new users?\n* What are the production costs and profit targets for the remote control, and how can the team ensure they are met?"
+    },
+    {
+      "agent": "reviewer",
+      "revision": 2,
+      "prompt_tokens": 7129,
+      "completion_tokens": 38,
+      "cached_tokens": 0,
+      "ttft_s": 0.09688729899789905,
+      "e2e_s": 0.3576576009982091,
+      "decode_tps": 145.72211524284242,
+      "error": null,
+      "text": "{\n  \"status\": \"pass\",\n  \"issues\": {\n    \"summarizer\": \"\",\n    \"extractor\":  \"\",\n    \"drafter\":    \"\"\n  }\n}"
+    }
+  ],
+  "spans": [
+    {
+      "name": "coordinator",
+      "kind": "phase",
+      "start_ts": 1781054317.7529998,
+      "end_ts": 1781054319.335577,
+      "duration_s": 1.5825772559983307,
+      "attrs": {}
+    },
+    {
+      "name": "coordinator",
+      "kind": "agent",
+      "start_ts": 1781054317.7530084,
+      "end_ts": 1781054319.33556,
+      "duration_s": 1.5825516059994698,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5735,
+        "completion_tokens": 214,
+        "total_tokens": 5949,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.0312809360002575,
+        "decode_s": 1.5512706699992123,
+        "decode_tokens_per_s": 137.9514253306347
+      }
+    },
+    {
+      "name": "drafter",
+      "kind": "phase",
+      "start_ts": 1781054319.336846,
+      "end_ts": 1781054322.241054,
+      "duration_s": 2.9042079099999683,
+      "attrs": {}
+    },
+    {
+      "name": "drafter",
+      "kind": "agent",
+      "start_ts": 1781054319.3368683,
+      "end_ts": 1781054322.2410338,
+      "duration_s": 2.904165420000936,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5870,
+        "completion_tokens": 285,
+        "total_tokens": 6155,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.24494377299924963,
+        "decode_s": 2.6592216470016865,
+        "decode_tokens_per_s": 107.17421780968951
+      }
+    },
+    {
+      "name": "summarizer",
+      "kind": "phase",
+      "start_ts": 1781054319.3380644,
+      "end_ts": 1781054323.5034184,
+      "duration_s": 4.165354090997425,
+      "attrs": {}
+    },
+    {
+      "name": "summarizer",
+      "kind": "agent",
+      "start_ts": 1781054319.338082,
+      "end_ts": 1781054323.5033956,
+      "duration_s": 4.165313481000339,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5892,
+        "completion_tokens": 445,
+        "total_tokens": 6337,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.4502657699995325,
+        "decode_s": 3.715047711000807,
+        "decode_tokens_per_s": 119.78311844617474
+      }
+    },
+    {
+      "name": "extractor",
+      "kind": "phase",
+      "start_ts": 1781054319.3374848,
+      "end_ts": 1781054325.762026,
+      "duration_s": 6.424541353000677,
+      "attrs": {}
+    },
+    {
+      "name": "extractor",
+      "kind": "agent",
+      "start_ts": 1781054319.3375041,
+      "end_ts": 1781054325.7619948,
+      "duration_s": 6.424490613000671,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5921,
+        "completion_tokens": 761,
+        "total_tokens": 6682,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.629062989999511,
+        "decode_s": 5.79542762300116,
+        "decode_tokens_per_s": 131.31041391660352
+      }
+    },
+    {
+      "name": "reviewer",
+      "kind": "phase",
+      "start_ts": 1781054325.762736,
+      "end_ts": 1781054326.9694808,
+      "duration_s": 1.2067446669971105,
+      "attrs": {}
+    },
+    {
+      "name": "reviewer",
+      "kind": "agent",
+      "start_ts": 1781054325.7627478,
+      "end_ts": 1781054326.9694517,
+      "duration_s": 1.2067039270004898,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 7268,
+        "completion_tokens": 157,
+        "total_tokens": 7425,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.09746746900054859,
+        "decode_s": 1.1092364579999412,
+        "decode_tokens_per_s": 141.53880254088108
+      }
+    },
+    {
+      "name": "drafter",
+      "kind": "phase",
+      "start_ts": 1781054326.970941,
+      "end_ts": 1781054329.1408606,
+      "duration_s": 2.1699193910026224,
+      "attrs": {}
+    },
+    {
+      "name": "drafter",
+      "kind": "agent",
+      "start_ts": 1781054326.9709625,
+      "end_ts": 1781054329.1408434,
+      "duration_s": 2.169880761000968,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5941,
+        "completion_tokens": 258,
+        "total_tokens": 6199,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.053628074001608184,
+        "decode_s": 2.11625268699936,
+        "decode_tokens_per_s": 121.91360775816374
+      }
+    },
+    {
+      "name": "summarizer",
+      "kind": "phase",
+      "start_ts": 1781054326.9721467,
+      "end_ts": 1781054330.9850729,
+      "duration_s": 4.012926029001392,
+      "attrs": {}
+    },
+    {
+      "name": "summarizer",
+      "kind": "agent",
+      "start_ts": 1781054326.9721649,
+      "end_ts": 1781054330.9850388,
+      "duration_s": 4.0128739989995665,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5929,
+        "completion_tokens": 495,
+        "total_tokens": 6424,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.0751273019996006,
+        "decode_s": 3.937746696999966,
+        "decode_tokens_per_s": 125.70640980465389
+      }
+    },
+    {
+      "name": "extractor",
+      "kind": "phase",
+      "start_ts": 1781054326.971569,
+      "end_ts": 1781054332.7653306,
+      "duration_s": 5.793761443001131,
+      "attrs": {}
+    },
+    {
+      "name": "extractor",
+      "kind": "agent",
+      "start_ts": 1781054326.9715877,
+      "end_ts": 1781054332.7652943,
+      "duration_s": 5.793706703003409,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5984,
+        "completion_tokens": 746,
+        "total_tokens": 6730,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.0758611910023319,
+        "decode_s": 5.717845512001077,
+        "decode_tokens_per_s": 130.46872260438568
+      }
+    },
+    {
+      "name": "reviewer",
+      "kind": "phase",
+      "start_ts": 1781054332.765972,
+      "end_ts": 1781054334.469972,
+      "duration_s": 1.7039999129992793,
+      "attrs": {}
+    },
+    {
+      "name": "reviewer",
+      "kind": "agent",
+      "start_ts": 1781054332.7659838,
+      "end_ts": 1781054334.4699402,
+      "duration_s": 1.7039564830010931,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 7276,
+        "completion_tokens": 227,
+        "total_tokens": 7503,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.09709354900041944,
+        "decode_s": 1.6068629340006737,
+        "decode_tokens_per_s": 141.2690498963895
+      }
+    },
+    {
+      "name": "drafter",
+      "kind": "phase",
+      "start_ts": 1781054334.4713476,
+      "end_ts": 1781054336.6752694,
+      "duration_s": 2.203921817999799,
+      "attrs": {}
+    },
+    {
+      "name": "drafter",
+      "kind": "agent",
+      "start_ts": 1781054334.4713743,
+      "end_ts": 1781054336.6752481,
+      "duration_s": 2.203873807000491,
+      "attrs": {
+        "revision": 2,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5948,
+        "completion_tokens": 262,
+        "total_tokens": 6210,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.06892865199915832,
+        "decode_s": 2.1349451550013328,
+        "decode_tokens_per_s": 122.71978012467325
+      }
+    },
+    {
+      "name": "summarizer",
+      "kind": "phase",
+      "start_ts": 1781054334.4725978,
+      "end_ts": 1781054338.1553683,
+      "duration_s": 3.6827705950017844,
+      "attrs": {}
+    },
+    {
+      "name": "summarizer",
+      "kind": "agent",
+      "start_ts": 1781054334.4726157,
+      "end_ts": 1781054338.1553366,
+      "duration_s": 3.682720814998902,
+      "attrs": {
+        "revision": 2,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 5953,
+        "completion_tokens": 453,
+        "total_tokens": 6406,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.06756781299918657,
+        "decode_s": 3.6151530019997153,
+        "decode_tokens_per_s": 125.30589984695638
+      }
+    },
+    {
+      "name": "extractor",
+      "kind": "phase",
+      "start_ts": 1781054334.4719772,
+      "end_ts": 1781054339.4547918,
+      "duration_s": 4.982814630999201,
+      "attrs": {}
+    },
+    {
+      "name": "extractor",
+      "kind": "agent",
+      "start_ts": 1781054334.4719963,
+      "end_ts": 1781054339.454763,
+      "duration_s": 4.98276652200002,
+      "attrs": {
+        "revision": 2,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 6022,
+        "completion_tokens": 637,
+        "total_tokens": 6659,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.05273521499839262,
+        "decode_s": 4.930031307001627,
+        "decode_tokens_per_s": 129.20810443847142
+      }
+    },
+    {
+      "name": "reviewer",
+      "kind": "phase",
+      "start_ts": 1781054339.45539,
+      "end_ts": 1781054339.8130784,
+      "duration_s": 0.3576884409994818,
+      "attrs": {}
+    },
+    {
+      "name": "reviewer",
+      "kind": "agent",
+      "start_ts": 1781054339.4553998,
+      "end_ts": 1781054339.8130574,
+      "duration_s": 0.3576576009982091,
+      "attrs": {
+        "revision": 2,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 7129,
+        "completion_tokens": 38,
+        "total_tokens": 7167,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.09688729899789905,
+        "decode_s": 0.26077030200031004,
+        "decode_tokens_per_s": 145.72211524284242
+      }
+    }
+  ]
+}

@@ -1,0 +1,570 @@
+{
+  "mode": "langgraph",
+  "transcript_size": "medium_finance",
+  "repeat": 1,
+  "revisions": 3,
+  "verdict_status": "revise",
+  "errored": false,
+  "n_agent_calls": 13,
+  "e2e_wall_s": 27.954136485001072,
+  "ttft_mean_s": 0.5754414823084237,
+  "ttft_max_s": 2.863360545001342,
+  "decode_tps_mean": 105.52226887065814,
+  "prompt_tokens": 287618,
+  "completion_tokens": 5408,
+  "total_tokens": 293026,
+  "cached_tokens": 0,
+  "prefix_cache_hit_ratio": 0.0,
+  "throughput_tok_per_s": 10482.384249544768,
+  "server_metrics_available": true,
+  "host_cpu_percent_mean": 1.1192660550458717,
+  "host_cpu_percent_max": 1.7,
+  "orchestrator_rss_mb_mean": 133.7201955229357,
+  "orchestrator_rss_mb_max": 133.881856,
+  "host_mem_used_mb_mean": 18539.13899684404,
+  "host_mem_used_mb_max": 18560.16384,
+  "host_mem_percent_mean": 9.170642201834879,
+  "host_mem_percent_max": 9.2,
+  "vllm_gpu_cache_usage_perc_mean": 0.1328333121362844,
+  "vllm_gpu_cache_usage_perc_max": 0.19557886849007122,
+  "vllm_num_requests_running_mean": 2.091743119266055,
+  "vllm_num_requests_running_max": 3.0,
+  "vllm_num_requests_waiting_mean": 0.09174311926605505,
+  "vllm_num_requests_waiting_max": 2.0,
+  "delta_prompt_tokens_total": 287618.0,
+  "delta_generation_tokens_total": 5408.0,
+  "delta_prefix_cache_queries_total": 287618.0,
+  "delta_prefix_cache_hits_total": 217472.0,
+  "delta_num_requests_total": 13.0,
+  "delta_server_prefix_cache_hit_rate": 0.7561140123358066,
+  "artifacts": {
+    "summary": "## Overview\nThe meeting discusses the impact of COVID-19 on the tourism industry in Waikato, the response plan of Waikato Tourism, and the financial situation of Hamilton Airport. The meeting also covers the role and plans of LES, LGFA, and Waipa District Council.\n\n## Key Discussion Points\n### Tourism Industry Impact\n* The tourism industry in Waikato is expected to take a long time to recover from the impact of COVID-19.\n* International visitor arrivals into New Zealand have been dropping at a sharp rate since the lockdown.\n* Waikato Tourism has been providing support to the industry, including one-on-one operator check-ins, webinars, and workforce redeployment.\n* The industry is expected to recover slowly, with a 6-to-12-month recovery plan in place.\n\n### Hamilton Airport\n* The airport's financial situation is uncertain due to the impact of COVID-19.\n* The airport has suspended the terminal upgrade work and is focusing on cost reductions.\n* The airport has received a government wage subsidy and is working on a revised Statement of Intent (SOI) for the next three years.\n* The airport is expecting a conservative but realistic financial recovery, with a focus on preserving its core capability.\n\n### LES\n* LES has been working on transformative projects to improve the organization's effectiveness and efficiency.\n* The organization is focusing on regional thinking and local action to improve the well-being of Waipa District and its people.\n* LES is committed to delivering security of public works, restraint on non-essential spending, and motivation and encouragement of council staff.\n\n### LGFA\n* LGFA has been providing financing to local authorities, with a focus on interest savings and access to debt markets.\n* The organization has been affected by the COVID-19 pandemic, but is expected to recover.\n* LGFA is working on green financing options for councils, including environmental bonds.\n\n### Waipa District Council\n* The council has been working on its health and safety program, with a focus on monitoring and reporting.\n* The council has implemented protocols to manage the external influences of COVID-19 on staff health and safety.\n\n## Decisions Made\n* The meeting recommends accepting the report on the health and safety program of Waipa District Council.\n* The meeting recommends approving the financial report of Waipa District Council.\n* The meeting discusses the potential introduction of green financing by LGFA.\n\n## Open Questions\n* The impact of COVID-19 on the tourism industry in Waikato is expected to be long-lasting.\n* The financial situation of Hamilton Airport is uncertain, and the airport is working on a revised SOI.\n* The effectiveness of LES's transformative projects is still to be determined.\n* The success of LGFA's green financing options is still to be seen.\n* The council's health and safety program is still evolving, and protocols are being implemented to manage the external influences of COVID-19.",
+    "action_items": "[\n  {\n    \"task\": \"Develop a destination management plan for the Waikato region\",\n    \"owner\": \"LES\",\n    \"deadline\": \"6-12 months\",\n    \"evidence\": \"Peter, the LES Chair, mentioned that the organization will develop a destination management plan to transform tourism for the better.\"\n  },\n  {\n    \"task\": \"Extend the wage subsidy for 20 weeks to support the tourism sector\",\n    \"owner\": \"Waikato Tourism\",\n    \"deadline\": \"Immediate\",\n    \"evidence\": \"Jason, the Waikato Tourism representative, mentioned that the tourism sector needs a 20-week extension of the wage subsidy to recover from the impact of COVID-19.\"\n  },\n  {\n    \"task\": \"Review and revise the Statement of Intent (SOI) for the LES\",\n    \"owner\": \"LES Board\",\n    \"deadline\": \"May 2020\",\n    \"evidence\": \"Peter, the LES Chair, mentioned that the board will review and revise the SOI, including the financials and priorities, by May 2020.\"\n  },\n  {\n    \"task\": \"Develop a green financing framework for LGFA\",\n    \"owner\": \"LGFA\",\n    \"deadline\": \"Short-term\",\n    \"evidence\": \"Andrew, the LGFA representative, mentioned that LGFA is working on a green financing framework to offer to councils, which will provide better access to debt markets.\"\n  },\n  {\n    \"task\": \"Reforecast the financial report for Waipa District Council\",\n    \"owner\": \"Waipa District Council\",\n    \"deadline\": \"Immediate\",\n    \"evidence\": \"Nada, the Waipa District Council representative, mentioned that the council has reforecasted the financial report to reflect the impact of COVID-19.\"\n  },\n  {\n    \"task\": \"Develop protocols to manage the external influences of COVID-19 on staff health and safety\",\n    \"owner\": \"Waipa District Council\",\n    \"deadline\": \"Short-term\",\n    \"evidence\": \"Bev, the Waipa District Council representative, mentioned that the council is working on developing protocols to manage the external influences of COVID-19 on staff health and safety.\"\n  }\n]",
+    "followups": "## Email\n\nSubject: Follow-up on Meeting Decisions and Action Items\n\nDear All,\n\nI wanted to follow up on the meeting held on [Date] to discuss the impact of COVID-19 on the tourism industry in Waikato, the response plan of Waikato Tourism, and the financial situation of Hamilton Airport. The meeting covered various topics, including the role and plans of LES, LGFA, and Waipa District Council.\n\nTo summarize, the key decisions and action items from the meeting are:\n\n* The meeting recommended accepting the report on the health and safety program of Waipa District Council.\n* The meeting also recommended approving the financial report of Waipa District Council.\n* The meeting discussed the potential introduction of green financing by LGFA.\n\nThe next steps for each organization are:\n\n* Waikato Tourism will continue to provide industry support and advocacy at a national level.\n* Hamilton Airport will focus on restarting services and working with Air New Zealand to kick-start operations.\n* LES will advance strategic projects and work with councils to achieve their aspirations.\n* LGFA will offer green financing to councils and work on a proposal for its introduction.\n\nIf you have any questions or concerns, please don't hesitate to reach out to me or the relevant organization.\n\nBest regards,\n[Your Name]\n\n## Slack\n\n\"Reminder: Key decisions and action items from the meeting on [Date] include:\n\n* Accepting the report on Waipa District Council's health and safety program\n* Approving the financial report of Waipa District Council\n* Discussing the potential introduction of green financing by LGFA\n\nNext steps:\n\n* Waikato Tourism: continue providing industry support and advocacy\n* Hamilton Airport: restart services and work with Air New Zealand\n* LES: advance strategic projects and work with councils\n* LGFA: offer green financing and work on a proposal for its introduction\n\nLet me know if you have any questions or concerns!\"",
+    "brief": "COORDINATION BRIEF\n\nPARTICIPANTS:\n- Jason (Waikato Tourism)\n- Mark Morgan (Hamilton Airport)\n- Scott Kendall (Hamilton Airport)\n- Peter (LES Chair)\n- Calvin (LES)\n- Andrew (LGFA)\n- Ken (LGFA)\n- Nada (Waipa District Council)\n- Steve Shaw (Waipa District Council)\n- Bev (Waipa District Council)\n\nSCOPE:\n- The meeting discusses the impact of COVID-19 on the tourism industry in Waikato, the response plan of Waikato Tourism, and the financial situation of Hamilton Airport.\n- The meeting also covers the role and plans of LES, LGFA, and Waipa District Council.\n\nDECISION CUES:\n- The meeting recommends accepting the report on the health and safety program of Waipa District Council.\n- The meeting also recommends approving the financial report of Waipa District Council.\n- The meeting discusses the potential introduction of green financing by LGFA.\n\nCAUTIONS:\n- The meeting notes that the financial situation of Hamilton Airport is uncertain due to the impact of COVID-19.\n- The meeting also notes that the tourism industry in Waikato is expected to take a long time to recover from the impact of COVID-19.\n- The meeting cautions that the financial situation of Waipa District Council may be affected by the impact of COVID-19."
+  },
+  "per_agent": [
+    {
+      "agent": "coordinator",
+      "revision": 0,
+      "prompt_tokens": 21569,
+      "completion_tokens": 278,
+      "cached_tokens": 0,
+      "ttft_s": 0.07279755300260149,
+      "e2e_s": 2.3265386740022223,
+      "decode_tps": 123.35045822685098,
+      "error": null,
+      "text": "COORDINATION BRIEF\n\nPARTICIPANTS:\n- Jason (Waikato Tourism)\n- Mark Morgan (Hamilton Airport)\n- Scott Kendall (Hamilton Airport)\n- Peter (LES Chair)\n- Calvin (LES)\n- Andrew (LGFA)\n- Ken (LGFA)\n- Nada (Waipa District Council)\n- Steve Shaw (Waipa District Council)\n- Bev (Waipa District Council)\n\nSCOPE:\n- The meeting discusses the impact of COVID-19 on the tourism industry in Waikato, the response plan of Waikato Tourism, and the financial situation of Hamilton Airport.\n- The meeting also covers the role and plans of LES, LGFA, and Waipa District Council.\n\nDECISION CUES:\n- The meeting recommends accepting the report on the health and safety program of Waipa District Council.\n- The meeting also recommends approving the financial report of Waipa District Council.\n- The meeting discusses the potential introduction of green financing by LGFA.\n\nCAUTIONS:\n- The meeting notes that the financial situation of Hamilton Airport is uncertain due to the impact of COVID-19.\n- The meeting also notes that the tourism industry in Waikato is expected to take a long time to recover from the impact of COVID-19.\n- The meeting cautions that the financial situation of Waipa District Council may be affected by the impact of COVID-19."
+    },
+    {
+      "agent": "drafter",
+      "revision": 0,
+      "prompt_tokens": 21768,
+      "completion_tokens": 397,
+      "cached_tokens": 0,
+      "ttft_s": 1.0510749150016636,
+      "e2e_s": 6.776794594999956,
+      "decode_tps": 69.33626202254429,
+      "error": null,
+      "text": "## Email\n\nSubject: Follow-up on Waikato Tourism and Hamilton Airport Meetings\n\nDear All,\n\nI wanted to follow up on the recent meetings between Waikato Tourism, Hamilton Airport, and Waipa District Council. As a recap, the key decisions and action items from the meetings are as follows:\n\n* Waikato Tourism:\n\t+ Presented a report on the impact of COVID-19 on the tourism industry in Waikato, including a 6-month performance report and an update on the response plan.\n\t+ Discussed the potential introduction of green financing by LGFA.\n\t+ Recommended accepting the report on the health and safety program of Waipa District Council.\n\t+ Recommended approving the financial report of Waipa District Council.\n* Hamilton Airport:\n\t+ Presented a report on the impact of COVID-19 on the airport's financial situation, including a 15-month forecast and a summary of the airport's response plan.\n\t+ Discussed the potential introduction of green financing by LGFA.\n\t+ Recommended accepting the report on the health and safety program of Waipa District Council.\n\t+ Recommended approving the financial report of Waipa District Council.\n\nThe next steps for these recommendations will be discussed in a future meeting.\n\nBest regards,\n[Your Name]\n\n## Slack\n\nHi everyone, just a quick follow-up on the Waikato Tourism and Hamilton Airport meetings. The key takeaways are:\n\n* Waikato Tourism is working on a response plan to mitigate the impact of COVID-19 on the tourism industry, including a three-tiered response plan (mitigate, restart, and reimagine).\n* Hamilton Airport is working on a 15-month forecast and a summary of their response plan to the COVID-19 pandemic.\n* Both Waikato Tourism and Hamilton Airport are exploring the potential introduction of green financing by LGFA.\n* The next steps for these recommendations will be discussed in a future meeting.\n\nLet me know if you have any questions or need further clarification."
+    },
+    {
+      "agent": "extractor",
+      "revision": 0,
+      "prompt_tokens": 21819,
+      "completion_tokens": 925,
+      "cached_tokens": 0,
+      "ttft_s": 1.9845971220020147,
+      "e2e_s": 11.450968070999807,
+      "decode_tps": 97.71431998425227,
+      "error": null,
+      "text": "[\n  {\n    \"task\": \"Extract action items from the transcript\",\n    \"owner\": \"unassigned\",\n    \"deadline\": \"none\",\n    \"evidence\": \"The meeting discusses the impact of COVID-19 on the tourism industry in Waikato, the response plan of Waikato Tourism, and the financial situation of Hamilton Airport.\"\n  },\n  {\n    \"task\": \"Review the financial situation of Hamilton Airport\",\n    \"owner\": \"Mark Morgan\",\n    \"deadline\": \"none\",\n    \"evidence\": \"The hotel has been impacted significantly as well. Fortunately during April we have was um uh taken over by Ministry of Health as a isolation facility.\"\n  },\n  {\n    \"task\": \"Develop a revised Statement of Intent (SOI) for the next three years\",\n    \"owner\": \"Mark Morgan\",\n    \"deadline\": \"May\",\n    \"evidence\": \"We have completed a very detailed 15-month forecast through to 30 June next year. That will form of course now part of the year one of the um of the SOI.\"\n  },\n  {\n    \"task\": \"Implement cost reductions in the business\",\n    \"owner\": \"Mark Morgan\",\n    \"deadline\": \"none\",\n    \"evidence\": \"We've completed significant cost reductions in the business that's right across the business so that's um major cost reductions in our expense lines uh reductions uh pretty much across our business in terms of payroll uh anything up to a 20% reduction.\"\n  },\n  {\n    \"task\": \"Apply for and receive the government wage subsidy\",\n    \"owner\": \"Mark Morgan\",\n    \"deadline\": \"none\",\n    \"evidence\": \"We applied for and received the government wage subsidy across the group.\"\n  },\n  {\n    \"task\": \"Work with the Airport Association to see what support is available for airport companies\",\n    \"owner\": \"Mark Morgan\",\n    \"deadline\": \"none\",\n    \"evidence\": \"The Airport Association that we're part of is doing a major piece of work uh with central government to try and see what uh support if any there are for airport companies that have been significantly hurt as you know we are we are long-term infrastructure owners and that requires significant capital uh to maintain the assets.\"\n  },\n  {\n    \"task\": \"Develop a revised SOI for the next three years\",\n    \"owner\": \"Peter\",\n    \"deadline\": \"May\",\n    \"evidence\": \"We are looking to be bolder, more disruptive to enable you to help you transform how you and other Waikato councils operate.\"\n  },\n  {\n    \"task\": \"Advance key strategic projects\",\n    \"owner\": \"Peter\",\n    \"deadline\": \"none\",\n    \"evidence\": \"There are some key strategic projects which we'll be looking to advance as fast as possible and and you'll see those projects in the statement of intent.\"\n  },\n  {\n    \"task\": \"Re-examine work to see whether it should be stopped\",\n    \"owner\": \"Peter\",\n    \"deadline\": \"none\",\n    \"evidence\": \"I've asked for a re-examination of some of the work that we're doing to see whether we should stop doing it.\"\n  },\n  {\n    \"task\": \"Consider introducing green financing or environmental bonds\",\n    \"owner\": \"Andrew\",\n    \"deadline\": \"none\",\n    \"evidence\": \"LGFA has done a significant amount of work on that and we are intending to offer green financing to councils.\"\n  },\n  {\n    \"task\": \"Reforecast the financial report\",\n    \"owner\": \"Nada\",\n    \"deadline\": \"none\",\n    \"evidence\": \"A huge effort has gone on right across some across council in the last um, in the last two or three weeks, um, to, um, yeah, to reforecast and you should see the results of that reforecast and you should have a obviously a quite a different, um, forecast column in the next, um, financial report you see.\"\n  },\n  {\n    \"task\": \"Monitor health and safety resources and processes\",\n    \"owner\": \"Bev\",\n    \"deadline\": \"none\",\n    \"evidence\": \"We do have a very small health and safety budget, obviously, um, but it it What this health and safety lead indicators shows you is that we, um, we pay an ongoing, uh, fee to the Waikato Occupational Health Consultancy who deliver our health monitoring services.\"\n  }\n]"
+    },
+    {
+      "agent": "summarizer",
+      "revision": 0,
+      "prompt_tokens": 21790,
+      "completion_tokens": 660,
+      "cached_tokens": 0,
+      "ttft_s": 2.863360545001342,
+      "e2e_s": 9.421540613999241,
+      "decode_tps": 100.63767585766352,
+      "error": null,
+      "text": "## Overview\nThe meeting discusses the impact of COVID-19 on the tourism industry in Waikato, the response plan of Waikato Tourism, and the financial situation of Hamilton Airport. The meeting also covers the role and plans of LES, LGFA, and Waipa District Council. The participants discuss the challenges faced by the tourism industry, the efforts being made to mitigate the impact, and the potential for recovery.\n\n## Key Discussion Points\n### Tourism Industry\n* The tourism industry in Waikato has been severely impacted by COVID-19, with a significant decline in international visitor arrivals and expenditure.\n* The industry is expected to take a long time to recover, with a 6-to-12-month recovery plan proposed.\n* Domestic tourism is seen as a key opportunity for recovery, with a focus on drive tourism and local events.\n* The industry is working to promote local businesses and attractions through the Mighty Local campaign.\n\n### Hamilton Airport\n* The airport has been severely impacted by COVID-19, with a significant decline in passenger numbers and revenue.\n* The airport has implemented cost-saving measures, including a 20% reduction in payroll and a suspension of the terminal upgrade work.\n* The airport has a conservative 15-month forecast, assuming no Air New Zealand activity until October 2020 and a 40% recovery of passenger numbers in 2021.\n* The airport has a major land sale that is unconditional and will provide 2.5 million dollars of free cash flow in early 2021.\n\n### LES\n* The LES has been working to support Waikato councils during the COVID-19 pandemic.\n* The organization has a clear vision to have Waikato councils working together for the collective benefit of the region.\n* The LES is undertaking transformative projects to improve the effectiveness and efficiency of Waikato councils.\n* The organization is committed to delivering security of public works, restraint on non-essential spending, and motivation and encouragement of council staff.\n\n### LGFA\n* The LGFA has been working to support Waikato councils during the COVID-19 pandemic.\n* The organization has a 1 billion dollar standby facility from the New Zealand government, which will be rolled over for a further period of time.\n* The LGFA has completed a 1 billion dollar debt issue, borrowing at 1.46% for 6 years.\n* The organization is working on introducing green financing to councils, which will allow them to borrow for projects that reduce emissions or have environmental outcomes.\n\n## Decisions Made\n* The meeting recommends accepting the report on the health and safety program of Waipa District Council.\n* The meeting recommends approving the financial report of Waipa District Council.\n* The meeting discusses the potential introduction of green financing by LGFA.\n\n## Open Questions\n* The meeting notes that the financial situation of Hamilton Airport is uncertain due to the impact of COVID-19.\n* The meeting notes that the tourism industry in Waikato is expected to take a long time to recover from the impact of COVID-19.\n* The meeting cautions that the financial situation of Waipa District Council may be affected by the impact of COVID-19.\n* The meeting discusses the potential for recovery of the tourism industry and the airport, but notes that it will take time and effort."
+    },
+    {
+      "agent": "reviewer",
+      "revision": 0,
+      "prompt_tokens": 23593,
+      "completion_tokens": 74,
+      "cached_tokens": 0,
+      "ttft_s": 0.17503105099967797,
+      "e2e_s": 0.7458415289984259,
+      "decode_tps": 129.64022710207206,
+      "error": null,
+      "text": "{\n  \"status\": \"revise\",\n  \"issues\": {\n    \"summarizer\": \"The summary is incomplete and lacks key details from the transcript.\",\n    \"extractor\": \"The action items are incomplete and lack specific deadlines and owners.\",\n    \"drafter\": \"The follow-ups are incomplete and lack specific details from the transcript.\"\n  }\n}"
+    },
+    {
+      "agent": "drafter",
+      "revision": 1,
+      "prompt_tokens": 21798,
+      "completion_tokens": 438,
+      "cached_tokens": 0,
+      "ttft_s": 0.1695763520001492,
+      "e2e_s": 4.71385353200094,
+      "decode_tps": 96.38496567234567,
+      "error": null,
+      "text": "## Email\nSubject: Recap of Meeting Decisions and Action Items\n\nDear All Participants,\n\nThis email serves as a concise recap of the meeting's decisions and action items. The key takeaways include:\n\n* The meeting recommended accepting the report on the health and safety program of Waipa District Council.\n* The meeting also recommended approving the financial report of Waipa District Council.\n* The meeting discussed the potential introduction of green financing by LGFA.\n* The meeting noted that the financial situation of Hamilton Airport is uncertain due to the impact of COVID-19.\n* The meeting also noted that the tourism industry in Waikato is expected to take a long time to recover from the impact of COVID-19.\n* The meeting cautioned that the financial situation of Waipa District Council may be affected by the impact of COVID-19.\n\nThe meeting also discussed the following action items:\n\n* Jason will continue to work on the response plan for the tourism industry in Waikato.\n* Mark Morgan and Scott Kendall will provide an update on the financial situation of Hamilton Airport.\n* Calvin will work on the energy and carbon management plan for LGFA.\n* Andrew will provide an update on the LGFA's financial situation and the potential introduction of green financing.\n\nPlease let me know if you have any questions or need further clarification on any of these points.\n\nBest regards,\n[Your Name]\n\n## Slack\nThe following decisions and action items were discussed during the meeting:\n\n* The meeting recommended accepting the report on the health and safety program of Waipa District Council.\n* The meeting also recommended approving the financial report of Waipa District Council.\n* LGFA is working on introducing green financing, which will provide councils with access to debt markets under a green framework.\n* Jason will continue to work on the response plan for the tourism industry in Waikato.\n* Mark Morgan and Scott Kendall will provide an update on the financial situation of Hamilton Airport.\n* Calvin will work on the energy and carbon management plan for LGFA.\n* Andrew will provide an update on the LGFA's financial situation and the potential introduction of green financing.\n\nPlease let me know if you have any questions or need further clarification on any of these points."
+    },
+    {
+      "agent": "extractor",
+      "revision": 1,
+      "prompt_tokens": 21848,
+      "completion_tokens": 458,
+      "cached_tokens": 0,
+      "ttft_s": 0.16851713099822518,
+      "e2e_s": 4.899805140998069,
+      "decode_tps": 96.80239271673827,
+      "error": null,
+      "text": "[\n  {\n    \"task\": \"Develop a destination management plan for the Waikato region\",\n    \"owner\": \"LES\",\n    \"deadline\": \"6-12 months\",\n    \"evidence\": \"Peter, the LES Chair, mentioned that the organization will develop a destination management plan to transform tourism for the better.\"\n  },\n  {\n    \"task\": \"Extend the wage subsidy for 20 weeks to support the tourism sector\",\n    \"owner\": \"Waikato Tourism\",\n    \"deadline\": \"Immediate\",\n    \"evidence\": \"Jason, the Waikato Tourism representative, mentioned that the tourism sector needs a 20-week extension of the wage subsidy to recover from the impact of COVID-19.\"\n  },\n  {\n    \"task\": \"Review and revise the Statement of Intent (SOI) for the LES\",\n    \"owner\": \"LES Board\",\n    \"deadline\": \"May 2020\",\n    \"evidence\": \"Peter, the LES Chair, mentioned that the board will review and revise the SOI, including the financials and priorities, by May 2020.\"\n  },\n  {\n    \"task\": \"Develop a green financing framework for LGFA\",\n    \"owner\": \"LGFA\",\n    \"deadline\": \"Short-term\",\n    \"evidence\": \"Andrew, the LGFA representative, mentioned that LGFA is working on a green financing framework to offer to councils, which will provide better access to debt markets.\"\n  },\n  {\n    \"task\": \"Reforecast the financial report for Waipa District Council\",\n    \"owner\": \"Waipa District Council\",\n    \"deadline\": \"Immediate\",\n    \"evidence\": \"Nada, the Waipa District Council representative, mentioned that the council has reforecasted the financial report to reflect the impact of COVID-19.\"\n  },\n  {\n    \"task\": \"Develop protocols to manage the external influences of COVID-19 on staff health and safety\",\n    \"owner\": \"Waipa District Council\",\n    \"deadline\": \"Short-term\",\n    \"evidence\": \"Bev, the Waipa District Council representative, mentioned that the council is working on developing protocols to manage the external influences of COVID-19 on staff health and safety.\"\n  }\n]"
+    },
+    {
+      "agent": "summarizer",
+      "revision": 1,
+      "prompt_tokens": 21819,
+      "completion_tokens": 599,
+      "cached_tokens": 0,
+      "ttft_s": 0.1667123810002522,
+      "e2e_s": 6.051440614002786,
+      "decode_tps": 101.78889768276953,
+      "error": null,
+      "text": "## Overview\nThe meeting discussed the impact of COVID-19 on the tourism industry in Waikato, the response plan of Waikato Tourism, and the financial situation of Hamilton Airport. The meeting also covered the role and plans of LES, LGFA, and Waipa District Council.\n\n## Key Discussion Points\n### Waikato Tourism\n* The tourism industry in Waikato has been significantly impacted by COVID-19, with a loss of international visitor arrivals and a decline in visitor expenditure.\n* Waikato Tourism has implemented a three-tiered response plan to mitigate the impact of COVID-19, which includes a restart phase and a reimagine phase.\n* The restart phase involves research, business events restart campaigns, and new developments to support the tourism industry.\n* The reimagine phase involves a review of the tourism industry and the development of a new destination management plan.\n\n### Hamilton Airport\n* The financial situation of Hamilton Airport has been significantly impacted by COVID-19, with a loss of aeronautical income and a decline in passenger numbers.\n* The airport has implemented cost reductions and applied for the government wage subsidy to mitigate the impact of COVID-19.\n* The airport has a conservative model that assumes no Air New Zealand activity until October 2020 and a 40% recovery of passenger numbers in 2021.\n* The airport has a major land sale that is unconditional and will provide 2.5 million dollars of margin of free cash flow into the group early next year.\n\n### LES\n* The LES has been working on transformative projects to improve the effectiveness and efficiency of Waikato councils.\n* The LES has introduced a new approach to tracking progress and improving communications with key council staff.\n* The LES has committed to delivering security of public works, restraint on non-essential spending, and motivation and encouragement of council staff during the post-COVID-19 recovery period.\n\n### LGFA\n* LGFA has been working on providing financing to councils during the COVID-19 pandemic.\n* LGFA has a 1 billion dollar standby facility from the New Zealand government and has issued a 1 billion dollar debt issue at 1.46% interest.\n* LGFA has been working on green financing and environmental bonds to support councils in reducing emissions and achieving environmental outcomes.\n\n## Decisions Made\n* The meeting recommended accepting the report on the health and safety program of Waipa District Council.\n* The meeting recommended approving the financial report of Waipa District Council.\n* The meeting discussed the potential introduction of green financing by LGFA.\n\n## Open Questions\n* The impact of COVID-19 on the tourism industry in Waikato and the response plan of Waikato Tourism.\n* The financial situation of Hamilton Airport and the potential for recovery.\n* The role and plans of LES and LGFA in supporting Waikato councils during the post-COVID-19 recovery period.\n* The potential for green financing and environmental bonds to support councils in reducing emissions and achieving environmental outcomes."
+    },
+    {
+      "agent": "reviewer",
+      "revision": 1,
+      "prompt_tokens": 23106,
+      "completion_tokens": 77,
+      "cached_tokens": 0,
+      "ttft_s": 0.1618274120010028,
+      "e2e_s": 0.7564878459997999,
+      "decode_tps": 129.48566206467297,
+      "error": null,
+      "text": "{\n  \"status\": \"revise\",\n  \"issues\": {\n    \"summarizer\": \"The summary is incomplete and lacks key details from the transcript.\",\n    \"extractor\": \"The action items are incomplete and lack specific deadlines and owners.\",\n    \"drafter\": \"The follow-up email and Slack message are not well-structured and lack clarity.\"\n  }\n}"
+    },
+    {
+      "agent": "drafter",
+      "revision": 2,
+      "prompt_tokens": 21801,
+      "completion_tokens": 386,
+      "cached_tokens": 0,
+      "ttft_s": 0.16921219200230553,
+      "e2e_s": 4.170140321999497,
+      "decode_tps": 96.4776140580838,
+      "error": null,
+      "text": "## Email\n\nSubject: Follow-up on Meeting Decisions and Action Items\n\nDear All,\n\nI wanted to follow up on the meeting held on [Date] to discuss the impact of COVID-19 on the tourism industry in Waikato, the response plan of Waikato Tourism, and the financial situation of Hamilton Airport. The meeting covered various topics, including the role and plans of LES, LGFA, and Waipa District Council.\n\nTo summarize, the key decisions and action items from the meeting are:\n\n* The meeting recommended accepting the report on the health and safety program of Waipa District Council.\n* The meeting also recommended approving the financial report of Waipa District Council.\n* The meeting discussed the potential introduction of green financing by LGFA.\n\nThe next steps for each organization are:\n\n* Waikato Tourism will continue to provide industry support and advocacy at a national level.\n* Hamilton Airport will focus on restarting services and working with Air New Zealand to kick-start operations.\n* LES will advance strategic projects and work with councils to achieve their aspirations.\n* LGFA will offer green financing to councils and work on a proposal for its introduction.\n\nIf you have any questions or concerns, please don't hesitate to reach out to me or the relevant organization.\n\nBest regards,\n[Your Name]\n\n## Slack\n\n\"Reminder: Key decisions and action items from the meeting on [Date] include:\n\n* Accepting the report on Waipa District Council's health and safety program\n* Approving the financial report of Waipa District Council\n* Discussing the potential introduction of green financing by LGFA\n\nNext steps:\n\n* Waikato Tourism: continue providing industry support and advocacy\n* Hamilton Airport: restart services and work with Air New Zealand\n* LES: advance strategic projects and work with councils\n* LGFA: offer green financing and work on a proposal for its introduction\n\nLet me know if you have any questions or concerns!\""
+    },
+    {
+      "agent": "extractor",
+      "revision": 2,
+      "prompt_tokens": 21848,
+      "completion_tokens": 458,
+      "cached_tokens": 0,
+      "ttft_s": 0.16851439099991694,
+      "e2e_s": 4.840583486999094,
+      "decode_tps": 98.02937212384084,
+      "error": null,
+      "text": "[\n  {\n    \"task\": \"Develop a destination management plan for the Waikato region\",\n    \"owner\": \"LES\",\n    \"deadline\": \"6-12 months\",\n    \"evidence\": \"Peter, the LES Chair, mentioned that the organization will develop a destination management plan to transform tourism for the better.\"\n  },\n  {\n    \"task\": \"Extend the wage subsidy for 20 weeks to support the tourism sector\",\n    \"owner\": \"Waikato Tourism\",\n    \"deadline\": \"Immediate\",\n    \"evidence\": \"Jason, the Waikato Tourism representative, mentioned that the tourism sector needs a 20-week extension of the wage subsidy to recover from the impact of COVID-19.\"\n  },\n  {\n    \"task\": \"Review and revise the Statement of Intent (SOI) for the LES\",\n    \"owner\": \"LES Board\",\n    \"deadline\": \"May 2020\",\n    \"evidence\": \"Peter, the LES Chair, mentioned that the board will review and revise the SOI, including the financials and priorities, by May 2020.\"\n  },\n  {\n    \"task\": \"Develop a green financing framework for LGFA\",\n    \"owner\": \"LGFA\",\n    \"deadline\": \"Short-term\",\n    \"evidence\": \"Andrew, the LGFA representative, mentioned that LGFA is working on a green financing framework to offer to councils, which will provide better access to debt markets.\"\n  },\n  {\n    \"task\": \"Reforecast the financial report for Waipa District Council\",\n    \"owner\": \"Waipa District Council\",\n    \"deadline\": \"Immediate\",\n    \"evidence\": \"Nada, the Waipa District Council representative, mentioned that the council has reforecasted the financial report to reflect the impact of COVID-19.\"\n  },\n  {\n    \"task\": \"Develop protocols to manage the external influences of COVID-19 on staff health and safety\",\n    \"owner\": \"Waipa District Council\",\n    \"deadline\": \"Short-term\",\n    \"evidence\": \"Bev, the Waipa District Council representative, mentioned that the council is working on developing protocols to manage the external influences of COVID-19 on staff health and safety.\"\n  }\n]"
+    },
+    {
+      "agent": "summarizer",
+      "revision": 2,
+      "prompt_tokens": 21819,
+      "completion_tokens": 585,
+      "cached_tokens": 0,
+      "ttft_s": 0.16677560199968866,
+      "e2e_s": 5.877974994000397,
+      "decode_tps": 102.4303232731412,
+      "error": null,
+      "text": "## Overview\nThe meeting discusses the impact of COVID-19 on the tourism industry in Waikato, the response plan of Waikato Tourism, and the financial situation of Hamilton Airport. The meeting also covers the role and plans of LES, LGFA, and Waipa District Council.\n\n## Key Discussion Points\n### Tourism Industry Impact\n* The tourism industry in Waikato is expected to take a long time to recover from the impact of COVID-19.\n* International visitor arrivals into New Zealand have been dropping at a sharp rate since the lockdown.\n* Waikato Tourism has been providing support to the industry, including one-on-one operator check-ins, webinars, and workforce redeployment.\n* The industry is expected to recover slowly, with a 6-to-12-month recovery plan in place.\n\n### Hamilton Airport\n* The airport's financial situation is uncertain due to the impact of COVID-19.\n* The airport has suspended the terminal upgrade work and is focusing on cost reductions.\n* The airport has received a government wage subsidy and is working on a revised Statement of Intent (SOI) for the next three years.\n* The airport is expecting a conservative but realistic financial recovery, with a focus on preserving its core capability.\n\n### LES\n* LES has been working on transformative projects to improve the organization's effectiveness and efficiency.\n* The organization is focusing on regional thinking and local action to improve the well-being of Waipa District and its people.\n* LES is committed to delivering security of public works, restraint on non-essential spending, and motivation and encouragement of council staff.\n\n### LGFA\n* LGFA has been providing financing to local authorities, with a focus on interest savings and access to debt markets.\n* The organization has been affected by the COVID-19 pandemic, but is expected to recover.\n* LGFA is working on green financing options for councils, including environmental bonds.\n\n### Waipa District Council\n* The council has been working on its health and safety program, with a focus on monitoring and reporting.\n* The council has implemented protocols to manage the external influences of COVID-19 on staff health and safety.\n\n## Decisions Made\n* The meeting recommends accepting the report on the health and safety program of Waipa District Council.\n* The meeting recommends approving the financial report of Waipa District Council.\n* The meeting discusses the potential introduction of green financing by LGFA.\n\n## Open Questions\n* The impact of COVID-19 on the tourism industry in Waikato is expected to be long-lasting.\n* The financial situation of Hamilton Airport is uncertain, and the airport is working on a revised SOI.\n* The effectiveness of LES's transformative projects is still to be determined.\n* The success of LGFA's green financing options is still to be seen.\n* The council's health and safety program is still evolving, and protocols are being implemented to manage the external influences of COVID-19."
+    },
+    {
+      "agent": "reviewer",
+      "revision": 2,
+      "prompt_tokens": 23040,
+      "completion_tokens": 73,
+      "cached_tokens": 0,
+      "ttft_s": 0.16274262300066766,
+      "e2e_s": 0.7255308009989676,
+      "decode_tps": 129.71132453358058,
+      "error": null,
+      "text": "{\n  \"status\": \"revise\",\n  \"issues\": {\n    \"summarizer\": \"The summary is incomplete and lacks key details from the transcript.\",\n    \"extractor\": \"The action items are incomplete and lack specific deadlines and evidence.\",\n    \"drafter\": \"The follow-ups are incomplete and lack specific details and deadlines.\"\n  }\n}"
+    }
+  ],
+  "spans": [
+    {
+      "name": "coordinator",
+      "kind": "phase",
+      "start_ts": 1781054879.3290458,
+      "end_ts": 1781054881.6556222,
+      "duration_s": 2.32657655499861,
+      "attrs": {}
+    },
+    {
+      "name": "coordinator",
+      "kind": "agent",
+      "start_ts": 1781054879.3290572,
+      "end_ts": 1781054881.6555958,
+      "duration_s": 2.3265386740022223,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 21569,
+        "completion_tokens": 278,
+        "total_tokens": 21847,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.07279755300260149,
+        "decode_s": 2.2537411209996208,
+        "decode_tokens_per_s": 123.35045822685098
+      }
+    },
+    {
+      "name": "drafter",
+      "kind": "phase",
+      "start_ts": 1781054881.6566195,
+      "end_ts": 1781054888.4334948,
+      "duration_s": 6.776875215000473,
+      "attrs": {}
+    },
+    {
+      "name": "drafter",
+      "kind": "agent",
+      "start_ts": 1781054881.6566744,
+      "end_ts": 1781054888.433469,
+      "duration_s": 6.776794594999956,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 21768,
+        "completion_tokens": 397,
+        "total_tokens": 22165,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 1.0510749150016636,
+        "decode_s": 5.725719679998292,
+        "decode_tokens_per_s": 69.33626202254429
+      }
+    },
+    {
+      "name": "summarizer",
+      "kind": "phase",
+      "start_ts": 1781054881.6592293,
+      "end_ts": 1781054891.0808575,
+      "duration_s": 9.421628234002128,
+      "attrs": {}
+    },
+    {
+      "name": "summarizer",
+      "kind": "agent",
+      "start_ts": 1781054881.6592813,
+      "end_ts": 1781054891.0808218,
+      "duration_s": 9.421540613999241,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 21790,
+        "completion_tokens": 660,
+        "total_tokens": 22450,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 2.863360545001342,
+        "decode_s": 6.558180068997899,
+        "decode_tokens_per_s": 100.63767585766352
+      }
+    },
+    {
+      "name": "extractor",
+      "kind": "phase",
+      "start_ts": 1781054881.6579492,
+      "end_ts": 1781054893.109014,
+      "duration_s": 11.451064730001235,
+      "attrs": {}
+    },
+    {
+      "name": "extractor",
+      "kind": "agent",
+      "start_ts": 1781054881.6580017,
+      "end_ts": 1781054893.1089697,
+      "duration_s": 11.450968070999807,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 21819,
+        "completion_tokens": 925,
+        "total_tokens": 22744,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 1.9845971220020147,
+        "decode_s": 9.466370948997792,
+        "decode_tokens_per_s": 97.71431998425227
+      }
+    },
+    {
+      "name": "reviewer",
+      "kind": "phase",
+      "start_ts": 1781054893.1096501,
+      "end_ts": 1781054893.8555326,
+      "duration_s": 0.7458823980014131,
+      "attrs": {}
+    },
+    {
+      "name": "reviewer",
+      "kind": "agent",
+      "start_ts": 1781054893.109665,
+      "end_ts": 1781054893.8555064,
+      "duration_s": 0.7458415289984259,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 23593,
+        "completion_tokens": 74,
+        "total_tokens": 23667,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.17503105099967797,
+        "decode_s": 0.570810477998748,
+        "decode_tokens_per_s": 129.64022710207206
+      }
+    },
+    {
+      "name": "drafter",
+      "kind": "phase",
+      "start_ts": 1781054893.8568704,
+      "end_ts": 1781054898.5708044,
+      "duration_s": 4.7139338919987495,
+      "attrs": {}
+    },
+    {
+      "name": "drafter",
+      "kind": "agent",
+      "start_ts": 1781054893.8569248,
+      "end_ts": 1781054898.5707784,
+      "duration_s": 4.71385353200094,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 21798,
+        "completion_tokens": 438,
+        "total_tokens": 22236,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.1695763520001492,
+        "decode_s": 4.54427718000079,
+        "decode_tokens_per_s": 96.38496567234567
+      }
+    },
+    {
+      "name": "extractor",
+      "kind": "phase",
+      "start_ts": 1781054893.858197,
+      "end_ts": 1781054898.7580798,
+      "duration_s": 4.899882780999178,
+      "attrs": {}
+    },
+    {
+      "name": "extractor",
+      "kind": "agent",
+      "start_ts": 1781054893.8582492,
+      "end_ts": 1781054898.7580543,
+      "duration_s": 4.899805140998069,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 21848,
+        "completion_tokens": 458,
+        "total_tokens": 22306,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.16851713099822518,
+        "decode_s": 4.731288009999844,
+        "decode_tokens_per_s": 96.80239271673827
+      }
+    },
+    {
+      "name": "summarizer",
+      "kind": "phase",
+      "start_ts": 1781054893.8598795,
+      "end_ts": 1781054899.9114041,
+      "duration_s": 6.051524694001273,
+      "attrs": {}
+    },
+    {
+      "name": "summarizer",
+      "kind": "agent",
+      "start_ts": 1781054893.8599315,
+      "end_ts": 1781054899.9113722,
+      "duration_s": 6.051440614002786,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 21819,
+        "completion_tokens": 599,
+        "total_tokens": 22418,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.1667123810002522,
+        "decode_s": 5.884728233002534,
+        "decode_tokens_per_s": 101.78889768276953
+      }
+    },
+    {
+      "name": "reviewer",
+      "kind": "phase",
+      "start_ts": 1781054899.9119785,
+      "end_ts": 1781054900.6685054,
+      "duration_s": 0.75652688700211,
+      "attrs": {}
+    },
+    {
+      "name": "reviewer",
+      "kind": "agent",
+      "start_ts": 1781054899.9119923,
+      "end_ts": 1781054900.6684802,
+      "duration_s": 0.7564878459997999,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 23106,
+        "completion_tokens": 77,
+        "total_tokens": 23183,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.1618274120010028,
+        "decode_s": 0.5946604339987971,
+        "decode_tokens_per_s": 129.48566206467297
+      }
+    },
+    {
+      "name": "drafter",
+      "kind": "phase",
+      "start_ts": 1781054900.6697698,
+      "end_ts": 1781054904.8399906,
+      "duration_s": 4.170220861000416,
+      "attrs": {}
+    },
+    {
+      "name": "drafter",
+      "kind": "agent",
+      "start_ts": 1781054900.6698246,
+      "end_ts": 1781054904.8399649,
+      "duration_s": 4.170140321999497,
+      "attrs": {
+        "revision": 2,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 21801,
+        "completion_tokens": 386,
+        "total_tokens": 22187,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.16921219200230553,
+        "decode_s": 4.000928129997192,
+        "decode_tokens_per_s": 96.4776140580838
+      }
+    },
+    {
+      "name": "extractor",
+      "kind": "phase",
+      "start_ts": 1781054900.6710835,
+      "end_ts": 1781054905.511744,
+      "duration_s": 4.840660508001747,
+      "attrs": {}
+    },
+    {
+      "name": "extractor",
+      "kind": "agent",
+      "start_ts": 1781054900.6711347,
+      "end_ts": 1781054905.5117183,
+      "duration_s": 4.840583486999094,
+      "attrs": {
+        "revision": 2,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 21848,
+        "completion_tokens": 458,
+        "total_tokens": 22306,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.16851439099991694,
+        "decode_s": 4.672069095999177,
+        "decode_tokens_per_s": 98.02937212384084
+      }
+    },
+    {
+      "name": "summarizer",
+      "kind": "phase",
+      "start_ts": 1781054900.6723573,
+      "end_ts": 1781054906.5504181,
+      "duration_s": 5.8780607740009145,
+      "attrs": {}
+    },
+    {
+      "name": "summarizer",
+      "kind": "agent",
+      "start_ts": 1781054900.6724107,
+      "end_ts": 1781054906.5503857,
+      "duration_s": 5.877974994000397,
+      "attrs": {
+        "revision": 2,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 21819,
+        "completion_tokens": 585,
+        "total_tokens": 22404,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.16677560199968866,
+        "decode_s": 5.711199392000708,
+        "decode_tokens_per_s": 102.4303232731412
+      }
+    },
+    {
+      "name": "reviewer",
+      "kind": "phase",
+      "start_ts": 1781054906.5509968,
+      "end_ts": 1781054907.276566,
+      "duration_s": 0.7255693299994164,
+      "attrs": {}
+    },
+    {
+      "name": "reviewer",
+      "kind": "agent",
+      "start_ts": 1781054906.551011,
+      "end_ts": 1781054907.276542,
+      "duration_s": 0.7255308009989676,
+      "attrs": {
+        "revision": 2,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 23040,
+        "completion_tokens": 73,
+        "total_tokens": 23113,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.16274262300066766,
+        "decode_s": 0.5627881779982999,
+        "decode_tokens_per_s": 129.71132453358058
+      }
+    }
+  ]
+}

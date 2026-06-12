@@ -1,0 +1,410 @@
+{
+  "mode": "langgraph",
+  "transcript_size": "large_meetingbank",
+  "repeat": 1,
+  "revisions": 1,
+  "verdict_status": "pass",
+  "errored": false,
+  "n_agent_calls": 9,
+  "e2e_wall_s": 38.09612704900064,
+  "ttft_mean_s": 2.868756747333666,
+  "ttft_max_s": 11.687196047001635,
+  "decode_tps_mean": 75.07672820378538,
+  "prompt_tokens": 552155,
+  "completion_tokens": 4066,
+  "total_tokens": 556221,
+  "cached_tokens": 0,
+  "prefix_cache_hit_ratio": 0.0,
+  "throughput_tok_per_s": 14600.460547723605,
+  "server_metrics_available": true,
+  "host_cpu_percent_mean": 0.702013422818792,
+  "host_cpu_percent_max": 1.5,
+  "orchestrator_rss_mb_mean": 140.55833599999966,
+  "orchestrator_rss_mb_max": 140.558336,
+  "host_mem_used_mb_mean": 18563.54463441612,
+  "host_mem_used_mb_max": 18586.947584,
+  "host_mem_percent_mean": 9.200000000000026,
+  "host_mem_percent_max": 9.2,
+  "vllm_gpu_cache_usage_perc_mean": 0.33731307253803916,
+  "vllm_gpu_cache_usage_perc_max": 0.5417759460472087,
+  "vllm_num_requests_running_mean": 2.0,
+  "vllm_num_requests_running_max": 3.0,
+  "vllm_num_requests_waiting_mean": 0.2751677852348993,
+  "vllm_num_requests_waiting_max": 2.0,
+  "delta_prompt_tokens_total": 552155.0,
+  "delta_generation_tokens_total": 4066.0,
+  "delta_prefix_cache_queries_total": 552155.0,
+  "delta_prefix_cache_hits_total": 365696.0,
+  "delta_num_requests_total": 9.0,
+  "delta_server_prefix_cache_hit_rate": 0.6623067797991506,
+  "artifacts": {
+    "summary": "## Overview\nThe Denver City Council held a meeting to discuss and vote on Council Bill 56, which proposed to rezone a 2.3-acre property at 195 South Monaco Parkway from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals. The meeting was attended by numerous speakers, including residents, developers, and city officials, who presented their views and concerns about the proposal.\n\n## Key Discussion Points\nNested bullets grouped by topic:\n\n* **Zoning and Land Use**: The proposal aimed to rezone the property from single-family residential to a mixed-use development, which was met with opposition from some residents who were concerned about the impact on the neighborhood's character and the potential for increased traffic and parking.\n* **Density and Traffic**: The proposal included a land use covenant that limited density to 25 individual townhomes and 50 apartment units, as well as a commitment to restrict access to Monaco Parkway and provide a 2.02 parking ratio. However, some residents were concerned about the potential for increased traffic and parking, particularly given the proximity to the existing Lex apartment complex and the proposed Boulevard One development.\n* **Affordability and Housing**: The proposal included a mix of for-sale townhomes and age-targeted rentals, which was seen as a positive aspect by some residents who were concerned about the lack of affordable housing options in the area.\n* **Neighborhood Character**: Some residents were concerned that the proposal would change the character of the neighborhood, which was seen as a stable and desirable area with a mix of single-family homes and townhomes.\n* **Developer's Commitments**: The developer, Metropolitan Homes, made several concessions to the neighborhood, including reducing the number of units from 120 to 75 and targeting parking on Monaco Parkway. However, some residents were concerned that the developer's commitments were not sufficient to address their concerns.\n\n## Decisions Made\n* The City Council voted to approve Council Bill 56, which proposed to rezone the 2.3-acre property at 195 South Monaco Parkway from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals.\n* The City Council also approved the land use covenant that limited density to 25 individual townhomes and 50 apartment units, as well as the commitment to restrict access to Monaco Parkway and provide a 2.02 parking ratio.\n\n## Open Questions\n* The City Council did not address the concerns raised by some residents about the potential for increased traffic and parking, particularly given the proximity to the existing Lex apartment complex and the proposed Boulevard One development.\n* The City Council did not discuss the potential impact of the proposal on the neighborhood's character and the need for more affordable housing options in the area.\n* The City Council did not address the concerns raised by some residents about the developer's commitments and the need for more transparency and accountability in the development process.",
+    "action_items": "Here is the revised output with the action items and follow-ups clearly extracted from the transcript:\n\n**Action Items:**\n\n1. **Rezoning of 195 South Monaco Parkway**: Approve or deny the rezoning of the property from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals.\n\t* Evidence: The developer has made concessions to the neighborhood, including reducing the number of units from 120 to 75 and targeting parking on Monaco.\n\t* Owner: Metropolitan Homes\n\t* Deadline: None specified\n2. **Land Use Covenant**: Approve or deny the land use covenant that limits the density of the development to 25 townhomes and 50 apartments, and restricts access to Monaco.\n\t* Evidence: The covenant has been signed by the developer and several neighbors, and will be recorded against the property.\n\t* Owner: Peter Cutler\n\t* Deadline: None specified\n3. **Traffic Study**: Conduct a traffic study to assess the impact of the development on the surrounding neighborhood.\n\t* Evidence: The developer has submitted a traffic study that shows the development will account for slightly over 1% of the total traffic generated on Monaco.\n\t* Owner: Metropolitan Homes\n\t* Deadline: None specified\n4. **Parking Commitment**: Document the parking commitment of the developer, including the 152 parking spaces for the entire site.\n\t* Evidence: The developer has committed to building 152 parking spaces, including 58 underground spaces and 44 surface parking spaces.\n\t* Owner: Metropolitan Homes\n\t* Deadline: None specified\n5. **Right of Way Vacation**: Approve or deny the right of way vacation along Monaco to align the right of way with the adjacent parcels.\n\t* Evidence: The developer has requested the vacation to align the right of way with the adjacent parcels.\n\t* Owner: Metropolitan Homes\n\t* Deadline: None specified\n6. **Council Bill 56**: Vote on Council Bill 56, which proposes to rezone the property from single-family residential to a mixed-use development.\n\t* Evidence: The bill has been discussed and debated by the council, with some members supporting and others opposing the rezoning.\n\t* Owner: Metropolitan Homes\n\t* Deadline: Monday, June 29th\n7. **Council Bill 346**: Vote on Council Bill 346, which proposes to change the zoning classification of 301 South Cherokee Street.\n\t* Evidence: The bill has been discussed and debated by the council, with some members supporting and others opposing the zoning change.\n\t* Owner: Unknown\n\t* Deadline: Monday, June 22nd\n8. **Carriage Lot Vacation**: Approve or deny the vacation of the carriage lot at 195 South Monaco Parkway.\n\t* Evidence: The developer has requested the vacation to allow for development of the property.\n\t* Owner: Metropolitan Homes\n\t* Deadline: Monday, July 13th (postponed)\n\n**Follow-ups:**\n\n1. **Councilwoman Sussman**: Follow up with Councilwoman Sussman to discuss her concerns about the rezoning and the impact on the neighborhood.\n2. **Developer**: Follow up with the developer to discuss the traffic study and the parking commitment.\n3. **Council Bill 56**: Follow up with the council to discuss the vote on Council Bill 56 and the rezoning of the property.\n4. **Council Bill 346**: Follow up with the council to discuss the vote on Council Bill 346 and the zoning change of 301 South Cherokee Street.\n5. **Carriage Lot Vacation**: Follow up with the council to discuss the vacation of the carriage lot and the development of the property.",
+    "followups": "## Email\nSubject: Rezoning Decision for 195 South Monaco Parkway\n\nDear Council Members and Community,\n\nWe are writing to inform you of the rezoning decision for 195 South Monaco Parkway. After careful consideration and review of the application, the City Council has voted to approve the rezoning of the property from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals.\n\nThe proposed development meets the criteria outlined in the Comprehensive Plan and Blueprint Denver, and the City Council has determined that it is consistent with the neighborhood's character and context. The developer has made significant concessions to address concerns from the community, including reducing the number of units and targeting parking on Monaco.\n\nThe rezoning decision is based on the following factors:\n\n* Consistency with adopted plans: The proposed development is consistent with the Comprehensive Plan and Blueprint Denver.\n* Uniformity of district regulations: The SMU three zoning district is consistent with the surrounding neighborhood.\n* Change in changing conditions: The site has changed significantly since its original zoning, and the proposed development is necessary to address the changed character of the area.\n* Consistency with neighborhood context, zone, district purpose, and intent: The proposed development is consistent with the suburban neighborhood context and the single-family residential zoning of the surrounding area.\n\nThe City Council has also considered the following community concerns:\n\n* Traffic and parking: The developer has committed to working with the neighborhood to address any issues that arise during the development process.\n* Density: The proposed development has a density of 75 units, which is consistent with the surrounding neighborhood.\n* Affordable housing: The proposed development includes 50 age-targeted rentals, which will provide affordable housing options for seniors.\n\nThe rezoning decision is subject to the conditions outlined in the land use covenant, including the limitation on density to 25 individual townhouses and 50 apartment or condos, and the requirement for two points of ingress and egress to the site.\n\nWe hope this information is helpful in understanding the rezoning decision for 195 South Monaco Parkway. If you have any questions or concerns, please do not hesitate to contact us.\n\nSincerely,\n[Your Name]\n\n## Slack\nA brief channel message (under 80 words) highlighting decisions and owners.\n\nThe City Council has voted to approve the rezoning of 195 South Monaco Parkway from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals. The proposed development meets the criteria outlined in the Comprehensive Plan and Blueprint Denver, and the City Council has determined that it is consistent with the neighborhood's character and context.",
+    "brief": "**COORDINATION BRIEF**\n\n**PARTICIPANTS:**\n\n* Peter Cutler, developer\n* Metropolitan Homes, developer\n* Chris Moore Park residents and homeowners association\n* City of Denver planning staff\n* Council members and city officials\n\n**SCOPE:**\n\n* Rezoning of a 2.3-acre property at 195 South Monaco Parkway from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals\n* The proposal aims to revitalize the site, which is currently an eyesore, and provide more housing options in the area\n\n**DECISION CUES:**\n\n* The developer has made concessions to the neighborhood, including reducing the number of units from 120 to 75 and targeting parking on Monaco\n* The proposal includes a land use covenant that limits density to 25 townhomes and 50 apartments, and restricts access to Monaco\n* The developer has agreed to place $25,000 in escrow to enforce the covenant\n* The proposal has been modified to address concerns about traffic and parking\n* The developer has committed to working with the neighborhood to address any issues that arise during the development process\n\n**CAUTIONS:**\n\n* The proposal has been met with opposition from some residents, who are concerned about the impact on the neighborhood's character and the potential for increased traffic and parking\n* The developer's commitment to enforcing the land use covenant is uncertain, and some residents are concerned that the covenant may not be effective in preventing over-development\n* The proposal has been modified several times, and some residents are concerned that the final product may not meet their expectations\n* The developer's plans for the site are still subject to change, and some residents are concerned that the final product may not be consistent with the original proposal."
+  },
+  "per_agent": [
+    {
+      "agent": "coordinator",
+      "revision": 0,
+      "prompt_tokens": 60760,
+      "completion_tokens": 371,
+      "cached_tokens": 0,
+      "ttft_s": 0.1815187110005354,
+      "e2e_s": 3.7359384299998055,
+      "decode_tps": 104.37709368336874,
+      "error": null,
+      "text": "**COORDINATION BRIEF**\n\n**PARTICIPANTS:**\n\n* Peter Cutler, developer\n* Metropolitan Homes, developer\n* Chris Moore Park residents and homeowners association\n* City of Denver planning staff\n* Council members and city officials\n\n**SCOPE:**\n\n* Rezoning of a 2.3-acre property at 195 South Monaco Parkway from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals\n* The proposal aims to revitalize the site, which is currently an eyesore, and provide more housing options in the area\n\n**DECISION CUES:**\n\n* The developer has made concessions to the neighborhood, including reducing the number of units from 120 to 75 and targeting parking on Monaco\n* The proposal includes a land use covenant that limits density to 25 townhomes and 50 apartments, and restricts access to Monaco\n* The developer has agreed to place $25,000 in escrow to enforce the covenant\n* The proposal has been modified to address concerns about traffic and parking\n* The developer has committed to working with the neighborhood to address any issues that arise during the development process\n\n**CAUTIONS:**\n\n* The proposal has been met with opposition from some residents, who are concerned about the impact on the neighborhood's character and the potential for increased traffic and parking\n* The developer's commitment to enforcing the land use covenant is uncertain, and some residents are concerned that the covenant may not be effective in preventing over-development\n* The proposal has been modified several times, and some residents are concerned that the final product may not meet their expectations\n* The developer's plans for the site are still subject to change, and some residents are concerned that the final product may not be consistent with the original proposal."
+    },
+    {
+      "agent": "drafter",
+      "revision": 0,
+      "prompt_tokens": 61052,
+      "completion_tokens": 494,
+      "cached_tokens": 0,
+      "ttft_s": 4.078034982998361,
+      "e2e_s": 17.80379876599909,
+      "decode_tps": 35.99071117716712,
+      "error": null,
+      "text": "## Email\n\nSubject: Recap of Rezoning Decision for 195 South Monaco Parkway\n\nDear Council Members and Stakeholders,\n\nI wanted to follow up on the rezoning decision for 195 South Monaco Parkway, which was made during the City Council meeting on [Date]. After a lengthy and contentious discussion, the Council voted 9-3 in favor of rezoning the property from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals.\n\nThe decision was met with strong opposition from some members of the community, who expressed concerns about the impact on the neighborhood's character and the potential for increased traffic and parking. However, the developer, Metropolitan Homes, made significant concessions to address these concerns, including reducing the number of units and targeting parking on Monaco.\n\nThe Council considered various factors, including the consistency of the proposal with the city's adopted plans, the impact on the neighborhood, and the need for affordable housing. While some Council members expressed concerns about the density and traffic impact, others saw the proposal as a necessary step towards addressing the city's housing shortage and promoting more sustainable and equitable development.\n\nThe decision is a significant step forward for the city's efforts to promote more diverse and inclusive housing options. However, it also highlights the need for continued community engagement and dialogue around issues of density, affordability, and neighborhood character.\n\nI would like to thank the Council members, staff, and stakeholders who participated in the discussion and decision-making process. I also want to acknowledge the concerns and perspectives of those who opposed the proposal, and I hope that the community will continue to engage in open and respectful dialogue around these issues.\n\nBest regards,\n\n[Your Name]\n\n## Slack\n\nCouncil Bill 56: Rezoning of 195 South Monaco Parkway\n\nThe City Council has voted 9-3 in favor of rezoning the property at 195 South Monaco Parkway from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals. The decision was met with strong opposition from some members of the community, who expressed concerns about the impact on the neighborhood's character and the potential for increased traffic and parking. However, the developer made significant concessions to address these concerns, including reducing the number of units and targeting parking on Monaco. The rezoning is a significant step forward for the city's efforts to promote more diverse and inclusive housing options."
+    },
+    {
+      "agent": "extractor",
+      "revision": 0,
+      "prompt_tokens": 61103,
+      "completion_tokens": 326,
+      "cached_tokens": 0,
+      "ttft_s": 7.850356858998566,
+      "e2e_s": 16.090053484000236,
+      "decode_tps": 39.564563458661794,
+      "error": null,
+      "text": "Here is the schema-compliant JSON array of action items:\n\n[\n  {\n    \"task\": \"Approve rezoning of 195 South Monaco Parkway to SMU three\",\n    \"owner\": \"Council members\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Council members discussed the proposal and voted on it\"\n  },\n  {\n    \"task\": \"Postpone consideration of Council Bill 56\",\n    \"owner\": \"Council members\",\n    \"deadline\": \"July 13th\",\n    \"evidence\": \"Council members discussed the proposal and voted to postpone it\"\n  },\n  {\n    \"task\": \"Postpone consideration of Council Bill 356\",\n    \"owner\": \"Council members\",\n    \"deadline\": \"July 13th\",\n    \"evidence\": \"Council members discussed the proposal and voted to postpone it\"\n  },\n  {\n    \"task\": \"Notify neighbors about alley vacation\",\n    \"owner\": \"Denver Public Works\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Council members discussed the process for notifying neighbors\"\n  },\n  {\n    \"task\": \"Consider historic designation of the home adjacent to the carriage lot\",\n    \"owner\": \"Landmark Commission\",\n    \"deadline\": \"July 7th\",\n    \"evidence\": \"Council members discussed the application for historic designation\"\n  },\n  {\n    \"task\": \"Discuss development potential of the carriage lot\",\n    \"owner\": \"Council members\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Council members discussed the development potential of the carriage lot\"\n  }\n]"
+    },
+    {
+      "agent": "summarizer",
+      "revision": 0,
+      "prompt_tokens": 61074,
+      "completion_tokens": 470,
+      "cached_tokens": 0,
+      "ttft_s": 11.687196047001635,
+      "e2e_s": 18.14468239800044,
+      "decode_tps": 72.78373881925482,
+      "error": null,
+      "text": "## Overview\n\nThe Denver City Council held a public hearing to discuss rezoning a 2.3-acre property at 195 South Monaco Parkway from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals. The proposal aimed to revitalize the site, which was considered an eyesore, and provide more housing options in the area. The council ultimately voted 9-3 in favor of the rezoning, with Councilwoman Sussman, Councilman Lopez, and Councilwoman Robb voting against it.\n\n## Key Discussion Points\n\n*   **Zoning and Land Use**: The proposal involved rezoning the property from single-family residential to a mixed-use development, which was a contentious issue among residents and council members.\n*   **Traffic and Parking**: Concerns about increased traffic and parking were raised by several residents, with some arguing that the development would exacerbate existing problems.\n*   **Density and Affordability**: The proposal included a mix of for-sale townhomes and age-targeted rentals, with some residents arguing that the development would increase density and reduce affordability in the area.\n*   **Community Engagement**: The developer and city officials engaged with the community throughout the process, with some residents expressing concerns about the lack of transparency and communication.\n*   **Historic Preservation**: The proposal included a historic church on the site, which was a point of contention among residents and council members.\n\n## Decisions Made\n\n*   The Denver City Council voted 9-3 in favor of rezoning the property from single-family residential to a mixed-use development.\n*   The council approved the rezoning with conditions, including a land use covenant that limits density and restricts access to Monaco Parkway.\n*   The developer agreed to place $25,000 in escrow to enforce the covenant.\n\n## Open Questions\n\n*   **Traffic and Parking**: The development may exacerbate existing traffic and parking problems in the area.\n*   **Density and Affordability**: The development may increase density and reduce affordability in the area.\n*   **Community Engagement**: The developer and city officials may need to improve communication and transparency with the community throughout the development process.\n*   **Historic Preservation**: The historic church on the site may be preserved or demolished as part of the development."
+    },
+    {
+      "agent": "reviewer",
+      "revision": 0,
+      "prompt_tokens": 62092,
+      "completion_tokens": 131,
+      "cached_tokens": 0,
+      "ttft_s": 0.3190107740010717,
+      "e2e_s": 1.5305023210021318,
+      "decode_tps": 108.13117130225042,
+      "error": null,
+      "text": "{\n  \"status\": \"revise\",\n  \"issues\": {\n    \"summarizer\": \"The transcript is a lengthy and detailed account of a city council meeting, but it lacks a clear and concise summary of the main points and decisions made during the meeting.\",\n    \"extractor\": \"The action items and follow-ups are not clearly extracted from the transcript, and some of the information is not relevant to the main topic of the meeting.\",\n    \"drafter\": \"The draft of the rezoning decision for 195 South Monaco Parkway is not clearly drafted, and some of the information is not accurate or up-to-date.\"\n  }\n}"
+    },
+    {
+      "agent": "drafter",
+      "revision": 1,
+      "prompt_tokens": 61100,
+      "completion_tokens": 537,
+      "cached_tokens": 0,
+      "ttft_s": 0.41845687300155987,
+      "e2e_s": 8.456061731001682,
+      "decode_tps": 66.81094797357501,
+      "error": null,
+      "text": "## Email\nSubject: Rezoning Decision for 195 South Monaco Parkway\n\nDear Council Members and Community,\n\nWe are writing to inform you of the rezoning decision for 195 South Monaco Parkway. After careful consideration and review of the application, the City Council has voted to approve the rezoning of the property from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals.\n\nThe proposed development meets the criteria outlined in the Comprehensive Plan and Blueprint Denver, and the City Council has determined that it is consistent with the neighborhood's character and context. The developer has made significant concessions to address concerns from the community, including reducing the number of units and targeting parking on Monaco.\n\nThe rezoning decision is based on the following factors:\n\n* Consistency with adopted plans: The proposed development is consistent with the Comprehensive Plan and Blueprint Denver.\n* Uniformity of district regulations: The SMU three zoning district is consistent with the surrounding neighborhood.\n* Change in changing conditions: The site has changed significantly since its original zoning, and the proposed development is necessary to address the changed character of the area.\n* Consistency with neighborhood context, zone, district purpose, and intent: The proposed development is consistent with the suburban neighborhood context and the single-family residential zoning of the surrounding area.\n\nThe City Council has also considered the following community concerns:\n\n* Traffic and parking: The developer has committed to working with the neighborhood to address any issues that arise during the development process.\n* Density: The proposed development has a density of 75 units, which is consistent with the surrounding neighborhood.\n* Affordable housing: The proposed development includes 50 age-targeted rentals, which will provide affordable housing options for seniors.\n\nThe rezoning decision is subject to the conditions outlined in the land use covenant, including the limitation on density to 25 individual townhouses and 50 apartment or condos, and the requirement for two points of ingress and egress to the site.\n\nWe hope this information is helpful in understanding the rezoning decision for 195 South Monaco Parkway. If you have any questions or concerns, please do not hesitate to contact us.\n\nSincerely,\n[Your Name]\n\n## Slack\nA brief channel message (under 80 words) highlighting decisions and owners.\n\nThe City Council has voted to approve the rezoning of 195 South Monaco Parkway from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals. The proposed development meets the criteria outlined in the Comprehensive Plan and Blueprint Denver, and the City Council has determined that it is consistent with the neighborhood's character and context."
+    },
+    {
+      "agent": "extractor",
+      "revision": 1,
+      "prompt_tokens": 61150,
+      "completion_tokens": 759,
+      "cached_tokens": 0,
+      "ttft_s": 0.4666082389994699,
+      "e2e_s": 10.761654119000013,
+      "decode_tps": 73.72478071947747,
+      "error": null,
+      "text": "Here is the revised output with the action items and follow-ups clearly extracted from the transcript:\n\n**Action Items:**\n\n1. **Rezoning of 195 South Monaco Parkway**: Approve or deny the rezoning of the property from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals.\n\t* Evidence: The developer has made concessions to the neighborhood, including reducing the number of units from 120 to 75 and targeting parking on Monaco.\n\t* Owner: Metropolitan Homes\n\t* Deadline: None specified\n2. **Land Use Covenant**: Approve or deny the land use covenant that limits the density of the development to 25 townhomes and 50 apartments, and restricts access to Monaco.\n\t* Evidence: The covenant has been signed by the developer and several neighbors, and will be recorded against the property.\n\t* Owner: Peter Cutler\n\t* Deadline: None specified\n3. **Traffic Study**: Conduct a traffic study to assess the impact of the development on the surrounding neighborhood.\n\t* Evidence: The developer has submitted a traffic study that shows the development will account for slightly over 1% of the total traffic generated on Monaco.\n\t* Owner: Metropolitan Homes\n\t* Deadline: None specified\n4. **Parking Commitment**: Document the parking commitment of the developer, including the 152 parking spaces for the entire site.\n\t* Evidence: The developer has committed to building 152 parking spaces, including 58 underground spaces and 44 surface parking spaces.\n\t* Owner: Metropolitan Homes\n\t* Deadline: None specified\n5. **Right of Way Vacation**: Approve or deny the right of way vacation along Monaco to align the right of way with the adjacent parcels.\n\t* Evidence: The developer has requested the vacation to align the right of way with the adjacent parcels.\n\t* Owner: Metropolitan Homes\n\t* Deadline: None specified\n6. **Council Bill 56**: Vote on Council Bill 56, which proposes to rezone the property from single-family residential to a mixed-use development.\n\t* Evidence: The bill has been discussed and debated by the council, with some members supporting and others opposing the rezoning.\n\t* Owner: Metropolitan Homes\n\t* Deadline: Monday, June 29th\n7. **Council Bill 346**: Vote on Council Bill 346, which proposes to change the zoning classification of 301 South Cherokee Street.\n\t* Evidence: The bill has been discussed and debated by the council, with some members supporting and others opposing the zoning change.\n\t* Owner: Unknown\n\t* Deadline: Monday, June 22nd\n8. **Carriage Lot Vacation**: Approve or deny the vacation of the carriage lot at 195 South Monaco Parkway.\n\t* Evidence: The developer has requested the vacation to allow for development of the property.\n\t* Owner: Metropolitan Homes\n\t* Deadline: Monday, July 13th (postponed)\n\n**Follow-ups:**\n\n1. **Councilwoman Sussman**: Follow up with Councilwoman Sussman to discuss her concerns about the rezoning and the impact on the neighborhood.\n2. **Developer**: Follow up with the developer to discuss the traffic study and the parking commitment.\n3. **Council Bill 56**: Follow up with the council to discuss the vote on Council Bill 56 and the rezoning of the property.\n4. **Council Bill 346**: Follow up with the council to discuss the vote on Council Bill 346 and the zoning change of 301 South Cherokee Street.\n5. **Carriage Lot Vacation**: Follow up with the council to discuss the vacation of the carriage lot and the development of the property."
+    },
+    {
+      "agent": "summarizer",
+      "revision": 1,
+      "prompt_tokens": 61124,
+      "completion_tokens": 602,
+      "cached_tokens": 0,
+      "ttft_s": 0.46332347900170134,
+      "e2e_s": 9.269091032001597,
+      "decode_tps": 68.36428470053292,
+      "error": null,
+      "text": "## Overview\nThe Denver City Council held a meeting to discuss and vote on Council Bill 56, which proposed to rezone a 2.3-acre property at 195 South Monaco Parkway from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals. The meeting was attended by numerous speakers, including residents, developers, and city officials, who presented their views and concerns about the proposal.\n\n## Key Discussion Points\nNested bullets grouped by topic:\n\n* **Zoning and Land Use**: The proposal aimed to rezone the property from single-family residential to a mixed-use development, which was met with opposition from some residents who were concerned about the impact on the neighborhood's character and the potential for increased traffic and parking.\n* **Density and Traffic**: The proposal included a land use covenant that limited density to 25 individual townhomes and 50 apartment units, as well as a commitment to restrict access to Monaco Parkway and provide a 2.02 parking ratio. However, some residents were concerned about the potential for increased traffic and parking, particularly given the proximity to the existing Lex apartment complex and the proposed Boulevard One development.\n* **Affordability and Housing**: The proposal included a mix of for-sale townhomes and age-targeted rentals, which was seen as a positive aspect by some residents who were concerned about the lack of affordable housing options in the area.\n* **Neighborhood Character**: Some residents were concerned that the proposal would change the character of the neighborhood, which was seen as a stable and desirable area with a mix of single-family homes and townhomes.\n* **Developer's Commitments**: The developer, Metropolitan Homes, made several concessions to the neighborhood, including reducing the number of units from 120 to 75 and targeting parking on Monaco Parkway. However, some residents were concerned that the developer's commitments were not sufficient to address their concerns.\n\n## Decisions Made\n* The City Council voted to approve Council Bill 56, which proposed to rezone the 2.3-acre property at 195 South Monaco Parkway from single-family residential to a mixed-use development with 75 units, including 25 for-sale townhomes and 50 age-targeted rentals.\n* The City Council also approved the land use covenant that limited density to 25 individual townhomes and 50 apartment units, as well as the commitment to restrict access to Monaco Parkway and provide a 2.02 parking ratio.\n\n## Open Questions\n* The City Council did not address the concerns raised by some residents about the potential for increased traffic and parking, particularly given the proximity to the existing Lex apartment complex and the proposed Boulevard One development.\n* The City Council did not discuss the potential impact of the proposal on the neighborhood's character and the need for more affordable housing options in the area.\n* The City Council did not address the concerns raised by some residents about the developer's commitments and the need for more transparency and accountability in the development process."
+    },
+    {
+      "agent": "reviewer",
+      "revision": 1,
+      "prompt_tokens": 62700,
+      "completion_tokens": 376,
+      "cached_tokens": 0,
+      "ttft_s": 0.354304761000094,
+      "e2e_s": 3.903374262001307,
+      "decode_tps": 105.94326199978,
+      "error": null,
+      "text": "Based on the provided transcript, I will evaluate the three artifacts (SUMMARY, ACTION_ITEMS, FOLLOWUPS) strictly against the transcript.\n\n**SUMMARY:**\nThe summary is mostly accurate, but it lacks some details and context. It does not mention the developer's concessions, the land use covenant, or the traffic study. It also does not provide a clear overview of the discussion points and decisions made during the meeting.\n\n**ACTION_ITEMS:**\nThe action items are mostly accurate, but they lack some details and context. They do not provide a clear explanation of the evidence, owners, and deadlines for each action item. Some action items, such as the rezoning of 195 South Monaco Parkway, are not clearly defined.\n\n**FOLLOWUPS:**\nThe follow-ups are mostly accurate, but they lack some details and context. They do not provide a clear explanation of the purpose and scope of each follow-up.\n\n**VERDICT:**\nBased on the evaluation, I would rate the artifacts as follows:\n\n* SUMMARY: Revise (due to lack of details and context)\n* ACTION_ITEMS: Revise (due to lack of details and context)\n* FOLLOWUPS: Revise (due to lack of details and context)\n\n**ISSUES:**\nThe issues with the artifacts are:\n\n* Lack of details and context\n* Inaccurate or incomplete information\n* Unclear explanations of evidence, owners, and deadlines\n* Unclear explanations of purpose and scope of follow-ups\n\n**RECOMMENDATIONS:**\nTo improve the artifacts, I would recommend:\n\n* Providing more details and context\n* Ensuring accuracy and completeness of information\n* Clearly explaining evidence, owners, and deadlines for each action item\n* Clearly explaining purpose and scope of follow-ups\n* Reviewing and revising the artifacts to ensure they are consistent with the transcript and meet the required standards."
+    }
+  ],
+  "spans": [
+    {
+      "name": "coordinator",
+      "kind": "phase",
+      "start_ts": 1781055281.704282,
+      "end_ts": 1781055285.4402673,
+      "duration_s": 3.735985349998373,
+      "attrs": {}
+    },
+    {
+      "name": "coordinator",
+      "kind": "agent",
+      "start_ts": 1781055281.704304,
+      "end_ts": 1781055285.4402425,
+      "duration_s": 3.7359384299998055,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 60760,
+        "completion_tokens": 371,
+        "total_tokens": 61131,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.1815187110005354,
+        "decode_s": 3.55441971899927,
+        "decode_tokens_per_s": 104.37709368336874
+      }
+    },
+    {
+      "name": "extractor",
+      "kind": "phase",
+      "start_ts": 1781055285.4443161,
+      "end_ts": 1781055301.5345619,
+      "duration_s": 16.090245704002882,
+      "attrs": {}
+    },
+    {
+      "name": "extractor",
+      "kind": "agent",
+      "start_ts": 1781055285.4444873,
+      "end_ts": 1781055301.534541,
+      "duration_s": 16.090053484000236,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 61103,
+        "completion_tokens": 326,
+        "total_tokens": 61429,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 7.850356858998566,
+        "decode_s": 8.23969662500167,
+        "decode_tokens_per_s": 39.564563458661794
+      }
+    },
+    {
+      "name": "drafter",
+      "kind": "phase",
+      "start_ts": 1781055285.4411926,
+      "end_ts": 1781055303.2451804,
+      "duration_s": 17.803987696999684,
+      "attrs": {}
+    },
+    {
+      "name": "drafter",
+      "kind": "agent",
+      "start_ts": 1781055285.4413521,
+      "end_ts": 1781055303.2451508,
+      "duration_s": 17.80379876599909,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 61052,
+        "completion_tokens": 494,
+        "total_tokens": 61546,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 4.078034982998361,
+        "decode_s": 13.72576378300073,
+        "decode_tokens_per_s": 35.99071117716712
+      }
+    },
+    {
+      "name": "summarizer",
+      "kind": "phase",
+      "start_ts": 1781055285.447436,
+      "end_ts": 1781055303.5922892,
+      "duration_s": 18.14485316900027,
+      "attrs": {}
+    },
+    {
+      "name": "summarizer",
+      "kind": "agent",
+      "start_ts": 1781055285.4475803,
+      "end_ts": 1781055303.5922627,
+      "duration_s": 18.14468239800044,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 61074,
+        "completion_tokens": 470,
+        "total_tokens": 61544,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 11.687196047001635,
+        "decode_s": 6.457486350998806,
+        "decode_tokens_per_s": 72.78373881925482
+      }
+    },
+    {
+      "name": "reviewer",
+      "kind": "phase",
+      "start_ts": 1781055303.592912,
+      "end_ts": 1781055305.1234696,
+      "duration_s": 1.530557662998035,
+      "attrs": {}
+    },
+    {
+      "name": "reviewer",
+      "kind": "agent",
+      "start_ts": 1781055303.5929382,
+      "end_ts": 1781055305.1234405,
+      "duration_s": 1.5305023210021318,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 62092,
+        "completion_tokens": 131,
+        "total_tokens": 62223,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.3190107740010717,
+        "decode_s": 1.21149154700106,
+        "decode_tokens_per_s": 108.13117130225042
+      }
+    },
+    {
+      "name": "drafter",
+      "kind": "phase",
+      "start_ts": 1781055305.1248262,
+      "end_ts": 1781055313.5810728,
+      "duration_s": 8.456246591998934,
+      "attrs": {}
+    },
+    {
+      "name": "drafter",
+      "kind": "agent",
+      "start_ts": 1781055305.1249778,
+      "end_ts": 1781055313.5810397,
+      "duration_s": 8.456061731001682,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 61100,
+        "completion_tokens": 537,
+        "total_tokens": 61637,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.41845687300155987,
+        "decode_s": 8.037604858000122,
+        "decode_tokens_per_s": 66.81094797357501
+      }
+    },
+    {
+      "name": "summarizer",
+      "kind": "phase",
+      "start_ts": 1781055305.1310496,
+      "end_ts": 1781055314.4003215,
+      "duration_s": 9.26927173200238,
+      "attrs": {}
+    },
+    {
+      "name": "summarizer",
+      "kind": "agent",
+      "start_ts": 1781055305.1311955,
+      "end_ts": 1781055314.4002867,
+      "duration_s": 9.269091032001597,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 61124,
+        "completion_tokens": 602,
+        "total_tokens": 61726,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.46332347900170134,
+        "decode_s": 8.805767552999896,
+        "decode_tokens_per_s": 68.36428470053292
+      }
+    },
+    {
+      "name": "extractor",
+      "kind": "phase",
+      "start_ts": 1781055305.1279502,
+      "end_ts": 1781055315.8897843,
+      "duration_s": 10.76183405899792,
+      "attrs": {}
+    },
+    {
+      "name": "extractor",
+      "kind": "agent",
+      "start_ts": 1781055305.1280913,
+      "end_ts": 1781055315.8897455,
+      "duration_s": 10.761654119000013,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 61150,
+        "completion_tokens": 759,
+        "total_tokens": 61909,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.4666082389994699,
+        "decode_s": 10.295045880000544,
+        "decode_tokens_per_s": 73.72478071947747
+      }
+    },
+    {
+      "name": "reviewer",
+      "kind": "phase",
+      "start_ts": 1781055315.8903635,
+      "end_ts": 1781055319.7937934,
+      "duration_s": 3.9034300210005313,
+      "attrs": {}
+    },
+    {
+      "name": "reviewer",
+      "kind": "agent",
+      "start_ts": 1781055315.8903913,
+      "end_ts": 1781055319.7937655,
+      "duration_s": 3.903374262001307,
+      "attrs": {
+        "revision": 1,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 62700,
+        "completion_tokens": 376,
+        "total_tokens": 63076,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.354304761000094,
+        "decode_s": 3.549069501001213,
+        "decode_tokens_per_s": 105.94326199978
+      }
+    }
+  ]
+}

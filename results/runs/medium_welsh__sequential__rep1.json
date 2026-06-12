@@ -1,0 +1,250 @@
+{
+  "mode": "sequential",
+  "transcript_size": "medium_welsh",
+  "repeat": 1,
+  "revisions": 0,
+  "verdict_status": "pass",
+  "errored": false,
+  "n_agent_calls": 5,
+  "e2e_wall_s": 16.428720863001217,
+  "ttft_mean_s": 0.3590481701998215,
+  "ttft_max_s": 0.538762730997405,
+  "decode_tps_mean": 133.96861867874995,
+  "prompt_tokens": 66810,
+  "completion_tokens": 1957,
+  "total_tokens": 68767,
+  "cached_tokens": 0,
+  "prefix_cache_hit_ratio": 0.0,
+  "throughput_tok_per_s": 4185.779317418968,
+  "server_metrics_available": true,
+  "host_cpu_percent_mean": 1.1937499999999999,
+  "host_cpu_percent_max": 1.8,
+  "orchestrator_rss_mb_mean": 130.40844800000008,
+  "orchestrator_rss_mb_max": 130.408448,
+  "host_mem_used_mb_mean": 18524.363519999995,
+  "host_mem_used_mb_max": 18526.859264,
+  "host_mem_percent_mean": 9.10000000000001,
+  "host_mem_percent_max": 9.1,
+  "vllm_gpu_cache_usage_perc_mean": 0.03675299737729487,
+  "vllm_gpu_cache_usage_perc_max": 0.042712626451854585,
+  "vllm_num_requests_running_mean": 0.953125,
+  "vllm_num_requests_running_max": 1.0,
+  "vllm_num_requests_waiting_mean": 0.0,
+  "vllm_num_requests_waiting_max": 0.0,
+  "delta_prompt_tokens_total": 66810.0,
+  "delta_generation_tokens_total": 1957.0,
+  "delta_prefix_cache_queries_total": 66810.0,
+  "delta_prefix_cache_hits_total": 26112.0,
+  "delta_num_requests_total": 5.0,
+  "delta_server_prefix_cache_hit_rate": 0.39083969465648855,
+  "artifacts": {
+    "summary": "## Overview\nThe meeting discussed the financial sustainability of the higher education sector in Wales, including the impact of demographic changes, pension costs, and Brexit uncertainty. The Higher Education Funding Council for Wales (HEFCW) provided an update on their funding allocations and priorities for the 2019-20 academic year. The sector is facing significant financial challenges, but HEFCW is working to support and fund growth in part-time provision and improve the accessibility of information on university income and expenditure.\n\n## Key Discussion Points\n### Financial Sustainability\n* The sector is facing significant financial challenges due to demographic changes, pension costs, and Brexit uncertainty.\n* Universities are managing these challenges, but may need to take out more costs, leading to job losses and reduced capacity.\n* HEFCW is working to support and fund growth in part-time provision.\n* The sector is also facing challenges in maintaining its attractiveness to students and research capacity.\n\n### Governance and Risk\n* HEFCW is monitoring the financial health of each university and has identified one university as high risk, five as medium, and two as low in the short to medium term.\n* The sector is working to improve governance arrangements and risk management, including an independent review of governance in Wales.\n* HEFCW is also working to improve the relationships between executive teams and governors.\n\n### Funding and Allocations\n* HEFCW has allocated \u00a3149 million for the 2019-20 academic year, including \u00a37 million for recurrent teaching funding and \u00a376 million for research funding.\n* The sector is also receiving \u00a315 million in innovation funding to help universities access UKRI funding.\n* HEFCW is working to improve the accessibility of information on university income and expenditure.\n\n### Research and Innovation\n* The sector is facing challenges in maintaining research funding, particularly in the wake of Brexit.\n* HEFCW is working to support the sector in accessing UKRI funding and is consulting on a \u00a315 million innovation funding package.\n* The sector is also working to improve its research capacity and embed itself in UK-wide conversations.\n\n## Decisions Made\n* HEFCW will continue to support and fund growth in part-time provision.\n* The sector will work to improve the accessibility of information on university income and expenditure.\n* HEFCW will provide \u00a315 million in innovation funding to help universities access UKRI funding.\n\n## Open Questions\n* The impact of Brexit on EU funding for research is still uncertain and may have far-reaching consequences for the sector.\n* The sector is facing significant financial challenges, including a demographic dip and increased pension costs.\n* The governing body of Trinity Saint David has taken decisions that have led to material uncertainty, but HEFCW does not see this as a governance failure.",
+    "action_items": "[\n  {\n    \"task\": \"Provide a note on reserves for the last four years\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Lynne Neagle AM: You did say that you would give the committee a note on reserves for the last four years,\"\n  },\n  {\n    \"task\": \"Send a transcript to check for accuracy following the meeting\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Lynne Neagle AM: And, as usual, you'll be sent a transcript to check for accuracy following the meeting.\"\n  },\n  {\n    \"task\": \"Increase QR funding in real terms\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Sian Gwenllian AM: Have you carried out any kind of assessment of the impact of this level of research funding on universities and, indeed, on the Welsh economy?\"\n  },\n  {\n    \"task\": \"Maintain QR funding at the same level for 2019-20\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Sian Gwenllian AM: The allocation is exactly the same for 2019-20 as it has been for the past nine years.\"\n  },\n  {\n    \"task\": \"Provide \u00a315 million in innovation funding to help universities access UKRI funding\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"2020-21\",\n    \"evidence\": \"Bethan Owen: One aspect that we do intend to fund\u2014and this is from Diamond, as well as Reid\u2014is to place funding back into the system for innovation.\"\n  },\n  {\n    \"task\": \"Improve the accessibility of information on university income and expenditure\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Janet Finch-Saunders AM: The council's remit letter for the 2019-20 academic year from the Minister does ask you to consider how you'd increase openness and transparency around the use of fee income.\"\n  },\n  {\n    \"task\": \"Support and fund growth in part-time provision\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Hefin David AM: Part-time student numbers are bucking the trend in Wales, as I understand it, and we are seeing a bigger increase in Wales of part-time numbers than elsewhere in the UK.\"\n  },\n  {\n    \"task\": \"Maintain the attractiveness of Welsh universities to students\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Bethan Owen: And, just to add, I think the key bit of that is maintaining the attractiveness of Welsh universities to students, because a large proportion are coming not from just Wales, but from England and internationally\u2014so, that's a key part\u2014\"\n  },\n  {\n    \"task\": \"Develop a vision for research and innovation\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Dr David Blaney: And, then, there's also the recommendation from Reid that Wales needs to be better embedded in the conversations that are going on on a UK-wide basis, so the Welsh Government has established a presence in London in respect of research, and we have a colleague in HEFCW who is fractionally embedded in the United Kingdom Research and Innovation specifically to respond to that recommendation.\"\n  }\n]",
+    "followups": "## Email\n\nSubject: Follow-up on Higher Education Funding Council for Wales Meeting\n\nDear All,\n\nI wanted to follow up on the meeting with the Higher Education Funding Council for Wales (HEFCW) on [Date]. The key decisions and action items discussed during the meeting were:\n\n* HEFCW will continue to support and fund growth in part-time provision.\n* The sector will work to improve the accessibility of information on university income and expenditure.\n* HEFCW will provide \u00a315 million in innovation funding to help universities access UKRI funding.\n\nWe also discussed the challenges facing the higher education sector in Wales, including demographic changes, pension costs, and Brexit uncertainty. HEFCW will continue to monitor the sector's financial sustainability and work with universities to address these challenges.\n\nPlease let me know if you have any questions or need further clarification on any of the points discussed during the meeting.\n\nBest regards,\n[Your Name]\n\n## Slack\n\nReminder: Key decisions from the HEFCW meeting:\n\n* HEFCW to continue supporting part-time provision growth\n* Sector to improve transparency on university income/expenditure\n* \u00a315m innovation funding to support UKRI access\n\nAction items: \n* HEFCW to work with universities on financial sustainability\n* Sector to address demographic changes, pension costs, and Brexit uncertainty\n\nLet me know if you have any questions or need further clarification.",
+    "brief": "COORDINATION BRIEF\n\nPARTICIPANTS:\n- Lynne Neagle AM (Chair)\n- Angela Burns AM\n- Hefin David AM\n- Si\u00e2n Gwenllian AM\n- Janet Finch-Saunders AM\n- Dr David Blaney (Chief Executive, Higher Education Funding Council for Wales)\n- Bethan Owen (Deputy Chief Executive, Higher Education Funding Council for Wales)\n\nSCOPE:\nThe meeting discusses the financial sustainability of the higher education sector in Wales, including the impact of demographic changes, pension costs, and Brexit uncertainty. The Higher Education Funding Council for Wales (HEFCW) provides an update on their funding allocations and priorities for the 2019-20 academic year.\n\nDECISION CUES:\n- HEFCW will continue to support and fund growth in part-time provision.\n- The sector will work to improve the accessibility of information on university income and expenditure.\n- HEFCW will provide \u00a315 million in innovation funding to help universities access UKRI funding.\n\nCAUTIONS:\n- The sector is facing significant financial challenges, including a demographic dip and increased pension costs.\n- There is a risk that universities may struggle to maintain their attractiveness to students and maintain their research capacity.\n- The impact of Brexit on EU funding for research is still uncertain and may have far-reaching consequences for the sector.\n- The governing body of Trinity Saint David has taken decisions that have led to material uncertainty, but HEFCW does not see this as a governance failure."
+  },
+  "per_agent": [
+    {
+      "agent": "coordinator",
+      "revision": 0,
+      "prompt_tokens": 12892,
+      "completion_tokens": 299,
+      "cached_tokens": 0,
+      "ttft_s": 0.05617054300091695,
+      "e2e_s": 2.3130754150006396,
+      "decode_tps": 132.4823228969647,
+      "error": null,
+      "text": "COORDINATION BRIEF\n\nPARTICIPANTS:\n- Lynne Neagle AM (Chair)\n- Angela Burns AM\n- Hefin David AM\n- Si\u00e2n Gwenllian AM\n- Janet Finch-Saunders AM\n- Dr David Blaney (Chief Executive, Higher Education Funding Council for Wales)\n- Bethan Owen (Deputy Chief Executive, Higher Education Funding Council for Wales)\n\nSCOPE:\nThe meeting discusses the financial sustainability of the higher education sector in Wales, including the impact of demographic changes, pension costs, and Brexit uncertainty. The Higher Education Funding Council for Wales (HEFCW) provides an update on their funding allocations and priorities for the 2019-20 academic year.\n\nDECISION CUES:\n- HEFCW will continue to support and fund growth in part-time provision.\n- The sector will work to improve the accessibility of information on university income and expenditure.\n- HEFCW will provide \u00a315 million in innovation funding to help universities access UKRI funding.\n\nCAUTIONS:\n- The sector is facing significant financial challenges, including a demographic dip and increased pension costs.\n- There is a risk that universities may struggle to maintain their attractiveness to students and maintain their research capacity.\n- The impact of Brexit on EU funding for research is still uncertain and may have far-reaching consequences for the sector.\n- The governing body of Trinity Saint David has taken decisions that have led to material uncertainty, but HEFCW does not see this as a governance failure."
+    },
+    {
+      "agent": "summarizer",
+      "revision": 0,
+      "prompt_tokens": 13134,
+      "completion_tokens": 546,
+      "cached_tokens": 0,
+      "ttft_s": 0.538762730997405,
+      "e2e_s": 4.679796104999696,
+      "decode_tps": 131.85114696921494,
+      "error": null,
+      "text": "## Overview\nThe meeting discussed the financial sustainability of the higher education sector in Wales, including the impact of demographic changes, pension costs, and Brexit uncertainty. The Higher Education Funding Council for Wales (HEFCW) provided an update on their funding allocations and priorities for the 2019-20 academic year. The sector is facing significant financial challenges, but HEFCW is working to support and fund growth in part-time provision and improve the accessibility of information on university income and expenditure.\n\n## Key Discussion Points\n### Financial Sustainability\n* The sector is facing significant financial challenges due to demographic changes, pension costs, and Brexit uncertainty.\n* Universities are managing these challenges, but may need to take out more costs, leading to job losses and reduced capacity.\n* HEFCW is working to support and fund growth in part-time provision.\n* The sector is also facing challenges in maintaining its attractiveness to students and research capacity.\n\n### Governance and Risk\n* HEFCW is monitoring the financial health of each university and has identified one university as high risk, five as medium, and two as low in the short to medium term.\n* The sector is working to improve governance arrangements and risk management, including an independent review of governance in Wales.\n* HEFCW is also working to improve the relationships between executive teams and governors.\n\n### Funding and Allocations\n* HEFCW has allocated \u00a3149 million for the 2019-20 academic year, including \u00a37 million for recurrent teaching funding and \u00a376 million for research funding.\n* The sector is also receiving \u00a315 million in innovation funding to help universities access UKRI funding.\n* HEFCW is working to improve the accessibility of information on university income and expenditure.\n\n### Research and Innovation\n* The sector is facing challenges in maintaining research funding, particularly in the wake of Brexit.\n* HEFCW is working to support the sector in accessing UKRI funding and is consulting on a \u00a315 million innovation funding package.\n* The sector is also working to improve its research capacity and embed itself in UK-wide conversations.\n\n## Decisions Made\n* HEFCW will continue to support and fund growth in part-time provision.\n* The sector will work to improve the accessibility of information on university income and expenditure.\n* HEFCW will provide \u00a315 million in innovation funding to help universities access UKRI funding.\n\n## Open Questions\n* The impact of Brexit on EU funding for research is still uncertain and may have far-reaching consequences for the sector.\n* The sector is facing significant financial challenges, including a demographic dip and increased pension costs.\n* The governing body of Trinity Saint David has taken decisions that have led to material uncertainty, but HEFCW does not see this as a governance failure."
+    },
+    {
+      "agent": "extractor",
+      "revision": 0,
+      "prompt_tokens": 13163,
+      "completion_tokens": 751,
+      "cached_tokens": 0,
+      "ttft_s": 0.5324060410021048,
+      "e2e_s": 6.062842113002262,
+      "decode_tps": 135.7939934975852,
+      "error": null,
+      "text": "[\n  {\n    \"task\": \"Provide a note on reserves for the last four years\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Lynne Neagle AM: You did say that you would give the committee a note on reserves for the last four years,\"\n  },\n  {\n    \"task\": \"Send a transcript to check for accuracy following the meeting\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Lynne Neagle AM: And, as usual, you'll be sent a transcript to check for accuracy following the meeting.\"\n  },\n  {\n    \"task\": \"Increase QR funding in real terms\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Sian Gwenllian AM: Have you carried out any kind of assessment of the impact of this level of research funding on universities and, indeed, on the Welsh economy?\"\n  },\n  {\n    \"task\": \"Maintain QR funding at the same level for 2019-20\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Sian Gwenllian AM: The allocation is exactly the same for 2019-20 as it has been for the past nine years.\"\n  },\n  {\n    \"task\": \"Provide \u00a315 million in innovation funding to help universities access UKRI funding\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"2020-21\",\n    \"evidence\": \"Bethan Owen: One aspect that we do intend to fund\u2014and this is from Diamond, as well as Reid\u2014is to place funding back into the system for innovation.\"\n  },\n  {\n    \"task\": \"Improve the accessibility of information on university income and expenditure\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Janet Finch-Saunders AM: The council's remit letter for the 2019-20 academic year from the Minister does ask you to consider how you'd increase openness and transparency around the use of fee income.\"\n  },\n  {\n    \"task\": \"Support and fund growth in part-time provision\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Hefin David AM: Part-time student numbers are bucking the trend in Wales, as I understand it, and we are seeing a bigger increase in Wales of part-time numbers than elsewhere in the UK.\"\n  },\n  {\n    \"task\": \"Maintain the attractiveness of Welsh universities to students\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Bethan Owen: And, just to add, I think the key bit of that is maintaining the attractiveness of Welsh universities to students, because a large proportion are coming not from just Wales, but from England and internationally\u2014so, that's a key part\u2014\"\n  },\n  {\n    \"task\": \"Develop a vision for research and innovation\",\n    \"owner\": \"HEFCW\",\n    \"deadline\": \"none\",\n    \"evidence\": \"Dr David Blaney: And, then, there's also the recommendation from Reid that Wales needs to be better embedded in the conversations that are going on on a UK-wide basis, so the Welsh Government has established a presence in London in respect of research, and we have a colleague in HEFCW who is fractionally embedded in the United Kingdom Research and Innovation specifically to respond to that recommendation.\"\n  }\n]"
+    },
+    {
+      "agent": "drafter",
+      "revision": 0,
+      "prompt_tokens": 13112,
+      "completion_tokens": 278,
+      "cached_tokens": 0,
+      "ttft_s": 0.534702960998402,
+      "e2e_s": 2.634642339999118,
+      "decode_tps": 132.384773951089,
+      "error": null,
+      "text": "## Email\n\nSubject: Follow-up on Higher Education Funding Council for Wales Meeting\n\nDear All,\n\nI wanted to follow up on the meeting with the Higher Education Funding Council for Wales (HEFCW) on [Date]. The key decisions and action items discussed during the meeting were:\n\n* HEFCW will continue to support and fund growth in part-time provision.\n* The sector will work to improve the accessibility of information on university income and expenditure.\n* HEFCW will provide \u00a315 million in innovation funding to help universities access UKRI funding.\n\nWe also discussed the challenges facing the higher education sector in Wales, including demographic changes, pension costs, and Brexit uncertainty. HEFCW will continue to monitor the sector's financial sustainability and work with universities to address these challenges.\n\nPlease let me know if you have any questions or need further clarification on any of the points discussed during the meeting.\n\nBest regards,\n[Your Name]\n\n## Slack\n\nReminder: Key decisions from the HEFCW meeting:\n\n* HEFCW to continue supporting part-time provision growth\n* Sector to improve transparency on university income/expenditure\n* \u00a315m innovation funding to support UKRI access\n\nAction items: \n* HEFCW to work with universities on financial sustainability\n* Sector to address demographic changes, pension costs, and Brexit uncertainty\n\nLet me know if you have any questions or need further clarification."
+    },
+    {
+      "agent": "reviewer",
+      "revision": 0,
+      "prompt_tokens": 14509,
+      "completion_tokens": 83,
+      "cached_tokens": 0,
+      "ttft_s": 0.13319857500027865,
+      "e2e_s": 0.7375784089999797,
+      "decode_tps": 137.330856078896,
+      "error": null,
+      "text": "{\n  \"status\": \"pass\",\n  \"issues\": {\n    \"summarizer\": \"Summary is a good summary, but could be more concise and focused on key points.\",\n    \"extractor\": \"Action items are mostly accurate, but some are vague or lack specific deadlines.\",\n    \"drafter\": \"Follow-ups are clear and concise, but could be more formal and professional.\"\n  }\n}"
+    }
+  ],
+  "spans": [
+    {
+      "name": "coordinator",
+      "kind": "phase",
+      "start_ts": 1781054509.4321659,
+      "end_ts": 1781054511.7452757,
+      "duration_s": 2.313109765000263,
+      "attrs": {}
+    },
+    {
+      "name": "coordinator",
+      "kind": "agent",
+      "start_ts": 1781054509.43218,
+      "end_ts": 1781054511.7452552,
+      "duration_s": 2.3130754150006396,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 12892,
+        "completion_tokens": 299,
+        "total_tokens": 13191,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.05617054300091695,
+        "decode_s": 2.2569048719997227,
+        "decode_tokens_per_s": 132.4823228969647
+      }
+    },
+    {
+      "name": "summarizer",
+      "kind": "phase",
+      "start_ts": 1781054511.7452893,
+      "end_ts": 1781054516.4251852,
+      "duration_s": 4.679895795001357,
+      "attrs": {}
+    },
+    {
+      "name": "extractor",
+      "kind": "phase",
+      "start_ts": 1781054516.4251924,
+      "end_ts": 1781054522.4881423,
+      "duration_s": 6.062949972998467,
+      "attrs": {}
+    },
+    {
+      "name": "drafter",
+      "kind": "phase",
+      "start_ts": 1781054522.4881506,
+      "end_ts": 1781054525.1228793,
+      "duration_s": 2.634728780001751,
+      "attrs": {}
+    },
+    {
+      "name": "summarizer",
+      "kind": "agent",
+      "start_ts": 1781054511.7453604,
+      "end_ts": 1781054516.4251566,
+      "duration_s": 4.679796104999696,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 13134,
+        "completion_tokens": 546,
+        "total_tokens": 13680,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.538762730997405,
+        "decode_s": 4.141033374002291,
+        "decode_tokens_per_s": 131.85114696921494
+      }
+    },
+    {
+      "name": "extractor",
+      "kind": "agent",
+      "start_ts": 1781054516.425258,
+      "end_ts": 1781054522.4881,
+      "duration_s": 6.062842113002262,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 13163,
+        "completion_tokens": 751,
+        "total_tokens": 13914,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.5324060410021048,
+        "decode_s": 5.530436072000157,
+        "decode_tokens_per_s": 135.7939934975852
+      }
+    },
+    {
+      "name": "drafter",
+      "kind": "agent",
+      "start_ts": 1781054522.4882164,
+      "end_ts": 1781054525.1228588,
+      "duration_s": 2.634642339999118,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 13112,
+        "completion_tokens": 278,
+        "total_tokens": 13390,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.534702960998402,
+        "decode_s": 2.099939379000716,
+        "decode_tokens_per_s": 132.384773951089
+      }
+    },
+    {
+      "name": "reviewer",
+      "kind": "phase",
+      "start_ts": 1781054525.1228979,
+      "end_ts": 1781054525.8605216,
+      "duration_s": 0.737623719000112,
+      "attrs": {}
+    },
+    {
+      "name": "reviewer",
+      "kind": "agent",
+      "start_ts": 1781054525.1229174,
+      "end_ts": 1781054525.8604958,
+      "duration_s": 0.7375784089999797,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 14509,
+        "completion_tokens": 83,
+        "total_tokens": 14592,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.13319857500027865,
+        "decode_s": 0.6043798339997011,
+        "decode_tokens_per_s": 137.330856078896
+      }
+    }
+  ]
+}

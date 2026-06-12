@@ -1,0 +1,250 @@
+{
+  "mode": "langgraph",
+  "transcript_size": "small_swe",
+  "repeat": 1,
+  "revisions": 0,
+  "verdict_status": "pass",
+  "errored": false,
+  "n_agent_calls": 5,
+  "e2e_wall_s": 7.197923468000226,
+  "ttft_mean_s": 0.3925743305997457,
+  "ttft_max_s": 0.8725405939985649,
+  "decode_tps_mean": 124.73557147437766,
+  "prompt_tokens": 41171,
+  "completion_tokens": 1426,
+  "total_tokens": 42597,
+  "cached_tokens": 0,
+  "prefix_cache_hit_ratio": 0.0,
+  "throughput_tok_per_s": 5917.9567814763905,
+  "server_metrics_available": true,
+  "host_cpu_percent_mean": 1.224137931034483,
+  "host_cpu_percent_max": 1.7,
+  "orchestrator_rss_mb_mean": 130.40844800000005,
+  "orchestrator_rss_mb_max": 130.408448,
+  "host_mem_used_mb_mean": 18515.55529268966,
+  "host_mem_used_mb_max": 18517.549056,
+  "host_mem_percent_mean": 9.099999999999998,
+  "host_mem_percent_max": 9.1,
+  "vllm_gpu_cache_usage_perc_mean": 0.04032247645379256,
+  "vllm_gpu_cache_usage_perc_max": 0.07418508804795809,
+  "vllm_num_requests_running_mean": 1.6896551724137931,
+  "vllm_num_requests_running_max": 3.0,
+  "vllm_num_requests_waiting_mean": 0.10344827586206896,
+  "vllm_num_requests_waiting_max": 2.0,
+  "delta_prompt_tokens_total": 41171.0,
+  "delta_generation_tokens_total": 1426.0,
+  "delta_prefix_cache_queries_total": 41171.0,
+  "delta_prefix_cache_hits_total": 16512.0,
+  "delta_num_requests_total": 5.0,
+  "delta_server_prefix_cache_hit_rate": 0.40105899783828425,
+  "artifacts": {
+    "summary": "## Overview\nThe meeting discussed key review metrics, including community MRs, MR rates, and defect tracking. The team agreed to simplify the metrics by tracking the percentage of total MRs that come from the community over time and to hold the narrow MR rate at 10 as the target going forward. The team also discussed the need to improve security and quality metrics.\n\n## Key Discussion Points\n### Metrics Simplification\n* The team agreed to track the percentage of total MRs that come from the community over time.\n* The narrow MR rate will be held at 10 as the target going forward.\n* The team discussed the potential for gaming the system by producing fewer MRs with engineers at GitLab.\n* The team agreed to continue to monitor the SUS metrics and address the underlying problem in metrics measurement.\n\n### Defect Tracking and SLOs\n* The team is continuing to improve defect tracking and SLOs.\n* The team is experimenting with a new PI to show the percentage of defects meeting SLOs.\n* The team discussed the need to dig deeper into the data to understand the spike in mean time to close.\n* The team agreed to focus on the age of all opened bugs, including open bugs that are within SLO.\n\n### Security and Quality Metrics\n* The team discussed the need to get more security work prioritized.\n* The team agreed to focus on other indicators to improve security and quality, rather than relying solely on MR rates.\n\n### SUS Metrics\n* The team discussed the decline in SUS metrics and the need to continue to focus on improving them.\n* The team agreed to keep an eye on SUS metrics and not assume that the current trend is a real improvement.\n\n### Narrow MR Rate\n* The team discussed the narrow MR rate and the need to hold it at 10 as the target going forward.\n* The team agreed that higher MR rates should also help to address security and quality issues.\n\n## Decisions Made\n* The team will track the percentage of total MRs that come from the community over time.\n* The narrow MR rate will be held at 10 as the target going forward.\n* The team will focus on other indicators to improve security and quality.\n* The defect tracking and SLOs will be continued to be improved.\n\n## Open Questions\n* The team still needs to dig deeper into the data to understand the spike in mean time to close.\n* The team needs to continue to monitor the SUS metrics and address the underlying problem in metrics measurement.\n* The team needs to focus on other indicators to improve security and quality, rather than relying solely on MR rates.",
+    "action_items": "[\n  {\n    \"task\": \"Track the percentage of total MRs that come from the community over time\",\n    \"owner\": \"Lily and Max\",\n    \"deadline\": \"none\",\n    \"evidence\": \"I love that, let's do that instead\"\n  },\n  {\n    \"task\": \"Simplify the metrics to prevent gaming the system\",\n    \"owner\": \"Eric Johnson\",\n    \"deadline\": \"none\",\n    \"evidence\": \"we have different metrics to prevent that from happening\"\n  },\n  {\n    \"task\": \"Create a dedicated host for the data team to pull from\",\n    \"owner\": \"Rob\",\n    \"deadline\": \"none\",\n    \"evidence\": \"i'll own those and i know we have uh an action plan for that\"\n  },\n  {\n    \"task\": \"Improve database performance and tuning\",\n    \"owner\": \"Steve and Craig\",\n    \"deadline\": \"none\",\n    \"evidence\": \"there's so i'd say it's it's three different things\"\n  },\n  {\n    \"task\": \"Focus on security work prioritization\",\n    \"owner\": \"Sid\",\n    \"deadline\": \"none\",\n    \"evidence\": \"we need to get more security work prioritized\"\n  },\n  {\n    \"task\": \"Hold the narrow MR rate at 10 as the target going forward\",\n    \"owner\": \"Eric Johnson\",\n    \"deadline\": \"none\",\n    \"evidence\": \"10 will be the target going forward\"\n  }\n]",
+    "followups": "## Email\nSubject: Key Review Meeting Recap and Next Steps\n\nDear Team,\n\nThis email serves as a recap of our key review meeting on February 18, 2021. We discussed several key topics, including:\n\n* Breaking up the engineering key review into four department key reviews, with a two-month rotation.\n* Tracking the percentage of total MRs that come from the community over time, instead of using the complex \"RD Wider\" metric.\n* Focusing on other indicators to improve security and quality, rather than relying solely on the narrow MR rate.\n* Continuing to improve defect tracking and SLOs.\n\nAction items include:\n\n* Lily and Max will work together to transition to tracking the percentage of community MRs.\n* Steve and Craig will partner to address the replication lag issue and improve database performance.\n* Rob will provide an update on the defect tracking and SLOs progress.\n* We will continue to monitor the SUS metrics and address the underlying problem in metrics measurement.\n\nPlease let me know if you have any questions or concerns. Thank you for your participation and contributions to the meeting.\n\nBest regards,\n[Your Name]\n\n## Slack\nWe've decided to track the percentage of total MRs that come from the community over time, instead of using the complex \"RD Wider\" metric. We'll also focus on other indicators to improve security and quality, rather than relying solely on the narrow MR rate. Let's keep an eye on the SUS metrics and address the underlying problem in metrics measurement.",
+    "brief": "COORDINATION BRIEF\n\nPARTICIPANTS:\n- Eric Johnson\n- Lily\n- Sid\n- Max\n- Christopher\n- Mike\n- Rob\n- Ryan\n- Craig\n- Steve\n- Mac\n- Sus\n\nSCOPE:\nThe meeting discussed key review metrics, including community MRs, MR rates, and defect tracking. The goal is to improve visibility, objectivity, and productivity while addressing security and quality concerns.\n\nDECISION CUES:\n- The team will track the percentage of total MRs that come from the community over time.\n- The narrow MR rate will be held at 10 as the target going forward.\n- The team will focus on other indicators to improve security and quality.\n- The defect tracking and SLOs will be continued to be improved.\n\nCAUTIONS:\n- The team should be cautious not to over-interpret the narrow MR rate as a direct measure of productivity, as it may be influenced by factors such as vacation days and power outages.\n- The team should also be aware of the potential for gaming the system by producing fewer MRs with engineers at GitLab.\n- The team should continue to monitor the SUS metrics and address the underlying problem in metrics measurement."
+  },
+  "per_agent": [
+    {
+      "agent": "coordinator",
+      "revision": 0,
+      "prompt_tokens": 7882,
+      "completion_tokens": 246,
+      "cached_tokens": 0,
+      "ttft_s": 0.03824548600096023,
+      "e2e_s": 1.8433014170004753,
+      "decode_tps": 136.28386565494523,
+      "error": null,
+      "text": "COORDINATION BRIEF\n\nPARTICIPANTS:\n- Eric Johnson\n- Lily\n- Sid\n- Max\n- Christopher\n- Mike\n- Rob\n- Ryan\n- Craig\n- Steve\n- Mac\n- Sus\n\nSCOPE:\nThe meeting discussed key review metrics, including community MRs, MR rates, and defect tracking. The goal is to improve visibility, objectivity, and productivity while addressing security and quality concerns.\n\nDECISION CUES:\n- The team will track the percentage of total MRs that come from the community over time.\n- The narrow MR rate will be held at 10 as the target going forward.\n- The team will focus on other indicators to improve security and quality.\n- The defect tracking and SLOs will be continued to be improved.\n\nCAUTIONS:\n- The team should be cautious not to over-interpret the narrow MR rate as a direct measure of productivity, as it may be influenced by factors such as vacation days and power outages.\n- The team should also be aware of the potential for gaming the system by producing fewer MRs with engineers at GitLab.\n- The team should continue to monitor the SUS metrics and address the underlying problem in metrics measurement."
+    },
+    {
+      "agent": "drafter",
+      "revision": 0,
+      "prompt_tokens": 8049,
+      "completion_tokens": 303,
+      "cached_tokens": 0,
+      "ttft_s": 0.33342636299857986,
+      "e2e_s": 3.3155508550007653,
+      "decode_tps": 101.6054161429616,
+      "error": null,
+      "text": "## Email\nSubject: Key Review Meeting Recap and Next Steps\n\nDear Team,\n\nThis email serves as a recap of our key review meeting on February 18, 2021. We discussed several key topics, including:\n\n* Breaking up the engineering key review into four department key reviews, with a two-month rotation.\n* Tracking the percentage of total MRs that come from the community over time, instead of using the complex \"RD Wider\" metric.\n* Focusing on other indicators to improve security and quality, rather than relying solely on the narrow MR rate.\n* Continuing to improve defect tracking and SLOs.\n\nAction items include:\n\n* Lily and Max will work together to transition to tracking the percentage of community MRs.\n* Steve and Craig will partner to address the replication lag issue and improve database performance.\n* Rob will provide an update on the defect tracking and SLOs progress.\n* We will continue to monitor the SUS metrics and address the underlying problem in metrics measurement.\n\nPlease let me know if you have any questions or concerns. Thank you for your participation and contributions to the meeting.\n\nBest regards,\n[Your Name]\n\n## Slack\nWe've decided to track the percentage of total MRs that come from the community over time, instead of using the complex \"RD Wider\" metric. We'll also focus on other indicators to improve security and quality, rather than relying solely on the narrow MR rate. Let's keep an eye on the SUS metrics and address the underlying problem in metrics measurement."
+    },
+    {
+      "agent": "extractor",
+      "revision": 0,
+      "prompt_tokens": 8100,
+      "completion_tokens": 317,
+      "cached_tokens": 0,
+      "ttft_s": 0.8725405939985649,
+      "e2e_s": 3.487750705997314,
+      "decode_tps": 121.21396997724351,
+      "error": null,
+      "text": "[\n  {\n    \"task\": \"Track the percentage of total MRs that come from the community over time\",\n    \"owner\": \"Lily and Max\",\n    \"deadline\": \"none\",\n    \"evidence\": \"I love that, let's do that instead\"\n  },\n  {\n    \"task\": \"Simplify the metrics to prevent gaming the system\",\n    \"owner\": \"Eric Johnson\",\n    \"deadline\": \"none\",\n    \"evidence\": \"we have different metrics to prevent that from happening\"\n  },\n  {\n    \"task\": \"Create a dedicated host for the data team to pull from\",\n    \"owner\": \"Rob\",\n    \"deadline\": \"none\",\n    \"evidence\": \"i'll own those and i know we have uh an action plan for that\"\n  },\n  {\n    \"task\": \"Improve database performance and tuning\",\n    \"owner\": \"Steve and Craig\",\n    \"deadline\": \"none\",\n    \"evidence\": \"there's so i'd say it's it's three different things\"\n  },\n  {\n    \"task\": \"Focus on security work prioritization\",\n    \"owner\": \"Sid\",\n    \"deadline\": \"none\",\n    \"evidence\": \"we need to get more security work prioritized\"\n  },\n  {\n    \"task\": \"Hold the narrow MR rate at 10 as the target going forward\",\n    \"owner\": \"Eric Johnson\",\n    \"deadline\": \"none\",\n    \"evidence\": \"10 will be the target going forward\"\n  }\n]"
+    },
+    {
+      "agent": "summarizer",
+      "revision": 0,
+      "prompt_tokens": 8071,
+      "completion_tokens": 524,
+      "cached_tokens": 0,
+      "ttft_s": 0.6158001320000039,
+      "e2e_s": 4.989306821000355,
+      "decode_tps": 119.81232389969666,
+      "error": null,
+      "text": "## Overview\nThe meeting discussed key review metrics, including community MRs, MR rates, and defect tracking. The team agreed to simplify the metrics by tracking the percentage of total MRs that come from the community over time and to hold the narrow MR rate at 10 as the target going forward. The team also discussed the need to improve security and quality metrics.\n\n## Key Discussion Points\n### Metrics Simplification\n* The team agreed to track the percentage of total MRs that come from the community over time.\n* The narrow MR rate will be held at 10 as the target going forward.\n* The team discussed the potential for gaming the system by producing fewer MRs with engineers at GitLab.\n* The team agreed to continue to monitor the SUS metrics and address the underlying problem in metrics measurement.\n\n### Defect Tracking and SLOs\n* The team is continuing to improve defect tracking and SLOs.\n* The team is experimenting with a new PI to show the percentage of defects meeting SLOs.\n* The team discussed the need to dig deeper into the data to understand the spike in mean time to close.\n* The team agreed to focus on the age of all opened bugs, including open bugs that are within SLO.\n\n### Security and Quality Metrics\n* The team discussed the need to get more security work prioritized.\n* The team agreed to focus on other indicators to improve security and quality, rather than relying solely on MR rates.\n\n### SUS Metrics\n* The team discussed the decline in SUS metrics and the need to continue to focus on improving them.\n* The team agreed to keep an eye on SUS metrics and not assume that the current trend is a real improvement.\n\n### Narrow MR Rate\n* The team discussed the narrow MR rate and the need to hold it at 10 as the target going forward.\n* The team agreed that higher MR rates should also help to address security and quality issues.\n\n## Decisions Made\n* The team will track the percentage of total MRs that come from the community over time.\n* The narrow MR rate will be held at 10 as the target going forward.\n* The team will focus on other indicators to improve security and quality.\n* The defect tracking and SLOs will be continued to be improved.\n\n## Open Questions\n* The team still needs to dig deeper into the data to understand the spike in mean time to close.\n* The team needs to continue to monitor the SUS metrics and address the underlying problem in metrics measurement.\n* The team needs to focus on other indicators to improve security and quality, rather than relying solely on MR rates."
+    },
+    {
+      "agent": "reviewer",
+      "revision": 0,
+      "prompt_tokens": 9069,
+      "completion_tokens": 36,
+      "cached_tokens": 0,
+      "ttft_s": 0.10285907800061977,
+      "e2e_s": 0.35154264099764987,
+      "decode_tps": 144.76228169704135,
+      "error": null,
+      "text": "{\n  \"status\": \"pass\",\n  \"issues\": {\n    \"summarizer\": \"\",\n    \"extractor\": \"\",\n    \"drafter\": \"\"\n  }\n}"
+    }
+  ],
+  "spans": [
+    {
+      "name": "coordinator",
+      "kind": "phase",
+      "start_ts": 1781054475.0723531,
+      "end_ts": 1781054476.9156861,
+      "duration_s": 1.8433330670013675,
+      "attrs": {}
+    },
+    {
+      "name": "coordinator",
+      "kind": "agent",
+      "start_ts": 1781054475.0723658,
+      "end_ts": 1781054476.9156673,
+      "duration_s": 1.8433014170004753,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 7882,
+        "completion_tokens": 246,
+        "total_tokens": 8128,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.03824548600096023,
+        "decode_s": 1.8050559309995151,
+        "decode_tokens_per_s": 136.28386565494523
+      }
+    },
+    {
+      "name": "drafter",
+      "kind": "phase",
+      "start_ts": 1781054476.9166,
+      "end_ts": 1781054480.232195,
+      "duration_s": 3.315594924999459,
+      "attrs": {}
+    },
+    {
+      "name": "drafter",
+      "kind": "agent",
+      "start_ts": 1781054476.916621,
+      "end_ts": 1781054480.2321718,
+      "duration_s": 3.3155508550007653,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 8049,
+        "completion_tokens": 303,
+        "total_tokens": 8352,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.33342636299857986,
+        "decode_s": 2.9821244920021854,
+        "decode_tokens_per_s": 101.6054161429616
+      }
+    },
+    {
+      "name": "extractor",
+      "kind": "phase",
+      "start_ts": 1781054476.9172454,
+      "end_ts": 1781054480.405033,
+      "duration_s": 3.4877877660001104,
+      "attrs": {}
+    },
+    {
+      "name": "extractor",
+      "kind": "agent",
+      "start_ts": 1781054476.917262,
+      "end_ts": 1781054480.4050128,
+      "duration_s": 3.487750705997314,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 8100,
+        "completion_tokens": 317,
+        "total_tokens": 8417,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.8725405939985649,
+        "decode_s": 2.615210111998749,
+        "decode_tokens_per_s": 121.21396997724351
+      }
+    },
+    {
+      "name": "summarizer",
+      "kind": "phase",
+      "start_ts": 1781054476.9178424,
+      "end_ts": 1781054481.9071963,
+      "duration_s": 4.989353941000445,
+      "attrs": {}
+    },
+    {
+      "name": "summarizer",
+      "kind": "agent",
+      "start_ts": 1781054476.917859,
+      "end_ts": 1781054481.907166,
+      "duration_s": 4.989306821000355,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 8071,
+        "completion_tokens": 524,
+        "total_tokens": 8595,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.6158001320000039,
+        "decode_s": 4.373506689000351,
+        "decode_tokens_per_s": 119.81232389969666
+      }
+    },
+    {
+      "name": "reviewer",
+      "kind": "phase",
+      "start_ts": 1781054481.9078164,
+      "end_ts": 1781054482.259391,
+      "duration_s": 0.351574721000361,
+      "attrs": {}
+    },
+    {
+      "name": "reviewer",
+      "kind": "agent",
+      "start_ts": 1781054481.9078262,
+      "end_ts": 1781054482.259369,
+      "duration_s": 0.35154264099764987,
+      "attrs": {
+        "revision": 0,
+        "attempts": 1,
+        "error": null,
+        "prompt_tokens": 9069,
+        "completion_tokens": 36,
+        "total_tokens": 9105,
+        "cached_tokens": 0,
+        "prefix_cache_hit_ratio": 0.0,
+        "ttft_s": 0.10285907800061977,
+        "decode_s": 0.2486835629970301,
+        "decode_tokens_per_s": 144.76228169704135
+      }
+    }
+  ]
+}
