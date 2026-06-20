@@ -1,0 +1,121 @@
+%% related_work.tex
+%% Related Work section for the in-progress writeup
+%%   "A Systems Characterization of a Multi-Agent Meeting Assistant Pipeline"
+%% This file is self-contained and can be compiled on its own or included in
+%% the full paper draft. Bibliography entries are collected in references.bib
+%% (also in this directory).
+
+\section{Related Work}
+\label{sec:related}
+
+\subsection{LLM Inference Serving}
+
+\paragraph{Continuous batching and PagedAttention.}
+Orca~\cite{yu2022orca} introduced iteration-level scheduling for transformer
+inference, replacing static batching with dynamic request interleaving to
+improve GPU utilization.  vLLM~\cite{kwon2023vllm} built on this with
+\emph{PagedAttention}, which manages the KV-cache as a set of fixed-size
+non-contiguous blocks analogous to OS virtual memory pages.  This allows
+multiple requests to share physical KV-cache storage and enables the
+prefix-caching feature~\cite{vllm2024prefixcache} that our work
+instruments and measures.  Our benchmark characterizes how vLLM's
+prefix-cache reuse behaves under multi-agent concurrent dispatch: when
+three workers share an identical 66K-token transcript prefix, parallel
+dispatch raises server-side cache hit rates by 13–26 percentage points
+relative to sequential dispatch.
+
+\paragraph{Prefill/decode disaggregation and chunked prefill.}
+Splitwise~\cite{patel2024splitwise} and DistServe~\cite{zhong2024distserve}
+separate prefill and decode into distinct serving phases, observing that
+their memory-bandwidth and compute profiles differ substantially.
+Sarathi-Serve~\cite{agrawal2024sarathiserve} addresses the \emph{prefill
+stall} problem by splitting long prefill operations into fixed-size chunks
+interleaved with ongoing decode work.  We propose applying
+chunked prefill to our workload: the three 66K-token concurrent prefills in
+parallel mode drive peak KV-cache occupancy to 59\%, a scaling risk that
+chunked prefill directly mitigates by smoothing occupancy over time.
+
+\paragraph{Prefix-caching and shared-context serving.}
+SGLang~\cite{zheng2024sglang} introduces \emph{RadixAttention}, which
+maintains a radix tree of cached KV blocks indexed by token sequence prefix.
+This allows multiple requests sharing a long common prefix (e.g., a system
+prompt or document) to reuse previously computed KV blocks without
+re-encoding.  Our shared-prefix design in \texttt{worker\_util.py} is
+motivated by the same principle: all three worker agents receive the
+identical \texttt{(brief + transcript)} prefix so that vLLM's block-level
+prefix cache can amortize transcript encoding across concurrent workers.
+Parrot~\cite{lin2024parrot} characterizes LLM applications at the semantic
+variable level, observing that many production applications submit requests
+with large shared prefixes and proposes a semantic caching layer above the
+serving engine.  Our measurements validate their observation in the
+multi-agent setting: server-side prefix-cache hit rates reach 43–72\%
+across our six transcripts.
+
+\subsection{Multi-Agent LLM Systems}
+
+\paragraph{Agent frameworks.}
+LangChain~\cite{langchain2023} and its stateful extension
+LangGraph~\cite{langgraph2024} provide graph-based orchestration of LLM
+agents with first-class support for conditional edges and cyclic flows,
+enabling the reviewer reflection loop we implement.  AutoGen~\cite{wu2023autogen}
+introduces a conversational multi-agent framework where agents exchange
+messages to collaboratively complete tasks, also supporting human-in-the-loop
+and code-execution patterns.  MetaGPT~\cite{hong2023metagpt} assigns
+software-engineering roles (product manager, architect, engineer) to distinct
+agents that coordinate through structured deliverables, a design similar to
+our coordinator-worker decomposition.  Our contribution relative to these
+frameworks is empirical: we instrument the inference engine beneath the
+framework layer and characterize how the orchestration topology (sequential
+vs.\ parallel vs.\ LangGraph fan-out) affects KV-cache pressure, TTFT,
+and throughput -- measurements invisible to the frameworks themselves.
+
+\paragraph{Reflection and self-correction.}
+Reflexion~\cite{shinn2023reflexion} enables agents to reason verbally about
+past failures and refine their outputs over multiple trials.
+Self-Refine~\cite{madaan2023selfrefine} iteratively improves LLM outputs
+using the same model as both generator and critic.  Our bounded reflection
+loop (MAX\_REVISIONS = 2) extends this pattern to the multi-agent setting,
+where the Reviewer agent cross-checks all three worker outputs against the
+original transcript and selectively re-dispatches only failing workers.
+Our measurements reveal a key systems consequence of this pattern:
+the reflection loop is the dominant source of end-to-end latency variance,
+capable of doubling agent-call counts on short transcripts.
+
+\subsection{LLM Application Characterization}
+
+AlpaServe~\cite{li2023alpaserve} profiles model-parallel LLM inference
+across multiple GPUs, exposing how pipeline and tensor parallelism interact
+with batching efficiency.  FlexGen~\cite{sheng2023flexgen} characterizes
+throughput-latency trade-offs when offloading KV-cache to CPU/disk for
+high-throughput generation.  Closest to our work, Parrot~\cite{lin2024parrot}
+specifically studies \emph{applications} (rather than single requests),
+showing that application-level patterns -- shared prefixes, request
+dependencies, result reuse -- are invisible to serving engines that reason
+only at the request level.  Our paper contributes a concrete data point to
+this line of work: a five-agent pipeline with a shared long-context prefix
+and a cyclic revision dependency that creates non-trivial inference
+engine pressure.  We show that characterizing this workload requires
+server-level telemetry (KV-cache occupancy, queue depth, per-request TTFT)
+rather than application-layer latency alone.
+
+\subsection{Meeting Summarization}
+
+AMI~\cite{mccowan2005ami} and ICSI~\cite{janin2003icsi} are established
+meeting corpora used as benchmarks for abstractive meeting summarization.
+QMSum~\cite{zhong2021qmsum} extends this with query-based summarization over
+meetings from diverse domains such as parliamentary committee sessions, and
+MeetingBank~\cite{hu2023meetingbank} provides long-form city council meeting
+transcripts.  These corpora motivate the domain flavour and the size tiers of
+our benchmark; to keep the artifact self-contained and free of any third-party
+or personal data, the transcripts we ship are \emph{synthetic} stand-ins,
+procedurally generated to match those length tiers rather than text drawn from
+the corpora themselves.  Hierarchical
+summarization approaches~\cite{zhang2022hierarchical} decompose long
+documents into segments before summarizing, analogous to our coordinator-
+worker decomposition where the Coordinator emits a compact brief that
+focuses downstream workers on salient portions of the transcript.
+
+%%---------------------------------------------------------------------
+%% Bibliography entries live in references.bib (same directory).
+%% Compile with, e.g.:  \bibliographystyle{plain} \bibliography{references}
+%%---------------------------------------------------------------------
